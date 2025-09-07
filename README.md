@@ -25,7 +25,7 @@ Stay updated with daily Data Analytics content and tips:
 - **X (Twitter):** [@codeandcrush](https://x.com/codeandcrush)  
 - **Blogger:** [Code Crush](https://codecrush089.blogspot.com/)  
 - **Reddit:** [u/codeandcrush](https://www.reddit.com/user/codeandcrush)  
-- **Quora:** [Code & Crush Profile](https://www.quora.com/profile/Codeandcrush)  
+- **Quora:** [Code & Crush Profile](https://www.quora.com/profile/Code-Crush-1)  
 
 ---
 
