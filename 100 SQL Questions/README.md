@@ -629,3 +629,189 @@ Through constraints (`PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE`), transa
 
 **Context:** Standard advanced/optimization question .
 
+Great! Here are **Questions 51–75**—the next batch of 25 essential SQL interview questions—each with a clear answer, an easy-to-understand example, and real-world context where available:
+
+---
+
+
+### **51. What is a staging table in ETL?**
+   **Answer:**
+    A temporary table used in data pipelines to hold raw input before transformation and loading.
+  * **Example:** Load daily CSV into `staging_sales`, clean data, then insert into `fact_sales`.
+   **Context:** Common in data engineering roles focused on ETL systems ([Datainterview.com][1]).
+---
+### **52. Difference between OLTP and OLAP systems?**
+   **Answer:**
+
+   * **OLTP:** Transactional systems, high-speed reads/writes (e.g., banking).
+   * **OLAP:** Analytical systems with batch processing and large aggregations.
+     **Context:** Important in data warehousing interviews ([Datainterview.com][1]).
+---
+### **53. Explain covering index vs composite index.**
+   **Answer:**
+
+   * **Composite index:** Multiple columns for index key.
+   * **Covering index:** Includes the columns needed by a query to avoid fetching the table.
+     **Context:** Performance tuning scenarios in interviews ([Datainterview.com][1]).
+---
+### **54. What is a surrogate key in data warehousing?**
+   **Answer:** A synthetic primary key (e.g., `surrogate_id`) used for simplicity and stability in fact tables.
+   **Context:** Data warehousing interviews ([Datainterview.com][1]).
+   
+---
+### **55. Star schema vs snowflake schema—differences?**
+   **Answer:**
+
+   * **Star schema:** Denormalized dimensions connected directly to facts.
+   * **Snowflake:** Dimensions normalized into sub-tables.
+     **Context:** Schema design discussions in analytics roles ([Datainterview.com][1]).
+---
+### **56. Challenges in maintaining data quality in ETL?**
+  **Answer:** Issues like missing data, duplicates, schema changes, and incorrect formats. Fixes include validation, logging, and monitoring.  
+**Context:** ETL and data engineering roles ([Datainterview.com][1]).
+
+---
+### 57. Error handling strategies in ETL workflows?**
+   **Answer:** Use transactional checkpoints, audit logs, retry logic, and rollback mechanisms.
+   **Context:** Data engineering / ETL interviews ([Datainterview.com][1]).
+   
+---
+### **58. Explain PIVOT and UNPIVOT operations.**
+   **Answer:**
+
+   * **PIVOT:** Turn rows into columns (e.g., aggregate sales by month).
+   * **UNPIVOT:** Reverse operation—convert columns back into rows.
+     **Context:** Advanced SQL interviews ([Datainterview.com][1]).
+---
+### **59. What are materialized views?**
+   **Answer:** Stored query results, refreshed periodically—improves performance for frequently-run aggregations.
+   **Context:** Optimization-focused interviews ([Datainterview.com][1]).
+   
+---
+### **60. User-defined functions (UDFs) in SQL?**
+   **Answer:** Custom reusable functions (scalar or table-valued) to encapsulate logic.
+   **Context:** Commonly used in real-world SQL solutions ([Datainterview.com][1]).
+   
+---
+### **61. What are recursive queries & when to use them?**
+   **Answer:** Queries that call themselves (using CTEs) to handle hierarchical data like org charts.
+   **Context:** Data analyst and engineering interviews ([Datainterview.com][1]).
+   
+---
+### **62. Temporary tables vs table variables—when to use which?**
+   **Answer:** Temporary tables live for session and can be indexed; table variables are in-memory and faster for small sets.
+   **Context:** SQL Server / performance tuning scenarios ([Datainterview.com][1]).
+   
+---
+### **63. Explain dynamic SQL.**
+   **Answer:** Building SQL queries dynamically in code (e.g., assemble SQL as a string and execute).
+   **Context:** Developer-focused SQL roles ([Datainterview.com][1]).
+   
+---
+### **64. What are database isolation levels?**
+   **Answer:** Determines how transactions are isolated: READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, SERIALIZABLE.
+   **Context:** Crucial for transactional systems and interviews ([Datainterview.com][1]).
+   
+---
+### **65. Indexed views—what and when to use?**
+   **Answer:** Views that store data and have indexes—improves query performance but consumes storage.
+   **Context:** Performance tuning in enterprise SQL environments ([Datainterview.com][1]).
+   
+---
+### **66. Describe hierarchical (recursive) queries use-cases.**
+   **Answer:** Use cases like finding all child records of a parent in an org, or file system structure traversals.
+   **Context:** Advanced query topics in interviews ([Datainterview.com][1]).
+   
+---
+### **67. What is SQL injection and how to prevent it?**
+   **Answer:** Injecting malicious SQL via user inputs. Prevent with prepared statements, parameterized queries, and input sanitization.
+   **Context:** Common in dev & security-focused roles ([CCSLA Learning Academy][2]).
+   
+---
+### **68. What's ACID in database systems?**
+   **Answer:** Ensures reliable transactions:
+
+   * **Atomicity**
+   * **Consistency**
+   * **Isolation**
+   * **Durability**
+   **Context:** Standard DB concept in interviews ([Datainterview.com][1]).
+---
+### **69. Explain recursive CTEs with an example.**
+   **Answer:**
+
+    ```sql
+    WITH RECURSIVE employee_cte AS (
+      SELECT emp_id, manager_id, name FROM employees WHERE manager_id IS NULL
+      UNION ALL
+      SELECT e.emp_id, e.manager_id, e.name
+      FROM employees e
+      JOIN employee_cte c ON e.manager_id = c.emp_id
+    )
+    SELECT * FROM employee_cte;
+    ```
+
+   **Context:** Analyze hierarchies—common in analytics/engineering roles ([Datainterview.com][1]).
+   
+---
+### **70. What’s row-level security?**
+   **Answer:** Restricts access to rows based on user roles—e.g., employees see only their data.
+   **Context:** Data governance and security discussions ([Datainterview.com][1]).
+   
+---
+### **71. Explain CROSS APPLY / OUTER APPLY.**
+   **Answer:** In SQL Server, APPLY runs a table-valued function per row of outer table. CROSS APPLY excludes non-matching rows; OUTER APPLY includes them with NULLs.
+    **Context:** Advanced SQL Server topics ([Datainterview.com][1]).
+    
+---
+### **72. What are temporary tables vs table variables?**
+  **Answer:**
+
+* **Temporary Tables (`#Temp`)**: Stored in `tempdb`, can have indexes, constraints, and statistics. They behave much like regular tables but are scoped to the session or procedure. Good for handling large datasets and complex queries.
+* **Table Variables (`@TableVar`)**: Stored in memory (though sometimes spill to `tempdb`), scoped to the batch, function, or procedure. They don’t maintain statistics, so the optimizer may assume only a single row. Best for small datasets and quick lookups.
+
+**Context:** Common SQL Server interview question, often asked by companies like Microsoft, Accenture, and TCS (2019–2024).
+
+---
+### **73. How do you use MERGE statements?**
+   **Answer:** Upserts—merge target with source: insert, update, or delete based on match conditions.
+   **Example:**
+
+    ```sql
+    MERGE INTO target t
+    USING source s
+    ON t.id = s.id
+    WHEN MATCHED THEN UPDATE SET t.val = s.val
+    WHEN NOT MATCHED THEN INSERT (id,val) VALUES (s.id,s.val);
+    ```
+**Context:** Data sync tasks in data engineering ([Datainterview.com][1]).
+
+---
+### **74. Explain database partitioning strategies.**
+   **Answer:**
+
+   * **Horizontal partitioning:** Split rows (e.g., by date).
+   * **Vertical partitioning:** Split columns into different tables.
+      Improves query performance and maintainability.
+     
+**Context:** Scaling large datasets ([Datainterview.com][1]).
+
+---
+### **75. What are query execution plans and how do you analyze them?**
+   **Answer:** Visual representation of how the DB engine runs a query; helps identify bottlenecks like scans or missing indexes.
+**Context:** Performance tuning interviews ([Datainterview.com][1]).
+
+---
+
+### Summary (Questions 51–75)
+
+| #     | Topic                                                                |
+| ----- | -------------------------------------------------------------------- |
+| 51–57 | Data warehousing & ETL (staging, OLAP/OLTP, schemas...)              |
+| 58–65 | Advanced SQL features (PIVOT, recursion, functions, temp objects...) |
+| 66–75 | Optimization, security, partitioning, execution plans                |
+
+Would you like to continue with **questions 76–100 next**, or perhaps start converting these into a structured format or downloadable guide?
+
+[1]: https://www.datainterview.com/blog/top-100-sql-interview-questions?utm_source=chatgpt.com "Top 100 SQL Interview Questions in 2025 (FAANGs, Startups)"
+[2]: https://www.ccslearningacademy.com/top-sql-interview-questions-answers/?utm_source=chatgpt.com "Top 30 SQL Interview Questions and Answers for 2025"
