@@ -58,7 +58,7 @@ SELECT DISTINCT department FROM employee;
 
 * **Primary Key**: Unique identifier for each row.
 * **Foreign Key**: Links to a primary key in another table.
-  **Example:**
+**Example:**
 
 ```sql
 CREATE TABLE Department (
@@ -114,7 +114,8 @@ LEFT JOIN department d ON e.dept_id = d.dept_id;
 * `DELETE`: Row-by-row deletion, can filter with WHERE, logged.
 * `TRUNCATE`: Quickly deletes all rows, not logged per row.
 * `DROP`: Removes entire table schema and data.
-  **Context:** Important for DB ops, asked in dev roles (2025) .
+  
+**Context:** Important for DB ops, asked in dev roles (2025) .
 
 ---
 
@@ -138,7 +139,8 @@ SELECT DISTINCT department FROM employee;
 
 * **CHAR(n)**: Fixed length, padded.
 * **VARCHAR(n)**: Variable length, no padding.
-  **Context:** Common knowledge tested in SQL dev roles (2025) .
+  
+**Context:** Common knowledge tested in SQL dev roles (2025) .
 
 ---
 
@@ -164,7 +166,8 @@ GROUP BY department;
 
 * `UNION`: Removes duplicates.
 * `UNION ALL`: Keeps duplicates.
-  **Context:** Common in interview prep materials (2025) .
+  
+**Context:** Common in interview prep materials (2025) .
 
 ---
 
@@ -172,6 +175,7 @@ GROUP BY department;
 
 **Answer:**
 Represents missing or unknown data; not equal to 0 or empty string.
+
 **Context:** Fundamental concept used widely in interviews (2025) .
 
 ---
@@ -197,6 +201,7 @@ JOIN department d ON e.dept_id = d.dept_id;
 
 **Answer:**
 Indexes improve read query performance at cost of extra storage and slower writes.
+
 **Context:** Important for performance — Amazon may ask this (2025).
 
 ---
@@ -256,37 +261,39 @@ WHERE rn = 3;
 
 **Answer:**
 SQL is like asking questions to a huge spreadsheet: “Give me these rows quickly.”
+
 **Company/Year:** Amazon, often as an icebreaker (2025) .
 
 ---
 
 ### 19. **Calculate 7-Day Rolling Average (Amazon)**
 
-**Answer:**
-Use window functions like `AVG() OVER (ORDER BY date ROWS BETWEEN 6 PRECEDING AND CURRENT ROW)`.
-**Context:** Amazon applied SQL (2025) ([Interview Query][2]).
+**Answer:** Use window functions like `AVG() OVER (ORDER BY date ROWS BETWEEN 6 PRECEDING AND CURRENT ROW)`.
+
+**Context:** Amazon applied SQL (2025) 
 
 ---
 
 ### 20. **Difference Between WHERE and HAVING** *(Reinforced)*
 
 **Answer Recap:** Pre-aggregation vs post-aggregation filtering.
+
 **Context:** Very common concept; emphasized in Amazon prep (2025) .
 
 ---
 
 ### 21. **Explain COUNT(DISTINCT user\_id) Unexpected Behavior**
 
-**Answer:**
-Might miscount when NULLs or duplicates exist unexpectedly.
+**Answer:** Might miscount when NULLs or duplicates exist unexpectedly.
+
 **Context:** Conceptual Amazon-level question (2025) .
 
 ---
 
 ### 22. **Optimization: Avoid Full Table Scan on Partitioned Dataset**
 
-**Answer:**
-Use partition filters in WHERE clause to limit scan.
+**Answer:** Use partition filters in WHERE clause to limit scan.
+
 **Context:** Amazon senior roles (L5+), optimization focus (2025) .
 
 ---
@@ -331,6 +338,7 @@ JOIN dept_avg d ON e.dept_id = d.dept_id;
 
 **Answer:**
 NULL is grouped separately; e.g., `GROUP BY dept` will treat NULL as a separate group.
+
 **Context:** Conceptual Amazon question (2025) .
 
 ---
@@ -368,6 +376,7 @@ SELECT * FROM customers;
 * **SQL:** Language.
 * **MySQL:** An open-source relational database management system (RDBMS).
 * **SQL Server:** Microsoft's proprietary RDBMS.
+* 
 **Context:** Frequently asked for clarity at both fresher and experience levels .
 
 ---
@@ -378,6 +387,7 @@ SELECT * FROM customers;
 
 * **Normalization:** Organizing tables to reduce redundancy (e.g., 1NF, 2NF, 3NF).
 * **Denormalization:** Introducing redundancy to improve read performance.
+  
 **Context:** Common in data analyst and DB designer interviews .
 
 ---
@@ -385,6 +395,7 @@ SELECT * FROM customers;
 ### **30. What is a relational database?**
 
 **Answer:** A database where data is organized in tables (relations) with rows and columns, and relationships can be established between them using keys.
+
 **Context:** Basic database concept across interviews .
 
 ---
@@ -513,6 +524,7 @@ SELECT COALESCE(NULL, salary, 0) AS effective_salary;
 
 * `COUNT()`: Counts rows or non-null values.
 * `SUM()`: Adds up numeric values.
+  
 **Context:** Essential for basic aggregate understanding .
 
 ---
@@ -523,7 +535,8 @@ SELECT COALESCE(NULL, salary, 0) AS effective_salary;
 
 * `NVL(expr1, expr2)`: If `expr1` is NULL, returns `expr2`.
 * `NVL2(expr1, expr2, expr3)`: Returns `expr2` if `expr1` is not NULL, otherwise `expr3`.
-  **Context:** Important in Oracle SQL interviews .
+  
+**Context:** Important in Oracle SQL interviews .
 
 ---
 
@@ -562,6 +575,7 @@ SUM(amount) OVER (ORDER BY date ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) AS rol
 
 * **Clustered Index:** Physically orders table rows.
 * **Non-clustered Index:** Separate structure that points to table rows.
+  
 **Context:** Critical for performance tuning in DB roles .
 
 ---
@@ -586,6 +600,7 @@ SELECT NEXT VALUE FOR seq_emp;
 
 * **Horizontal Partitioning:** Splitting data rows across partitions.
 * **Vertical Partitioning:** Splitting columns into multiple tables.
+  
 **Context:** Advanced performance and scaling technique .
 
 ---
@@ -629,7 +644,6 @@ Through constraints (`PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE`), transa
 
 **Context:** Standard advanced/optimization question .
 
-Great! Here are **Questions 51–75**—the next batch of 25 essential SQL interview questions—each with a clear answer, an easy-to-understand example, and real-world context where available:
 
 ---
 
@@ -638,25 +652,32 @@ Great! Here are **Questions 51–75**—the next batch of 25 essential SQL inter
    **Answer:**
     A temporary table used in data pipelines to hold raw input before transformation and loading.
   * **Example:** Load daily CSV into `staging_sales`, clean data, then insert into `fact_sales`.
-   **Context:** Common in data engineering roles focused on ETL systems ([Datainterview.com][1]).
+    
+**Context:** Common in data engineering roles focused on ETL systems.
+
 ---
 ### **52. Difference between OLTP and OLAP systems?**
    **Answer:**
 
    * **OLTP:** Transactional systems, high-speed reads/writes (e.g., banking).
    * **OLAP:** Analytical systems with batch processing and large aggregations.
-     **Context:** Important in data warehousing interviews ([Datainterview.com][1]).
+     
+**Context:** Important in data warehousing interviews.
+
 ---
 ### **53. Explain covering index vs composite index.**
    **Answer:**
 
    * **Composite index:** Multiple columns for index key.
    * **Covering index:** Includes the columns needed by a query to avoid fetching the table.
-     **Context:** Performance tuning scenarios in interviews ([Datainterview.com][1]).
+     
+**Context:** Performance tuning scenarios in interviews.
+
 ---
 ### **54. What is a surrogate key in data warehousing?**
    **Answer:** A synthetic primary key (e.g., `surrogate_id`) used for simplicity and stability in fact tables.
-   **Context:** Data warehousing interviews ([Datainterview.com][1]).
+   
+ **Context:** Data warehousing interviews ).
    
 ---
 ### **55. Star schema vs snowflake schema—differences?**
@@ -664,16 +685,20 @@ Great! Here are **Questions 51–75**—the next batch of 25 essential SQL inter
 
    * **Star schema:** Denormalized dimensions connected directly to facts.
    * **Snowflake:** Dimensions normalized into sub-tables.
-     **Context:** Schema design discussions in analytics roles ([Datainterview.com][1]).
+     
+**Context:** Schema design discussions in analytics roles .
+
 ---
 ### **56. Challenges in maintaining data quality in ETL?**
   **Answer:** Issues like missing data, duplicates, schema changes, and incorrect formats. Fixes include validation, logging, and monitoring.  
-**Context:** ETL and data engineering roles ([Datainterview.com][1]).
+  
+**Context:** ETL and data engineering roles .
 
 ---
 ### 57. Error handling strategies in ETL workflows?**
    **Answer:** Use transactional checkpoints, audit logs, retry logic, and rollback mechanisms.
-   **Context:** Data engineering / ETL interviews ([Datainterview.com][1]).
+   
+**Context:** Data engineering / ETL interviews .
    
 ---
 ### **58. Explain PIVOT and UNPIVOT operations.**
@@ -681,51 +706,62 @@ Great! Here are **Questions 51–75**—the next batch of 25 essential SQL inter
 
    * **PIVOT:** Turn rows into columns (e.g., aggregate sales by month).
    * **UNPIVOT:** Reverse operation—convert columns back into rows.
-     **Context:** Advanced SQL interviews ([Datainterview.com][1]).
+     
+**Context:** Advanced SQL interviews .
+
 ---
 ### **59. What are materialized views?**
    **Answer:** Stored query results, refreshed periodically—improves performance for frequently-run aggregations.
-   **Context:** Optimization-focused interviews ([Datainterview.com][1]).
+   
+**Context:** Optimization-focused interviews .
    
 ---
 ### **60. User-defined functions (UDFs) in SQL?**
    **Answer:** Custom reusable functions (scalar or table-valued) to encapsulate logic.
-   **Context:** Commonly used in real-world SQL solutions ([Datainterview.com][1]).
+   
+**Context:** Commonly used in real-world SQL solutions .
    
 ---
 ### **61. What are recursive queries & when to use them?**
    **Answer:** Queries that call themselves (using CTEs) to handle hierarchical data like org charts.
-   **Context:** Data analyst and engineering interviews ([Datainterview.com][1]).
+   
+**Context:** Data analyst and engineering interviews .
    
 ---
 ### **62. Temporary tables vs table variables—when to use which?**
    **Answer:** Temporary tables live for session and can be indexed; table variables are in-memory and faster for small sets.
-   **Context:** SQL Server / performance tuning scenarios ([Datainterview.com][1]).
+   
+**Context:** SQL Server / performance tuning scenarios.
    
 ---
 ### **63. Explain dynamic SQL.**
    **Answer:** Building SQL queries dynamically in code (e.g., assemble SQL as a string and execute).
-   **Context:** Developer-focused SQL roles ([Datainterview.com][1]).
+   
+**Context:** Developer-focused SQL roles ).
    
 ---
 ### **64. What are database isolation levels?**
    **Answer:** Determines how transactions are isolated: READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, SERIALIZABLE.
-   **Context:** Crucial for transactional systems and interviews ([Datainterview.com][1]).
+   
+**Context:** Crucial for transactional systems and interviews .
    
 ---
 ### **65. Indexed views—what and when to use?**
    **Answer:** Views that store data and have indexes—improves query performance but consumes storage.
-   **Context:** Performance tuning in enterprise SQL environments ([Datainterview.com][1]).
+   
+**Context:** Performance tuning in enterprise SQL environments ).
    
 ---
 ### **66. Describe hierarchical (recursive) queries use-cases.**
    **Answer:** Use cases like finding all child records of a parent in an org, or file system structure traversals.
-   **Context:** Advanced query topics in interviews ([Datainterview.com][1]).
+   
+**Context:** Advanced query topics in interviews .
    
 ---
 ### **67. What is SQL injection and how to prevent it?**
    **Answer:** Injecting malicious SQL via user inputs. Prevent with prepared statements, parameterized queries, and input sanitization.
-   **Context:** Common in dev & security-focused roles ([CCSLA Learning Academy][2]).
+   
+**Context:** Common in dev & security-focused roles .
    
 ---
 ### **68. What's ACID in database systems?**
@@ -735,7 +771,9 @@ Great! Here are **Questions 51–75**—the next batch of 25 essential SQL inter
    * **Consistency**
    * **Isolation**
    * **Durability**
-   **Context:** Standard DB concept in interviews ([Datainterview.com][1]).
+     
+ **Context:** Standard DB concept in interviews .
+ 
 ---
 ### **69. Explain recursive CTEs with an example.**
    **Answer:**
@@ -751,17 +789,19 @@ Great! Here are **Questions 51–75**—the next batch of 25 essential SQL inter
     SELECT * FROM employee_cte;
     ```
 
-   **Context:** Analyze hierarchies—common in analytics/engineering roles ([Datainterview.com][1]).
+ **Context:** Analyze hierarchies—common in analytics/engineering roles ([Datainterview.com][1]).
    
 ---
 ### **70. What’s row-level security?**
    **Answer:** Restricts access to rows based on user roles—e.g., employees see only their data.
-   **Context:** Data governance and security discussions ([Datainterview.com][1]).
+   
+**Context:** Data governance and security discussions .
    
 ---
 ### **71. Explain CROSS APPLY / OUTER APPLY.**
    **Answer:** In SQL Server, APPLY runs a table-valued function per row of outer table. CROSS APPLY excludes non-matching rows; OUTER APPLY includes them with NULLs.
-    **Context:** Advanced SQL Server topics ([Datainterview.com][1]).
+   
+**Context:** Advanced SQL Server topics .
     
 ---
 ### **72. What are temporary tables vs table variables?**
@@ -784,7 +824,7 @@ Great! Here are **Questions 51–75**—the next batch of 25 essential SQL inter
     WHEN MATCHED THEN UPDATE SET t.val = s.val
     WHEN NOT MATCHED THEN INSERT (id,val) VALUES (s.id,s.val);
     ```
-**Context:** Data sync tasks in data engineering ([Datainterview.com][1]).
+**Context:** Data sync tasks in data engineering .
 
 ---
 ### **74. Explain database partitioning strategies.**
@@ -794,24 +834,274 @@ Great! Here are **Questions 51–75**—the next batch of 25 essential SQL inter
    * **Vertical partitioning:** Split columns into different tables.
       Improves query performance and maintainability.
      
-**Context:** Scaling large datasets ([Datainterview.com][1]).
+**Context:** Scaling large datasets .
 
 ---
 ### **75. What are query execution plans and how do you analyze them?**
    **Answer:** Visual representation of how the DB engine runs a query; helps identify bottlenecks like scans or missing indexes.
-**Context:** Performance tuning interviews ([Datainterview.com][1]).
+   
+**Context:** Performance tuning interviews .
 
 ---
 
-### Summary (Questions 51–75)
 
-| #     | Topic                                                                |
-| ----- | -------------------------------------------------------------------- |
-| 51–57 | Data warehousing & ETL (staging, OLAP/OLTP, schemas...)              |
-| 58–65 | Advanced SQL features (PIVOT, recursion, functions, temp objects...) |
-| 66–75 | Optimization, security, partitioning, execution plans                |
+### 76. **Write a query to get the second highest salary using `ROW_NUMBER()`**
 
-Would you like to continue with **questions 76–100 next**, or perhaps start converting these into a structured format or downloadable guide?
+**Answer:** Use `ROW_NUMBER()` over descending salary partitioned (or entire table) and filter where row number = 2.
+**Example:**
 
-[1]: https://www.datainterview.com/blog/top-100-sql-interview-questions?utm_source=chatgpt.com "Top 100 SQL Interview Questions in 2025 (FAANGs, Startups)"
-[2]: https://www.ccslearningacademy.com/top-sql-interview-questions-answers/?utm_source=chatgpt.com "Top 30 SQL Interview Questions and Answers for 2025"
+```sql
+SELECT salary
+FROM (
+  SELECT salary,
+         ROW_NUMBER() OVER (ORDER BY salary DESC) AS rn
+  FROM employee
+) t
+WHERE rn = 2;
+```
+
+**Context:** Common challenge-level question, seen in FAANG and data analyst rounds—2024–2025. ([Datainterview.com][1])
+
+---
+
+### 77. **How to delete duplicates while keeping one row?**
+
+**Answer:** Use CTE with `ROW_NUMBER()` partitioned by duplicate columns and delete where row number > 1.
+**Example:**
+
+```sql
+WITH cte AS (
+  SELECT *,
+         ROW_NUMBER() OVER (PARTITION BY col1, col2 ORDER BY id) AS rn
+  FROM table_name
+)
+DELETE FROM cte WHERE rn > 1;
+```
+
+**Context:** Frequently used in cleaning data tasks across interviews. ([DataCamp][2], [Datainterview.com][1])
+
+---
+
+### 78. **Get cumulative sum per day**
+
+**Answer:** Use window function with `SUM() OVER (ORDER BY date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)`.
+**Example:**
+
+```sql
+SELECT date, sales,
+       SUM(sales) OVER (ORDER BY date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS cum_sales
+FROM daily_sales;
+```
+
+**Context:** Common in analytics interviews (e.g., FAANG data roles, 2025). ([Datainterview.com][1])
+
+---
+
+### 79. **Delete duplicate records**
+
+*(Similar to Q77; referenced for reinforcement.)*
+**Answer:** Same approach—use window functions or `DISTINCT`.
+
+---
+
+### 80. **Find nth highest salary (parameterized)**
+
+**Answer:** Use `DENSE_RANK()` or `LIMIT/OFFSET`, depending on SQL dialect.
+**Example (MySQL):**
+
+```sql
+SELECT DISTINCT salary FROM employee ORDER BY salary DESC LIMIT 1 OFFSET n-1;
+```
+
+---
+
+### 81. **Extract top N payers per category (e.g., Amazon style)**
+
+**Answer:** 
+Use `ROW_NUMBER()` partitioned by category, filter `row_number <= N`.
+**Example:** Identify top two products per category in 2022. 
+
+---
+
+### 82. **Find customers without orders**
+
+**Answer:** Use `LEFT JOIN` and `WHERE tableB.id IS NULL` or `NOT EXISTS`.
+**Example:**
+
+```sql
+SELECT c.id, c.name
+FROM customers c
+LEFT JOIN orders o ON c.id = o.customer_id
+WHERE o.customer_id IS NULL;
+```
+
+**Context:** Very commonly asked in interviews. 
+
+---
+
+### 83. **Convert DATETIME to DATE**
+
+**Answer:**
+
+```sql
+SELECT DATE(order_datetime) AS order_date FROM table;
+```
+
+---
+
+### 84. **Calculate time-based changes**
+
+**Answer:** Use CTEs, `CASE`, and window functions (`LAG`, `LEAD`).
+
+**Context:** Asked for mid-level analytics roles. 
+
+---
+
+### 85. **Find users active for 4 consecutive days**
+
+**Answer:** Use window functions and CTEs: calculate date differences and consecutive day counts.
+
+**Context:** Came up in a real Sr. Data Analyst interview. 
+
+---
+
+### 86. **Identify duplicates across multiple tables**
+
+**Answer:** 
+Use `UNION` or `INTERSECT`, depending on the case. Filter rows with count > 1.
+
+**Context:** A challenge from data analyst interviews. 
+
+---
+
+### 87. **Date manipulation (e.g., previous X months)**
+
+**Answer:**
+Use date functions like `DATE_SUB()`:
+
+```sql
+WHERE date_column >= DATE_SUB(CURDATE(), INTERVAL 6 MONTH);
+```
+
+---
+
+### 88. **My favorite join? (Common witty question)**
+
+**Answer:** Often answered humorously: “CROSS JOIN—because everything is a filtered cross join!”
+
+**Context:** From Reddit—informal but highlights interviewer levity. 
+
+---
+
+### 89. **Emergency fallback query (MAX date)**
+
+**Answer:**
+
+```sql
+SELECT product_name
+FROM orders
+WHERE order_date = (SELECT MAX(order_date) FROM orders);
+```
+
+But better to use `ROW_NUMBER()` and deterministic ORDER for single result. 
+
+---
+
+### 90. **Common Date Range reporting**
+
+**Answer:**
+Use `BETWEEN`:
+
+```sql
+WHERE order_date BETWEEN '2025-01-01' AND '2025-01-31';
+```
+
+---
+
+### 91. **Use of INTERSECT**
+
+**Answer:**
+Return rows common to two queries:
+
+```sql
+SELECT column FROM A
+INTERSECT
+SELECT column FROM B;
+```
+
+---
+
+### 92. **Set Operator Variations**
+
+**Answer:**
+`UNION`, `UNION ALL`, `INTERSECT`, `EXCEPT/MINUS`.
+
+---
+
+### 93. **Use of CASE in SQL**
+
+**Answer:**
+
+```sql
+CASE
+  WHEN sales > 1000 THEN 'High'
+  WHEN sales > 500 THEN 'Medium'
+  ELSE 'Low'
+END AS sales_category;
+```
+
+**Context:** Frequently tested in beginner-to-intermediate interviews. 
+
+---
+
+### 94. **SQL comment types**
+
+**Answer:**
+Single-line: `-- comment`
+Multi-line: `/* comment */` 
+
+---
+
+### 95. **SQL dialects—differences?**
+
+**Answer:** SQL is a language; MySQL, PostgreSQL, SQL Server are dialects/RDBMS. 
+
+---
+
+### 96. **Schema vs database**
+
+**Answer:**
+A schema includes tables, views, procedures; depending on DBMS, schema is part of a database structure. 
+
+---
+
+### 97. **SQL vs PL/SQL**
+
+**Answer:**
+SQL is declarative query language; PL/SQL (Oracle) adds procedural features like loops and variables. 
+
+---
+
+### 98. **Execution order of clauses**
+
+**Answer:**
+Execution order: FROM → JOIN → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. 
+
+---
+
+### 99. **Differences: DROP vs DELETE vs TRUNCATE**
+
+**Answer:**
+
+* `DELETE` removes rows individually (logged, supports WHERE).
+* `TRUNCATE` deletes all rows quickly, minimal logging.
+* `DROP` removes entire table. 
+
+---
+
+### 100. **NULL vs empty or zero**
+
+**Answer:**
+`NULL` means unknown/missing; it's not the same as 0 (numeric) or '' (empty string). 
+
+---
