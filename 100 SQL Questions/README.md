@@ -49,6 +49,7 @@ ORDER BY AVG(salary) DESC;
 
 **Answer:**
 Use `DISTINCT` or use window functions with `ROW_NUMBER()` for complex cases.
+
 **Example:**
 
 ```sql
