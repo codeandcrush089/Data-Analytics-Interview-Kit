@@ -1,5 +1,12 @@
 
-## Top 100 SQL Interview Questions (With Answers, Examples & Company Context)
+<div align="center">
+
+# 🗄️ Top 100 SQL Interview Q&A  
+💡 With Real-World Examples + Company Context (FAANG & Startups)
+
+</div>
+
+
 
 ---
 
