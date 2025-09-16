@@ -1,10 +1,12 @@
-
 <div align="center">
 
-# 🐍 Top 100 Python Interview Q&A  
+<img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python Logo" width="150"/>
+
+# Top 100 Python Interview Q&A  
 💡 With Real-World Examples + Company Context (FAANG & Startups)
 
 </div>
+
 
 
 
