@@ -1,10 +1,12 @@
-
 <div align="center">
 
-# 📊 Top 100 Power BI Interview Q&A  
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI Logo" width="100"/>
+
+# Top 100 Power BI Interview Q&A  
 💡 With Real-World Examples + Company Context (FAANG & Startups)
 
 </div>
+
 
 
 ---
