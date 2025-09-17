@@ -1,10 +1,12 @@
-
 <div align="center">
 
-# 🗄️ Top 100 SQL Interview Q&A  
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL Logo" width="130"/>
+
+# Top 100 SQL Interview Q&A  
 💡 With Real-World Examples + Company Context (FAANG & Startups)
 
 </div>
+
 
 
 
