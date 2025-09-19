@@ -64,7 +64,7 @@ list(1, "abc", TRUE)
 df <- data.frame(Name=c("A","B"), Age=c(21,25))
 ```
 
-**Context:** Asked at **Cognizant (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Cognizant (2021)</b>.</i></p>
 
 ---
 
@@ -78,7 +78,7 @@ df <- data.frame(Name=c("A","B"), Age=c(21,25))
 factor(c("Male","Female","Male"))
 ```
 
-**Context:** Asked at **Wipro (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2021)</b>.</i></p>
 
 ---
 
@@ -89,7 +89,7 @@ factor(c("Male","Female","Male"))
 * **Matrix:** Homogeneous, numeric data.
 * **Data Frame:** Heterogeneous data, like a table.
 
-**Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+**Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
 
 ---
 
@@ -103,7 +103,7 @@ factor(c("Male","Female","Male"))
 data <- read.csv("file.csv")
 ```
 
-**Context:** Asked at **Amazon (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2020)</b>.</i></p>
 
 ---
 
@@ -116,7 +116,7 @@ data <- read.csv("file.csv")
 * **sapply:** List (returns vector).
 * **tapply:** Grouped data.
 
-**Context:** Asked at **Deloitte (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2022)</b>.</i></p>
 
 ---
 
@@ -130,7 +130,7 @@ data <- read.csv("file.csv")
 data[is.na(data)] <- mean(data, na.rm=TRUE)
 ```
 
-**Context:** Asked at **Capgemini (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021</b>.</i></p>
 
 ---
 
@@ -140,7 +140,7 @@ data[is.na(data)] <- mean(data, na.rm=TRUE)
 
 **Example:** `install.packages("ggplot2")`
 
-**Context:** Asked at **Infosys (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -151,7 +151,7 @@ data[is.na(data)] <- mean(data, na.rm=TRUE)
 * **R:** Strong in statistics & visualization.
 * **Python:** Strong in general-purpose programming & ML libraries.
 
-**Context:** Asked at **Flipkart (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Flipkart (2022)</b>.</i></p>
 
 ---
 
@@ -165,7 +165,7 @@ data[is.na(data)] <- mean(data, na.rm=TRUE)
 merge(df1, df2, by="ID")
 ```
 
-**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -180,7 +180,7 @@ library(dplyr)
 df %>% filter(Age > 20)
 ```
 
-**Context:** Asked at **Deloitte (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
@@ -195,7 +195,7 @@ library(ggplot2)
 ggplot(df, aes(x=Age, y=Salary)) + geom_point()
 ```
 
-**Context:** Asked at **Microsoft (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+**Context:** Asked at **Microsoft (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
@@ -206,7 +206,7 @@ ggplot(df, aes(x=Age, y=Salary)) + geom_point()
 * **melt():** Converts wide data to long format.
 * **cast():** Converts long data to wide format.
 
-**Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -220,7 +220,7 @@ ggplot(df, aes(x=Age, y=Salary)) + geom_point()
 str(df)
 ```
 
-**Context:** Asked at **Accenture (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
 
 ---
 
@@ -228,7 +228,7 @@ str(df)
 
 **Answer:** Documents that combine code, output, and text for reporting.
 
-**Context:** Asked at **Cognizant (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+**Context:** Asked at **Cognizant (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Cognizant (2020)</b>.</i></p>
 
 ---
 
@@ -242,7 +242,7 @@ str(df)
 add <- function(x,y){ return(x+y) }
 ```
 
-**Context:** Asked at **Infosys (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -250,7 +250,7 @@ add <- function(x,y){ return(x+y) }
 
 **Answer:** A framework to build interactive web apps using R.
 
-**Context:** Asked at **TCS (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+**Context:** Asked at **TCS (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
 
 ---
 
@@ -264,7 +264,7 @@ add <- function(x,y){ return(x+y) }
 ts(data, start=c(2020,1), frequency=12)
 ```
 
-**Context:** Asked at **Capgemini (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 **Q21. What is the difference between `seq()` and `rep()` in R?**
@@ -281,7 +281,7 @@ seq(1,10,2)     # 1 3 5 7 9
 rep(1:3, times=2) # 1 2 3 1 2 3
 ```
 
-**Context:** Asked at **Infosys (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -299,7 +299,7 @@ rep(1:3, times=2) # 1 2 3 1 2 3
 3 %in% c(2,3,4) # TRUE
 ```
 
-**Context:** Asked at **TCS (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
@@ -314,7 +314,7 @@ sort(c(5,2,9,1))
 df[order(df$Age), ]
 ```
 
-**Context:** Asked at **Accenture (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2022)</b>.</i></p>
 
 ---
 
@@ -332,7 +332,7 @@ with(mtcars, mean(mpg))
 by(mtcars$mpg, mtcars$cyl, mean)
 ```
 
-**Context:** Asked at **EY (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
 
 ---
 
@@ -347,7 +347,7 @@ paste("Hello","World")   # "Hello World"
 paste0("Hello","World")  # "HelloWorld"
 ```
 
-**Context:** Asked at **Capgemini (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
 
 ---
 
@@ -355,7 +355,7 @@ paste0("Hello","World")  # "HelloWorld"
 
 **Answer:** Collections of symbol-value pairs, used for variable scoping.
 
-**Context:** Asked at **Amazon (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2021)</b>.</i></p>
 
 ---
 
