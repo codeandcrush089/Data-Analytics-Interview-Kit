@@ -89,7 +89,7 @@ factor(c("Male","Female","Male"))
 * **Matrix:** Homogeneous, numeric data.
 * **Data Frame:** Heterogeneous data, like a table.
 
-**Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
 
 ---
 
@@ -130,7 +130,7 @@ data <- read.csv("file.csv")
 data[is.na(data)] <- mean(data, na.rm=TRUE)
 ```
 
-<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
@@ -195,7 +195,7 @@ library(ggplot2)
 ggplot(df, aes(x=Age, y=Salary)) + geom_point()
 ```
 
-**Context:** Asked at **Microsoft (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
@@ -228,7 +228,7 @@ str(df)
 
 **Answer:** Documents that combine code, output, and text for reporting.
 
-**Context:** Asked at **Cognizant (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Cognizant (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Cognizant (2020)</b>.</i></p>
 
 ---
 
@@ -250,7 +250,7 @@ add <- function(x,y){ return(x+y) }
 
 **Answer:** A framework to build interactive web apps using R.
 
-**Context:** Asked at **TCS (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
 
 ---
 
@@ -363,7 +363,7 @@ paste0("Hello","World")  # "HelloWorld"
 
 **Answer:** Numeric, Integer, Character, Logical, Complex, Raw.
 
-**Context:** Asked at **Deloitte (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
@@ -377,7 +377,7 @@ paste0("Hello","World")  # "HelloWorld"
 sample(1:10, 5)
 ```
 
-**Context:** Asked at **Infosys (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2022)</b>.</i></p>
 
 ---
 
@@ -391,7 +391,7 @@ sample(1:10, 5)
 for(i in 1:3){ print(i) }
 ```
 
-**Context:** Asked at **TCS (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
@@ -405,7 +405,7 @@ for(i in 1:3){ print(i) }
 unique(c(1,2,2,3,3,4))
 ```
 
-**Context:** Asked at **Cognizant (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Cognizant (2021)</b>.</i></p>
 
 ---
 
@@ -419,7 +419,7 @@ unique(c(1,2,2,3,3,4))
 c(1,2,3,4) + c(10,20)   # (1+10, 2+20, 3+10, 4+20)
 ```
 
-**Context:** Asked at **Wipro (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2022)</b>.</i></p>
 
 ---
 
@@ -430,7 +430,7 @@ c(1,2,3,4) + c(10,20)   # (1+10, 2+20, 3+10, 4+20)
 * **Shallow Copy:** Points to same memory until modified.
 * **Deep Copy:** Creates a completely new object.
 
-**Context:** Asked at **Microsoft (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
@@ -444,7 +444,7 @@ c(1,2,3,4) + c(10,20)   # (1+10, 2+20, 3+10, 4+20)
 hist(mtcars$mpg)
 ```
 
-**Context:** Asked at **EY (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
 
 ---
 
@@ -458,7 +458,7 @@ hist(mtcars$mpg)
 aggregate(mpg ~ cyl, data=mtcars, mean)
 ```
 
-**Context:** Asked at **Capgemini (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
@@ -472,7 +472,7 @@ aggregate(mpg ~ cyl, data=mtcars, mean)
 boxplot(mtcars$mpg)
 ```
 
-**Context:** Asked at **Accenture (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2022)</b>.</i></p>
 
 ---
 
@@ -480,7 +480,7 @@ boxplot(mtcars$mpg)
 
 **Answer:** Workspace stores all user-defined objects. Save using `save.image()`.
 
-**Context:** Asked at **Infosys (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -494,7 +494,7 @@ boxplot(mtcars$mpg)
 class(5)     # "numeric"
 ```
 
-**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
@@ -512,7 +512,7 @@ cor(mtcars$mpg, mtcars$hp)
 cov(mtcars$mpg, mtcars$hp)
 ```
 
-**Context:** Asked at **Deloitte (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
@@ -527,7 +527,7 @@ counts <- table(mtcars$cyl)
 barplot(counts)
 ```
 
-**Context:** Asked at **Wipro (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
 
 ---
 
@@ -538,7 +538,7 @@ barplot(counts)
 * **install.packages():** Downloads and installs packages.
 * **library():** Loads the package into memory for use.
 
-**Context:** Asked at **Cognizant (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Cognizant (2022)</b>.</i></p>
 
 ---
 
@@ -556,7 +556,7 @@ data(mtcars)
 head(mtcars)
 ```
 
-**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -570,7 +570,7 @@ head(mtcars)
 merge(df1, df2, by="ID", all=TRUE)
 ```
 
-**Context:** Asked at **Accenture (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2022)</b>.</i></p>
 
 ---
 
@@ -590,7 +590,7 @@ lapply(1:3, sqrt)
 sapply(1:3, sqrt)
 ```
 
-**Context:** Asked at **Infosys (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -608,7 +608,7 @@ x <- c(1, NA, 3)
 mean(x, na.rm=TRUE)
 ```
 
-**Context:** Asked at **EY (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
 
 ---
 
@@ -625,7 +625,7 @@ mean(x, na.rm=TRUE)
 factor(c("Male","Female","Male"))
 ```
 
-**Context:** Asked at **Deloitte (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
@@ -636,7 +636,7 @@ factor(c("Male","Female","Male"))
 * **matrix:** Homogeneous data type.
 * **data.frame:** Heterogeneous data types.
 
-**Context:** Asked at **Capgemini (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
 
 ---
 
@@ -647,7 +647,7 @@ factor(c("Male","Female","Male"))
 * **Supervised:** Training with labels (`lm()`, `glm()`).
 * **Unsupervised:** No labels (`kmeans()`).
 
-**Context:** Asked at **Amazon (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
@@ -662,7 +662,7 @@ model <- lm(mpg ~ hp + wt, data=mtcars)
 summary(model)
 ```
 
-**Context:** Asked at **Microsoft (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
@@ -677,7 +677,7 @@ model <- glm(vs ~ mpg + hp, data=mtcars, family=binomial)
 summary(model)
 ```
 
-**Context:** Asked at **Deloitte (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
@@ -688,7 +688,7 @@ summary(model)
 * **plot():** Base R graphics.
 * **ggplot2:** Advanced, layered visualization system.
 
-**Context:** Asked at **Accenture (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2022)</b>.</i></p>
 
 ---
 
@@ -702,7 +702,7 @@ summary(model)
 sum(is.na(mtcars))
 ```
 
-**Context:** Asked at **Infosys (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020))</b>.</i></p>
 
 ---
 
@@ -713,7 +713,7 @@ sum(is.na(mtcars))
 * **AIC (Akaike):** Focuses on predictive accuracy.
 * **BIC (Bayesian):** More penalty for complexity.
 
-**Context:** Asked at **EY (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+**Context:** Asked at **EY (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
 
 ---
 
@@ -721,7 +721,7 @@ sum(is.na(mtcars))
 
 **Answer:** Technique to evaluate model performance by splitting data into folds. Implemented with `caret` or `cv.glm()`.
 
-**Context:** Asked at **TCS (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
 
 ---
 
@@ -732,7 +732,7 @@ sum(is.na(mtcars))
 * Standardize: `(x - mean(x)) / sd(x)`
 * Normalize: `(x - min(x)) / (max(x) - min(x))`
 
-**Context:** Asked at **Cognizant (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Cognizant (2021)</b>.</i></p>
 
 ---
 
@@ -747,7 +747,7 @@ library(reshape2)
 melt(mtcars, id.vars="cyl")
 ```
 
-**Context:** Asked at **Capgemini (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
 
 ---
 
@@ -764,7 +764,7 @@ melt(mtcars, id.vars="cyl")
 dplyr::left_join(df1, df2, by="ID")
 ```
 
-**Context:** Asked at **Infosys (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2022)</b>.</i></p>
 
 ---
 
@@ -779,7 +779,7 @@ set.seed(123)
 kmeans(mtcars[,c("mpg","hp")], centers=3)
 ```
 
-**Context:** Asked at **EY (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
 
 ---
 
@@ -797,7 +797,7 @@ summary(mtcars)
 str(mtcars)
 ```
 
-**Context:** Asked at **Wipro (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020))</b>.</i></p>
 
 ---
 
@@ -811,7 +811,7 @@ str(mtcars)
 write.csv(mtcars, "mtcars.csv", row.names=FALSE)
 ```
 
-**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -826,7 +826,7 @@ library(readxl)
 df <- read_excel("file.xlsx")
 ```
 
-**Context:** Asked at **Capgemini (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
 
 ---
 
@@ -844,7 +844,7 @@ head(mtcars, 3)
 tail(mtcars, 3)
 ```
 
-**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
@@ -858,7 +858,7 @@ tail(mtcars, 3)
 colnames(mtcars)[1] <- "MilesPerGallon"
 ```
 
-**Context:** Asked at **Accenture (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2022)</b>.</i></p>
 
 ---
 
@@ -872,7 +872,7 @@ colnames(mtcars)[1] <- "MilesPerGallon"
 model.matrix(~ cyl, data=mtcars)
 ```
 
-**Context:** Asked at **EY (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
 
 ---
 
@@ -890,7 +890,7 @@ which(c(2,4,6)==4)   # 2
 match(4, c(2,4,6))   # 2
 ```
 
-**Context:** Asked at **Infosys (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -904,7 +904,7 @@ match(4, c(2,4,6))   # 2
 cor(mtcars[,c("mpg","hp","wt")])
 ```
 
-**Context:** Asked at **Capgemini (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
 
 ---
 
@@ -919,7 +919,7 @@ pca <- prcomp(mtcars[,c("mpg","hp","wt")], scale.=TRUE)
 summary(pca)
 ```
 
-**Context:** Asked at **Deloitte (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
@@ -937,7 +937,7 @@ table(mtcars$cyl)
 prop.table(table(mtcars$cyl))
 ```
 
-**Context:** Asked at **Wipro (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020))</b>.</i></p>
 
 ---
 
@@ -955,7 +955,7 @@ rbind(c(1,2), c(3,4))
 cbind(c(1,2), c(3,4))
 ```
 
-**Context:** Asked at **Cognizant (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Cognizant (2021)</b>.</i></p>
 
 ---
 
@@ -969,7 +969,7 @@ cbind(c(1,2), c(3,4))
 shapiro.test(mtcars$mpg)
 ```
 
-**Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
 
 ---
 
@@ -980,7 +980,7 @@ shapiro.test(mtcars$mpg)
 * One-hot: Creates separate binary columns.
 * Label: Assigns numeric code to each category.
 
-**Context:** Asked at **Infosys (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -994,7 +994,7 @@ shapiro.test(mtcars$mpg)
 t.test(mpg ~ am, data=mtcars)
 ```
 
-**Context:** Asked at **TCS (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
 
 ---
 
@@ -1012,7 +1012,7 @@ print("Hello")
 cat("Hello")
 ```
 
-**Context:** Asked at **Capgemini (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
 
 ---
 
@@ -1029,7 +1029,7 @@ train <- mtcars[trainIndex, ]
 test <- mtcars[-trainIndex, ]
 ```
 
-**Context:** Asked at **Accenture (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
 
 ---
 
@@ -1039,7 +1039,7 @@ test <- mtcars[-trainIndex, ]
 * `summary()`: Base R function.
 * `describe()`: From `Hmisc/psych` package with more detailed stats.
 
-**Context:** Asked at **EY (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
 
 ---
 
@@ -1053,7 +1053,7 @@ test <- mtcars[-trainIndex, ]
 quantile(mtcars$mpg, probs=c(0.25,0.5,0.75))
 ```
 
-**Context:** Asked at **Deloitte (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
@@ -1071,7 +1071,7 @@ any(c(TRUE,FALSE))   # TRUE
 all(c(TRUE,FALSE))   # FALSE
 ```
 
-**Context:** Asked at **TCS (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
@@ -1086,7 +1086,7 @@ library(corrplot)
 corrplot(cor(mtcars))
 ```
 
-**Context:** Asked at **Capgemini (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
 
 ---
 
@@ -1097,7 +1097,7 @@ corrplot(cor(mtcars))
 * **Long:** Each row is one observation.
 * **Wide:** One subject spread across columns.
 
-**Context:** Asked at **Infosys (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2022)</b>.</i></p>
 
 ---
 
@@ -1111,7 +1111,7 @@ corrplot(cor(mtcars))
 x[is.na(x)] <- mean(x, na.rm=TRUE)
 ```
 
-**Context:** Asked at **Wipro (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2021)</b>.</i></p>
 
 ---
 
@@ -1125,7 +1125,7 @@ x[is.na(x)] <- mean(x, na.rm=TRUE)
 boxplot(mpg ~ cyl, data=mtcars)
 ```
 
-**Context:** Asked at **Accenture (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -1136,7 +1136,7 @@ boxplot(mpg ~ cyl, data=mtcars)
 * **caret:** Focused on supervised ML (classification/regression).
 * **cluster:** Focused on unsupervised ML (clustering).
 
-**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -1152,7 +1152,7 @@ model <- lm(mpg ~ wt + hp + disp, data=mtcars)
 vif(model)
 ```
 
-**Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
 
 ---
 
@@ -1163,7 +1163,7 @@ vif(model)
 * `set.seed()`: Ensures reproducibility.
 * Random sampling: Produces different results without seed.
 
-**Context:** Asked at **Accenture (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -1180,7 +1180,7 @@ obs  <- factor(c("yes","yes","no"), levels=c("yes","no"))
 confusionMatrix(pred, obs)
 ```
 
-**Context:** Asked at **Infosys (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -1191,7 +1191,7 @@ confusionMatrix(pred, obs)
 * **Parametric:** Assumes distribution (t-test, ANOVA).
 * **Non-parametric:** No distribution assumption (Wilcoxon, Kruskal-Wallis).
 
-**Context:** Asked at **Deloitte (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
@@ -1206,7 +1206,7 @@ library(pROC)
 roc(response, predictor)
 ```
 
-**Context:** Asked at **Capgemini (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
 
 ---
 
@@ -1214,7 +1214,7 @@ roc(response, predictor)
 
 **Answer:** Using **VIF** from `car` package.
 
-**Context:** Asked at **EY (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
 
 ---
 
@@ -1229,7 +1229,7 @@ tsdata <- ts(AirPassengers, frequency=12)
 plot(tsdata)
 ```
 
-**Context:** Asked at **TCS (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
 
 ---
 
@@ -1245,7 +1245,7 @@ fit <- auto.arima(AirPassengers)
 forecast(fit, 12)
 ```
 
-**Context:** Asked at **Cognizant (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Cognizant (2021)</b>.</i></p>
 
 ---
 
@@ -1262,7 +1262,7 @@ forecast(fit, 12)
 aggregate(mpg ~ cyl, data=mtcars, mean)
 ```
 
-**Context:** Asked at **Infosys (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -1276,7 +1276,7 @@ aggregate(mpg ~ cyl, data=mtcars, mean)
 chisq.test(table(mtcars$cyl, mtcars$am))
 ```
 
-**Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
 
 ---
 
@@ -1294,7 +1294,7 @@ saveRDS(mtcars, "mtcars.rds")
 readRDS("mtcars.rds")
 ```
 
-**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -1305,7 +1305,7 @@ readRDS("mtcars.rds")
 * `attach()`: Makes variables directly accessible but risky.
 * `with()`: Temporary evaluation without modifying workspace.
 
-**Context:** Asked at **Accenture (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -1327,7 +1327,7 @@ readRDS("mtcars.rds")
 boxplot(mtcars$mpg)
 ```
 
-p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
