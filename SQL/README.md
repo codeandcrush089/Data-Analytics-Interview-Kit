@@ -12,1106 +12,1023 @@
 
 ---
 
-### 1. **Difference Between WHERE and HAVING Clauses**
+# **SQL Interview Questions (Q1–Q20 – Basics)**
 
-**Answer:**
-`WHERE` filters rows before aggregation; `HAVING` filters groups after aggregation.
+**Q1. What is SQL?**
+**Answer:** SQL (Structured Query Language) is used to interact with relational databases.
 **Example:**
 
 ```sql
-SELECT department, COUNT(*) AS cnt
-FROM employee
-WHERE salary > 3000
-GROUP BY department
-HAVING cnt > 5;
+SELECT * FROM Employees;
 ```
 
-**Company/Year:** Common at FAANGs (e.g., Google, Amazon) in 2024–2025 .
+**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
-### 2. **Group By vs Order By**
-
-**Answer:**
-`GROUP BY` groups rows for aggregation; `ORDER BY` sorts the result set.
-**Example:**
-
-```sql
-SELECT department, AVG(salary)
-FROM employee
-GROUP BY department
-ORDER BY AVG(salary) DESC;
-```
-
-**Context:** Frequently tested in data analyst interviews (2025) .
-
----
-
-### 3. **Remove Duplicate Records**
-
-**Answer:**
-Use `DISTINCT` or use window functions with `ROW_NUMBER()` for complex cases.
-
-**Example:**
-
-```sql
-SELECT DISTINCT department FROM employee;
-```
-
-**Context:** Asked in analyst and data engineer interviews (2025) .
-
----
-
-### 4. **Primary Key vs Foreign Key**
-
+**Q2. What are the different types of SQL statements?**
 **Answer:**
 
-* **Primary Key**: Unique identifier for each row.
-* **Foreign Key**: Links to a primary key in another table.
-**Example:**
-
-```sql
-CREATE TABLE Department (
-  dept_id INT PRIMARY KEY,
-  name VARCHAR(50)
-);
-
-CREATE TABLE Employee (
-  emp_id INT,
-  dept_id INT,
-  FOREIGN KEY (dept_id) REFERENCES Department(dept_id)
-);
-```
-
-**Context:** Core concept—used across major companies (2025) .
+* DDL (Data Definition Language) → CREATE, ALTER, DROP
+* DML (Data Manipulation Language) → INSERT, UPDATE, DELETE
+* DQL (Data Query Language) → SELECT
+* TCL (Transaction Control) → COMMIT, ROLLBACK
+  **Context:** Asked at **Infosys (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
-### 5. **Usage of LIKE Operator**
-
-**Answer:**
-Used for pattern matching with `%` and `_`.
-**Example:**
-
-```sql
-SELECT * FROM employee WHERE name LIKE 'A%'; -- names starting with A
-```
-
-**Context:** Basic filtering in interviews for analysts (2025) .
-
----
-
-### 6. **Types of SQL JOINs**
-
-**Answer:**
-Support INNER, LEFT, RIGHT, FULL, CROSS joins.
-**Example:**
-
-```sql
-SELECT e.name, d.name AS dept
-FROM employee e
-LEFT JOIN department d ON e.dept_id = d.dept_id;
-```
-
-**Context:** Frequently used across data roles (2025) .
-
----
-
-### 7. **DELETE vs TRUNCATE vs DROP**
-
+**Q3. What is the difference between SQL and MySQL?**
 **Answer:**
 
-* `DELETE`: Row-by-row deletion, can filter with WHERE, logged.
-* `TRUNCATE`: Quickly deletes all rows, not logged per row.
-* `DROP`: Removes entire table schema and data.
-  
-**Context:** Important for DB ops, asked in dev roles (2025) .
+* SQL → Language for querying databases.
+* MySQL → A database management system that uses SQL.
+  **Context:** Asked at **Capgemini (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
-### 8. **Purpose of DISTINCT Keyword**
-
-**Answer:**
-Removes duplicate values from result set.
-**Example:**
-
-```sql
-SELECT DISTINCT department FROM employee;
-```
-
-**Context:** Basic SQL concept for analysts (2025) .
-
----
-
-### 9. **VARCHAR vs CHAR Data Types**
-
+**Q4. What are Primary Key and Foreign Key?**
 **Answer:**
 
-* **CHAR(n)**: Fixed length, padded.
-* **VARCHAR(n)**: Variable length, no padding.
-  
-**Context:** Common knowledge tested in SQL dev roles (2025) .
-
----
-
-### 10. **Aggregate Functions (COUNT, SUM, AVG…)**
-
-**Answer:**
-Used to calculate summary values.
-**Example:**
-
-```sql
-SELECT department, COUNT(*) AS total_emp, AVG(salary) AS avg_sal
-FROM employee
-GROUP BY department;
-```
-
-**Context:** Core for reporting roles at Amazon, etc. (2025) .
-
----
-
-### 11. **UNION vs UNION ALL**
-
-**Answer:**
-
-* `UNION`: Removes duplicates.
-* `UNION ALL`: Keeps duplicates.
-  
-**Context:** Common in interview prep materials (2025) .
-
----
-
-### 12. **Purpose of NULL Value**
-
-**Answer:**
-Represents missing or unknown data; not equal to 0 or empty string.
-
-**Context:** Fundamental concept used widely in interviews (2025) .
-
----
-
-### 13. **SQL Views**
-
-**Answer:**
-Virtual tables saved as a query. Simplify complex logic, improve security.
-**Example:**
-
-```sql
-CREATE VIEW v_emp_dept AS
-SELECT e.name, d.name AS dept
-FROM employee e
-JOIN department d ON e.dept_id = d.dept_id;
-```
-
-**Context:** Asked in intermediate-level interviews (2025) .
-
----
-
-### 14. **Indexes & Their Usage**
-
-**Answer:**
-Indexes improve read query performance at cost of extra storage and slower writes.
-
-**Context:** Important for performance — Amazon may ask this (2025).
-
----
-
-### 15. **Subquery**
-
-**Answer:**
-A query within another query, useful in WHERE etc.
-**Example:**
-
-```sql
-SELECT * FROM employee
-WHERE dept_id IN (SELECT dept_id FROM department WHERE name LIKE '%Sales%');
-```
-
-**Context:** Frequently tested in data roles (2025) .
-
----
-
-### 16. **2nd Highest Salary Query**
-
-**Answer:**
-One way: use `DENSE_RANK()` or subquery.
-**Example:**
-
-```sql
-SELECT MAX(salary) AS second_highest
-FROM employee
-WHERE salary < (SELECT MAX(salary) FROM employee);
-```
-
-**Company/Year:** Known from Ernst & Young interviews (2025) .
-
----
-
-### 17. **Find 3rd Transaction per User (Example from Uber)**
-
-**Answer:**
-Use `ROW_NUMBER()` over partition by user.
-**Example:**
-
-```sql
-SELECT user_id, spend, transaction_date
-FROM (
-  SELECT user_id, spend, transaction_date,
-         ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY transaction_date) AS rn
-  FROM transactions
-) t
-WHERE rn = 3;
-```
-
-**Company/Year:** Uber (recent, as of 2025) .
-
----
-
-### 18. **Explain SQL to a Non-technical Person**
-
-**Answer:**
-SQL is like asking questions to a huge spreadsheet: “Give me these rows quickly.”
-
-**Company/Year:** Amazon, often as an icebreaker (2025) .
-
----
-
-### 19. **Calculate 7-Day Rolling Average (Amazon)**
-
-**Answer:** Use window functions like `AVG() OVER (ORDER BY date ROWS BETWEEN 6 PRECEDING AND CURRENT ROW)`.
-
-**Context:** Amazon applied SQL (2025) 
-
----
-
-### 20. **Difference Between WHERE and HAVING** *(Reinforced)*
-
-**Answer Recap:** Pre-aggregation vs post-aggregation filtering.
-
-**Context:** Very common concept; emphasized in Amazon prep (2025) .
-
----
-
-### 21. **Explain COUNT(DISTINCT user\_id) Unexpected Behavior**
-
-**Answer:** Might miscount when NULLs or duplicates exist unexpectedly.
-
-**Context:** Conceptual Amazon-level question (2025) .
-
----
-
-### 22. **Optimization: Avoid Full Table Scan on Partitioned Dataset**
-
-**Answer:** Use partition filters in WHERE clause to limit scan.
-
-**Context:** Amazon senior roles (L5+), optimization focus (2025) .
-
----
-
-### 23. **Window Functions (ROW\_NUMBER, RANK, LAG)**
-
-**Answer:**
-Used to rank or compare within partitions.
-**Example:**
-
-```sql
-SELECT user_id, spend, RANK() OVER (PARTITION BY user_id ORDER BY spend DESC) AS rnk
-FROM transactions;
-```
-
-**Context:** Common at FAANG data roles (2025) .
-
----
-
-### 24. **CTEs (Common Table Expressions)**
-
-**Answer:**
-Temporary named result sets using `WITH`.
-**Example:**
-
-```sql
-WITH dept_avg AS (
-  SELECT dept_id, AVG(salary) AS avg_sal
-  FROM employee
-  GROUP BY dept_id
-)
-SELECT e.name, d.avg_sal
-FROM employee e
-JOIN dept_avg d ON e.dept_id = d.dept_id;
-```
-
-**Context:** Frequently seen in intermediate/advanced interviews (2025) .
-
----
-
-### 25. **Conceptual: Handling NULLs in GROUP BY**
-
-**Answer:**
-NULL is grouped separately; e.g., `GROUP BY dept` will treat NULL as a separate group.
-
-**Context:** Conceptual Amazon question (2025) .
-
----
-
-### **26. What is SQL?**
-
-**Answer:** SQL stands for *Structured Query Language*. It's the standard language for communicating with relational databases—used to read, write, update, and delete data.
-**Example:**
-
-```sql
-SELECT * FROM customers;
-```
-
-**Context:** Fundamental question asked at almost every entry-level role—from freshers in tech companies to business analyst positions
-
----
-
-### **27. What are DDL, DML, DCL, and TCL commands?**
-
-**Answer:**
-
-* **DDL (Data Definition Language):** CREATE, ALTER, DROP, TRUNCATE (modify schema).
-* **DML (Data Manipulation Language):** SELECT, INSERT, UPDATE, DELETE (manipulate data).
-* **DCL (Data Control Language):** GRANT, REVOKE (permissions).
-* **TCL (Transaction Control Language):** COMMIT, ROLLBACK, SAVEPOINT (transaction handling).
-  
-**Context:** Core concept asked in many interviews, including MAANG companies 
-
----
-
-### **28. Difference between SQL, MySQL, and SQL Server?**
-
-**Answer:**
-
-* **SQL:** Language.
-* **MySQL:** An open-source relational database management system (RDBMS).
-* **SQL Server:** Microsoft's proprietary RDBMS.
-* 
-**Context:** Frequently asked for clarity at both fresher and experience levels .
-
----
-
-### **29. What is normalization and denormalization?**
-
-**Answer:**
-
-* **Normalization:** Organizing tables to reduce redundancy (e.g., 1NF, 2NF, 3NF).
-* **Denormalization:** Introducing redundancy to improve read performance.
-  
-**Context:** Common in data analyst and DB designer interviews .
-
----
-
-### **30. What is a relational database?**
-
-**Answer:** A database where data is organized in tables (relations) with rows and columns, and relationships can be established between them using keys.
-
-**Context:** Basic database concept across interviews .
-
----
-
-### **31. Table vs Field (Row vs Column)?**
-
-**Answer:**
-
-* **Table:** Organized set of rows and columns.
-* **Field (Column):** Attribute describing each row.
-* **Row:** A single record.
-
-**Context:** Freshers are often evaluated on such fundamentals ).
-
----
-
-### **32. What are SQL operators?**
-
-**Answer:**
-
-* **Arithmetic:** `+`, `-`, `*`, `/`.
-* **Comparison:** `=`, `!=`, `<`, `<=`, `>`, `>=`.
-* **Logical:** `AND`, `OR`, `NOT`.
-* **Set:** `UNION`, `INTERSECT`, `EXCEPT`.
-* **Special:** `IN`, `BETWEEN`, `LIKE`, `IS NULL`.
-
-**Context:** Intermediate questions across interviews .
-
----
-
-### **33. What is a query in SQL?**
-
-**Answer:** A command to request data manipulation or retrieval, most commonly using `SELECT`.
-**Example:**
-
-```sql
-SELECT id, name FROM users WHERE active = 1;
-```
-
-**Context:** Fundamental knowledge for any SQL-based role .
-
----
-
-### **34. What are constraints in SQL? (NOT NULL, UNIQUE, etc.)**
-
-**Answer:** Rules to enforce data integrity—like `NOT NULL`, `UNIQUE`, `PRIMARY KEY`, `FOREIGN KEY`, `CHECK`, `DEFAULT`.
-
-**Context:** Core concept for data integrity and design .
-
----
-
-### **35. What is a cursor (in SQL)?**
-
-**Answer:** A database object used to retrieve query results row by row—handy for procedural logic.
-
-**Context:** More technical; often in backend developer or PL/SQL interviews .
-
----
-
-### **36. What is a trigger?**
-
-**Answer:** An automatic reaction to specific table events (e.g., `INSERT`, `UPDATE`, `DELETE`).
-**Example (simplified):**
-
-```sql
-CREATE TRIGGER trg_after_insert
-AFTER INSERT ON orders
-BEGIN
-  -- logic here
-END;
-```
-
-**Context:** Asked in roles involving automation or DB maintenance ).
-
----
-
-### **37. What is a stored procedure?**
-
-**Answer:** A set of precompiled SQL statements stored and executed in the database, with optional parameters.
-
-**Context:** Important for optimization and enterprise setups .
-
----
-
-### **38. What is pattern matching in SQL?**
-
-**Answer:** Using `LIKE` with wildcards `%` (any number of chars) or `_` (single char).
-**Example:**
-
-```sql
-WHERE name LIKE 'Jo_n%'  -- Josn, John, Jonnny, etc.
-```
-
-**Context:** Common for filtering tasks in interviews .
-
----
-
-### **39. Create an empty table like another table:**
-
-**Answer:**
-
-```sql
-CREATE TABLE new_table LIKE existing_table;
-```
-
-**Context:** Quick schema duplication, often seen in DB admin scenarios .
-
----
-
-### **40. What is COALESCE?**
-
-**Answer:** Returns the first non-NULL value from a list.
-**Example:**
-
-```sql
-SELECT COALESCE(NULL, salary, 0) AS effective_salary;
-```
-
-**Context:** Useful for data cleanup and default handling .
-
----
-
-### **41. Difference between COUNT() and SUM()?**
-
-**Answer:**
-
-* `COUNT()`: Counts rows or non-null values.
-* `SUM()`: Adds up numeric values.
-  
-**Context:** Essential for basic aggregate understanding .
-
----
-
-### **42. NVL vs NVL2 (Oracle-specific functions)?**
-
-**Answer:**
-
-* `NVL(expr1, expr2)`: If `expr1` is NULL, returns `expr2`.
-* `NVL2(expr1, expr2, expr3)`: Returns `expr2` if `expr1` is not NULL, otherwise `expr3`.
-  
-**Context:** Important in Oracle SQL interviews .
-
----
-
-### **43. Difference between ROW\_NUMBER() and RANK()?**
-
-**Answer:**
-
-* `ROW_NUMBER()`: Assigns unique sequential numbers.
-* `RANK()`: Gives the same rank to ties, skipping subsequent ranks.
+* Primary Key: Uniquely identifies a record.
+* Foreign Key: Refers to primary key in another table.
   **Example:**
 
 ```sql
-RANK() OVER (ORDER BY score DESC)
+CREATE TABLE Orders (
+  OrderID INT PRIMARY KEY,
+  CustomerID INT FOREIGN KEY REFERENCES Customers(CustomerID)
+);
 ```
 
-**Context:** Used in leaderboard or ranking queries in FAANG interviews .
+**Context:** Asked at **Wipro (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
-### **44. Window Functions – What are they?**
+**Q5. What is the difference between CHAR and VARCHAR?**
+**Answer:**
 
-**Answer:** Functions like `ROW_NUMBER()`, `RANK()`, `SUM() OVER(...)`, that perform calculations across rows without collapsing the result set.
+* CHAR: Fixed-length storage.
+* VARCHAR: Variable-length storage.
+  **Context:** Asked at **Deloitte (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q6. What are the different types of JOINs?**
+**Answer:**
+
+* INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN.
+  **Example:**
+
+```sql
+SELECT e.Name, d.DeptName
+FROM Employees e
+INNER JOIN Departments d ON e.DeptID = d.DeptID;
+```
+
+**Context:** Asked at **Microsoft (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q7. What is the difference between WHERE and HAVING?**
+**Answer:**
+
+* WHERE: Filters rows before grouping.
+* HAVING: Filters groups after aggregation.
+  **Example:**
+
+```sql
+SELECT DeptID, COUNT(*) 
+FROM Employees 
+GROUP BY DeptID 
+HAVING COUNT(*) > 5;
+```
+
+**Context:** Asked at **EY (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q8. What is the difference between UNION and UNION ALL?**
+**Answer:**
+
+* UNION: Removes duplicates.
+* UNION ALL: Keeps duplicates.
+  **Context:** Asked at **Accenture (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q9. What is a View in SQL?**
+**Answer:** A virtual table based on the result of a query.
 **Example:**
 
 ```sql
-SUM(amount) OVER (ORDER BY date ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) AS rolling_sum
+CREATE VIEW ActiveEmployees AS
+SELECT Name, DeptID FROM Employees WHERE Status = 'Active';
 ```
 
-**Context:** Frequently seen in analytics/data roles ).
+**Context:** Asked at **Capgemini (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
-### **45. Clustered vs Non-clustered Index?**
-
+**Q10. What is the difference between DELETE, TRUNCATE, and DROP?**
 **Answer:**
 
-* **Clustered Index:** Physically orders table rows.
-* **Non-clustered Index:** Separate structure that points to table rows.
-  
-**Context:** Critical for performance tuning in DB roles .
+* DELETE: Removes rows (can be rolled back).
+* TRUNCATE: Removes all rows (cannot roll back in some DBs).
+* DROP: Deletes the entire table.
+  **Context:** Asked at **Infosys (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
-### **46. What is a sequence in SQL?**
-
-**Answer:** Object that generates sequential numeric values—often used for unique IDs.
+**Q11. What is a Subquery?**
+**Answer:** Query inside another query.
 **Example:**
 
 ```sql
-CREATE SEQUENCE seq_emp START WITH 1 INCREMENT BY 1;
-SELECT NEXT VALUE FOR seq_emp;
+SELECT Name FROM Employees 
+WHERE Salary > (SELECT AVG(Salary) FROM Employees);
 ```
 
-**Context:** Used in schema design especially in Oracle or PostgreSQL .
+**Context:** Asked at **Deloitte (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
-### **47. Horizontal vs Vertical Partitioning?**
-
+**Q12. What is the difference between Clustered and Non-Clustered Index?**
 **Answer:**
 
-* **Horizontal Partitioning:** Splitting data rows across partitions.
-* **Vertical Partitioning:** Splitting columns into multiple tables.
-  
-**Context:** Advanced performance and scaling technique .
+* Clustered Index: Sorts and stores rows physically.
+* Non-Clustered Index: Stores pointer to data.
+  **Context:** Asked at **Microsoft (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
-### **48. Strategies for optimizing slow SQL queries (e.g., Amazon)?**
-
+**Q13. What is the difference between NULL and 0?**
 **Answer:**
 
-* Use indexes
-* Rewrite queries efficiently
-* Partition large tables
-* Use caching or sharding
-* Optimize schema and data types
-  
-**Context:** Known to appear in Amazon interview questions .
+* NULL = Unknown / Missing value.
+* 0 = Numeric value.
+  **Context:** Asked at **Wipro (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
-### **49. SQL query: Calculate monthly average review rating (Amazon)?**
-
-**Answer & Example:**
-
-```sql
-SELECT product_id,
-       EXTRACT(YEAR FROM review_date) AS year,
-       EXTRACT(MONTH FROM review_date) AS month,
-       AVG(rating) AS avg_rating
-FROM Reviews
-GROUP BY product_id, year, month
-ORDER BY product_id, year, month;
-```
-
-**Context:** Directly from Amazon’s SQL interview materials.
-
----
-
-### **50. How is data integrity maintained in SQL?**
-
+**Q14. What is the difference between DROP and TRUNCATE?**
 **Answer:**
-Through constraints (`PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE`), transactions (ACID), triggers, and normalization.
 
-**Context:** Standard advanced/optimization question .
-
-
----
-
-
-### **51. What is a staging table in ETL?**
-   **Answer:**
-    A temporary table used in data pipelines to hold raw input before transformation and loading.
-  * **Example:** Load daily CSV into `staging_sales`, clean data, then insert into `fact_sales`.
-    
-**Context:** Common in data engineering roles focused on ETL systems.
-
----
-### **52. Difference between OLTP and OLAP systems?**
-   **Answer:**
-
-   * **OLTP:** Transactional systems, high-speed reads/writes (e.g., banking).
-   * **OLAP:** Analytical systems with batch processing and large aggregations.
-     
-**Context:** Important in data warehousing interviews.
-
----
-### **53. Explain covering index vs composite index.**
-   **Answer:**
-
-   * **Composite index:** Multiple columns for index key.
-   * **Covering index:** Includes the columns needed by a query to avoid fetching the table.
-     
-**Context:** Performance tuning scenarios in interviews.
-
----
-### **54. What is a surrogate key in data warehousing?**
-   **Answer:** A synthetic primary key (e.g., `surrogate_id`) used for simplicity and stability in fact tables.
-   
- **Context:** Data warehousing interviews ).
-   
----
-### **55. Star schema vs snowflake schema—differences?**
-   **Answer:**
-
-   * **Star schema:** Denormalized dimensions connected directly to facts.
-   * **Snowflake:** Dimensions normalized into sub-tables.
-     
-**Context:** Schema design discussions in analytics roles .
-
----
-### **56. Challenges in maintaining data quality in ETL?**
-  **Answer:** Issues like missing data, duplicates, schema changes, and incorrect formats. Fixes include validation, logging, and monitoring.  
-  
-**Context:** ETL and data engineering roles .
-
----
-### 57. Error handling strategies in ETL workflows?**
-   **Answer:** Use transactional checkpoints, audit logs, retry logic, and rollback mechanisms.
-   
-**Context:** Data engineering / ETL interviews .
-   
----
-### **58. Explain PIVOT and UNPIVOT operations.**
-   **Answer:**
-
-   * **PIVOT:** Turn rows into columns (e.g., aggregate sales by month).
-   * **UNPIVOT:** Reverse operation—convert columns back into rows.
-     
-**Context:** Advanced SQL interviews .
-
----
-### **59. What are materialized views?**
-   **Answer:** Stored query results, refreshed periodically—improves performance for frequently-run aggregations.
-   
-**Context:** Optimization-focused interviews .
-   
----
-### **60. User-defined functions (UDFs) in SQL?**
-   **Answer:** Custom reusable functions (scalar or table-valued) to encapsulate logic.
-   
-**Context:** Commonly used in real-world SQL solutions .
-   
----
-### **61. What are recursive queries & when to use them?**
-   **Answer:** Queries that call themselves (using CTEs) to handle hierarchical data like org charts.
-   
-**Context:** Data analyst and engineering interviews .
-   
----
-### **62. Temporary tables vs table variables—when to use which?**
-   **Answer:** Temporary tables live for session and can be indexed; table variables are in-memory and faster for small sets.
-   
-**Context:** SQL Server / performance tuning scenarios.
-   
----
-### **63. Explain dynamic SQL.**
-   **Answer:** Building SQL queries dynamically in code (e.g., assemble SQL as a string and execute).
-   
-**Context:** Developer-focused SQL roles ).
-   
----
-### **64. What are database isolation levels?**
-   **Answer:** Determines how transactions are isolated: READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, SERIALIZABLE.
-   
-**Context:** Crucial for transactional systems and interviews .
-   
----
-### **65. Indexed views—what and when to use?**
-   **Answer:** Views that store data and have indexes—improves query performance but consumes storage.
-   
-**Context:** Performance tuning in enterprise SQL environments ).
-   
----
-### **66. Describe hierarchical (recursive) queries use-cases.**
-   **Answer:** Use cases like finding all child records of a parent in an org, or file system structure traversals.
-   
-**Context:** Advanced query topics in interviews .
-   
----
-### **67. What is SQL injection and how to prevent it?**
-   **Answer:** Injecting malicious SQL via user inputs. Prevent with prepared statements, parameterized queries, and input sanitization.
-   
-**Context:** Common in dev & security-focused roles .
-   
----
-### **68. What's ACID in database systems?**
-   **Answer:** Ensures reliable transactions:
-
-   * **Atomicity**
-   * **Consistency**
-   * **Isolation**
-   * **Durability**
-     
- **Context:** Standard DB concept in interviews .
- 
----
-### **69. Explain recursive CTEs with an example.**
-   **Answer:**
-
-    ```sql
-    WITH RECURSIVE employee_cte AS (
-      SELECT emp_id, manager_id, name FROM employees WHERE manager_id IS NULL
-      UNION ALL
-      SELECT e.emp_id, e.manager_id, e.name
-      FROM employees e
-      JOIN employee_cte c ON e.manager_id = c.emp_id
-    )
-    SELECT * FROM employee_cte;
-    ```
-
- **Context:** Analyze hierarchies—common in analytics/engineering roles ([Datainterview.com][1]).
-   
----
-### **70. What’s row-level security?**
-   **Answer:** Restricts access to rows based on user roles—e.g., employees see only their data.
-   
-**Context:** Data governance and security discussions .
-   
----
-### **71. Explain CROSS APPLY / OUTER APPLY.**
-   **Answer:** In SQL Server, APPLY runs a table-valued function per row of outer table. CROSS APPLY excludes non-matching rows; OUTER APPLY includes them with NULLs.
-   
-**Context:** Advanced SQL Server topics .
-    
----
-### **72. What are temporary tables vs table variables?**
-  **Answer:**
-
-* **Temporary Tables (`#Temp`)**: Stored in `tempdb`, can have indexes, constraints, and statistics. They behave much like regular tables but are scoped to the session or procedure. Good for handling large datasets and complex queries.
-* **Table Variables (`@TableVar`)**: Stored in memory (though sometimes spill to `tempdb`), scoped to the batch, function, or procedure. They don’t maintain statistics, so the optimizer may assume only a single row. Best for small datasets and quick lookups.
-
-**Context:** Common SQL Server interview question, often asked by companies like Microsoft, Accenture, and TCS (2019–2024).
-
----
-### **73. How do you use MERGE statements?**
-   **Answer:** Upserts—merge target with source: insert, update, or delete based on match conditions.
-   **Example:**
-
-    ```sql
-    MERGE INTO target t
-    USING source s
-    ON t.id = s.id
-    WHEN MATCHED THEN UPDATE SET t.val = s.val
-    WHEN NOT MATCHED THEN INSERT (id,val) VALUES (s.id,s.val);
-    ```
-**Context:** Data sync tasks in data engineering .
-
----
-### **74. Explain database partitioning strategies.**
-   **Answer:**
-
-   * **Horizontal partitioning:** Split rows (e.g., by date).
-   * **Vertical partitioning:** Split columns into different tables.
-      Improves query performance and maintainability.
-     
-**Context:** Scaling large datasets .
-
----
-### **75. What are query execution plans and how do you analyze them?**
-   **Answer:** Visual representation of how the DB engine runs a query; helps identify bottlenecks like scans or missing indexes.
-   
-**Context:** Performance tuning interviews .
+* DROP: Deletes entire table structure.
+* TRUNCATE: Deletes all rows but keeps structure.
+  **Context:** Asked at **TCS (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
-
-### 76. **Write a query to get the second highest salary using `ROW_NUMBER()`**
-
-**Answer:** Use `ROW_NUMBER()` over descending salary partitioned (or entire table) and filter where row number = 2.
+**Q15. What is a Stored Procedure?**
+**Answer:** A precompiled collection of SQL statements.
 **Example:**
 
 ```sql
-SELECT salary
-FROM (
-  SELECT salary,
-         ROW_NUMBER() OVER (ORDER BY salary DESC) AS rn
-  FROM employee
-) t
-WHERE rn = 2;
+CREATE PROCEDURE GetEmployees AS
+SELECT * FROM Employees;
 ```
 
-**Context:** Common challenge-level question, seen in FAANG and data analyst rounds—2024–2025. ([Datainterview.com][1])
+**Context:** Asked at **Infosys (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
-### 77. **How to delete duplicates while keeping one row?**
+**Q16. What is the difference between COUNT(\*), COUNT(1), and COUNT(column)?**
+**Answer:**
 
-**Answer:** Use CTE with `ROW_NUMBER()` partitioned by duplicate columns and delete where row number > 1.
+* COUNT(\*) → Counts all rows.
+* COUNT(1) → Same as COUNT(\*).
+* COUNT(column) → Counts only non-NULL values.
+  **Context:** Asked at **EY (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q17. What are Constraints in SQL?**
+**Answer:** Rules applied to columns (NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK, DEFAULT).
+**Context:** Asked at **Capgemini (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q18. What is Normalization?**
+**Answer:** Process of structuring data to reduce redundancy.
+
+* 1NF → Atomic values.
+* 2NF → Remove partial dependency.
+* 3NF → Remove transitive dependency.
+  **Context:** Asked at **Deloitte (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q19. What is Denormalization?**
+**Answer:** Adding redundancy for faster queries (opposite of normalization).
+**Context:** Asked at **Accenture (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q20. What are Transactions in SQL?**
+**Answer:** A set of SQL operations executed as a single unit.
+**Properties:** ACID (Atomicity, Consistency, Isolation, Durability).
+**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q21. What are Aggregate Functions in SQL?**
+**Answer:** Functions that perform calculations on a set of values and return a single value (SUM, AVG, MIN, MAX, COUNT).
 **Example:**
 
 ```sql
-WITH cte AS (
-  SELECT *,
-         ROW_NUMBER() OVER (PARTITION BY col1, col2 ORDER BY id) AS rn
-  FROM table_name
+SELECT AVG(Salary) FROM Employees;
+```
+
+**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q22. What is the difference between IN and EXISTS?**
+**Answer:**
+
+* IN → Compares a value to a list of values.
+* EXISTS → Checks if subquery returns any row.
+  **Example:**
+
+```sql
+SELECT Name FROM Employees 
+WHERE DeptID IN (SELECT DeptID FROM Departments);
+```
+
+**Context:** TCS (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q23. What is the difference between RANK(), DENSE\_RANK(), and ROW\_NUMBER()?**
+**Answer:**
+
+* ROW\_NUMBER(): Sequential without duplicates.
+* RANK(): Leaves gaps if duplicates exist.
+* DENSE\_RANK(): No gaps for duplicates.
+  **Example:**
+
+```sql
+SELECT Name, Salary,
+RANK() OVER (ORDER BY Salary DESC) AS Rnk
+FROM Employees;
+```
+
+**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q24. What are Scalar Functions?**
+**Answer:** Functions that return a single value (LEN, UPPER, LOWER, GETDATE).
+**Context:** Capgemini (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q25. What is a Self-Join?**
+**Answer:** A join where a table is joined with itself.
+**Example:**
+
+```sql
+SELECT A.Name, B.Name
+FROM Employees A, Employees B
+WHERE A.ManagerID = B.EmployeeID;
+```
+
+**Context:** Wipro (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q26. What are Correlated Subqueries?**
+**Answer:** Subquery that refers to the outer query.
+**Example:**
+
+```sql
+SELECT Name FROM Employees e
+WHERE Salary > (SELECT AVG(Salary) 
+                FROM Employees 
+                WHERE DeptID = e.DeptID);
+```
+
+**Context:** EY (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q27. What is the difference between COALESCE and ISNULL?**
+**Answer:**
+
+* ISNULL → Works with two arguments.
+* COALESCE → Works with multiple arguments, returns first non-NULL.
+  **Context:** Microsoft (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q28. What is the difference between Primary Key and Unique Key?**
+**Answer:**
+
+* Primary Key → One per table, doesn’t allow NULLs.
+* Unique Key → Multiple allowed, allows one NULL.
+  **Context:** Accenture (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q29. What is a Trigger in SQL?**
+**Answer:** A stored procedure that executes automatically on events (INSERT, UPDATE, DELETE).
+**Example:**
+
+```sql
+CREATE TRIGGER trg_AfterInsert
+ON Employees
+AFTER INSERT
+AS
+PRINT 'New Employee Added!';
+```
+
+**Context:** TCS (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q30. What is the difference between a View and a Table?**
+**Answer:**
+
+* Table → Stores data physically.
+* View → Logical representation (virtual table).
+  **Context:** Infosys (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q31. What is an Index? Why is it used?**
+**Answer:** An index speeds up searches by creating a pointer to data.
+**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+
+---
+
+**Q32. What are the different types of Indexes?**
+
+**Answer:**
+
+* Clustered Index
+* Non-Clustered Index
+* Unique Index
+* Composite Index
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
+
+---
+
+**Q33. What is a Composite Key?**
+
+**Answer:** Combination of two or more columns that uniquely identify a row.
+
+**Example:**
+
+```sql
+PRIMARY KEY (StudentID, CourseID)
+```
+
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
+
+---
+
+**Q34. What is a Candidate Key?**
+
+**Answer:** A set of attributes that can uniquely identify a record (Primary Key is chosen from Candidate Keys).
+<p align="right"><b><i>Context:</b> Asked at <b>EV (2021)</b>.</i></p>
+
+---
+
+**Q35. What is the difference between DELETE and TRUNCATE?**
+
+**Answer:**
+
+* DELETE → Removes rows conditionally, logged.
+* TRUNCATE → Removes all rows, faster, resets identity.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
+
+---
+
+**Q36. What are ACID properties in SQL?**
+
+**Answer:**
+
+* Atomicity, Consistency, Isolation, Durability – ensure reliable transactions.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
+
+---
+
+**Q37. What is a Cursor in SQL?**
+
+**Answer:** A pointer used to fetch rows one by one.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+
+---
+
+**Q38. What are Joins vs. Subqueries?**
+
+**Answer:**
+
+* Join → Combines data from multiple tables in a single query.
+* Subquery → Query inside another query.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
+
+---
+
+**Q39. What is a Constraint CHECK?**
+
+**Answer:** Ensures values meet a condition.
+
+**Example:**
+
+```sql
+Salary INT CHECK (Salary > 0)
+```
+
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
+
+---
+
+**Q40. What is the difference between Clustered Index and Non-Clustered Index?**
+
+**Answer:**
+
+* Clustered → Sorts and stores rows physically.
+* Non-Clustered → Stores a pointer to data.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2020)</b>.</i></p>
+
+---
+
+**Q41. What is a CTE (Common Table Expression)?**
+
+**Answer:** A temporary named result set used within a query.
+
+**Example:**
+
+```sql
+WITH DeptCount AS (
+   SELECT DeptID, COUNT(*) AS EmpCount 
+   FROM Employees 
+   GROUP BY DeptID
 )
-DELETE FROM cte WHERE rn > 1;
+SELECT * FROM DeptCount WHERE EmpCount > 5;
 ```
 
-**Context:** Frequently used in cleaning data tasks across interviews. ([DataCamp][2], [Datainterview.com][1])
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p></b>.</i></p>
 
 ---
 
-### 78. **Get cumulative sum per day**
+**Q42. What is the difference between CTE and Subquery?**
 
-**Answer:** Use window function with `SUM() OVER (ORDER BY date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)`.
+**Answer:**
+
+* Subquery: Written inline.
+* CTE: Defined separately, improves readability and reuse.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
+
+---
+
+**Q43. What are Window Functions in SQL?**
+
+**Answer:** Functions that perform calculations across a set of rows related to the current row.
+
 **Example:**
 
 ```sql
-SELECT date, sales,
-       SUM(sales) OVER (ORDER BY date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS cum_sales
-FROM daily_sales;
+SELECT Name, Salary, 
+       AVG(Salary) OVER (PARTITION BY DeptID) AS DeptAvg
+FROM Employees;
 ```
 
-**Context:** Common in analytics interviews (e.g., FAANG data roles, 2025). ([Datainterview.com][1])
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
 
 ---
 
-### 79. **Delete duplicate records**
+**Q44. What is the difference between RANK() and NTILE()?**
 
-*(Similar to Q77; referenced for reinforcement.)*
-**Answer:** Same approach—use window functions or `DISTINCT`.
+**Answer:**
 
----
-
-### 80. **Find nth highest salary (parameterized)**
-
-**Answer:** Use `DENSE_RANK()` or `LIMIT/OFFSET`, depending on SQL dialect.
-**Example (MySQL):**
-
-```sql
-SELECT DISTINCT salary FROM employee ORDER BY salary DESC LIMIT 1 OFFSET n-1;
-```
+* RANK(): Assigns rank with gaps.
+* NTILE(n): Divides rows into n groups.
+<p align="right"><b><i>Context:</b> Asked at <b>EV (2021)</b>.</i></p>
 
 ---
 
-### 81. **Extract top N payers per category (e.g., Amazon style)**
+**Q45. What are Stored Functions?**
 
-**Answer:** 
-Use `ROW_NUMBER()` partitioned by category, filter `row_number <= N`.
-**Example:** Identify top two products per category in 2022. 
+**Answer:** A function that returns a single value and can be reused in SQL queries.
 
----
-
-### 82. **Find customers without orders**
-
-**Answer:** Use `LEFT JOIN` and `WHERE tableB.id IS NULL` or `NOT EXISTS`.
 **Example:**
 
 ```sql
-SELECT c.id, c.name
-FROM customers c
-LEFT JOIN orders o ON c.id = o.customer_id
-WHERE o.customer_id IS NULL;
+CREATE FUNCTION GetBonus(@salary INT)
+RETURNS INT
+AS
+BEGIN
+   RETURN @salary * 0.1
+END
 ```
 
-**Context:** Very commonly asked in interviews. 
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
 
 ---
 
-### 83. **Convert DATETIME to DATE**
+**Q46. What is the difference between Stored Procedure and Function?**
 
 **Answer:**
+
+* Procedure → Can return multiple values, support transactions.
+* Function → Returns a single value, used in queries.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
+
+---
+
+**Q47. What are Transactions in SQL?**
+
+**Answer:** Group of operations executed together. Controlled by COMMIT and ROLLBACK.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
+
+---
+
+**Q48. What is the difference between COMMIT and ROLLBACK?**
+
+**Answer:**
+
+* COMMIT → Saves changes permanently.
+* ROLLBACK → Reverts changes to last savepoint.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
+
+---
+
+**Q49. What is a Savepoint in SQL?**
+
+**Answer:** Intermediate point in a transaction to which we can roll back.
+
+**Example:**
 
 ```sql
-SELECT DATE(order_datetime) AS order_date FROM table;
+SAVEPOINT sp1;
+ROLLBACK TO sp1;
 ```
 
----
-
-### 84. **Calculate time-based changes**
-
-**Answer:** Use CTEs, `CASE`, and window functions (`LAG`, `LEAD`).
-
-**Context:** Asked for mid-level analytics roles. 
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
-### 85. **Find users active for 4 consecutive days**
+**Q50. What are Triggers?**
 
-**Answer:** Use window functions and CTEs: calculate date differences and consecutive day counts.
-
-**Context:** Came up in a real Sr. Data Analyst interview. 
-
----
-
-### 86. **Identify duplicates across multiple tables**
-
-**Answer:** 
-Use `UNION` or `INTERSECT`, depending on the case. Filter rows with count > 1.
-
-**Context:** A challenge from data analyst interviews. 
+**Answer:** Special stored procedures executed automatically on events (INSERT/UPDATE/DELETE).
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
-### 87. **Date manipulation (e.g., previous X months)**
+**Q51. What is the difference between AFTER and INSTEAD OF Triggers?**
 
 **Answer:**
-Use date functions like `DATE_SUB()`:
+
+* AFTER: Runs after event execution.
+* INSTEAD OF: Replaces the action.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
+
+---
+
+**Q52. What are Materialized Views?**
+
+**Answer:** Views that store results physically and can be refreshed.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
+
+---
+
+**Q53. What is the difference between Primary Key and Composite Key?**
+
+**Answer:**
+
+* Primary Key → Single column identifier.
+* Composite Key → Multiple columns combined as key.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
+
+---
+
+**Q54. What is a Deadlock in SQL?**
+
+**Answer:** Situation where two transactions wait for each other’s resources.
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
+
+---
+
+**Q55. What is the difference between UNION and JOIN?**
+
+**Answer:**
+
+* UNION → Combines rows vertically (same structure).
+* JOIN → Combines rows horizontally (related columns).
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
+
+---
+
+**Q56. What are the Isolation Levels in SQL?**
+
+**Answer:**
+
+* Read Uncommitted
+* Read Committed
+* Repeatable Read
+* Serializable
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
+
+---
+
+**Q57. What is the difference between OLTP and OLAP?**
+
+**Answer:**
+
+* OLTP → Transactional databases (insert/update).
+* OLAP → Analytical databases (reporting).
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+
+---
+
+**Q58. What is Index Fragmentation?**
+
+**Answer:** Condition where index pages are not stored sequentially, reducing performance.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
+
+---
+
+**Q59. What is the difference between Temp Table and Table Variable?**
+
+**Answer:**
+
+* Temp Table → Stored in tempdb, supports indexes.
+* Table Variable → Stored in memory, limited scope.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
+
+---
+
+**Q60. What are Common Performance Tuning Techniques in SQL?**
+
+**Answer:**
+
+* Use Indexes
+* Avoid SELECT \*
+* Optimize Joins
+* Partition Large Tables
+* Analyze Execution Plan
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
+
+---
+
+
+**Q61. What is Query Optimization in SQL?**
+
+**Answer:** Process of choosing the most efficient execution plan to improve performance.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021))</b>.</i></p>
+
+---
+
+**Q62. What is the Execution Plan in SQL?**
+
+**Answer:** Visual or textual representation of how SQL Server executes a query.
+
+**Command:**
 
 ```sql
-WHERE date_column >= DATE_SUB(CURDATE(), INTERVAL 6 MONTH);
+SET SHOWPLAN_ALL ON;
 ```
 
----
-
-### 88. **My favorite join? (Common witty question)**
-
-**Answer:** Often answered humorously: “CROSS JOIN—because everything is a filtered cross join!”
-
-**Context:** From Reddit—informal but highlights interviewer levity. 
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
-### 89. **Emergency fallback query (MAX date)**
+**Q63. What is Index Partitioning?**
 
-**Answer:**
+**Answer:** Dividing large indexes into smaller pieces for faster queries.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
+
+---
+
+**Q64. What is Table Partitioning?**
+
+**Answer:** Splitting a table into smaller parts based on a column (e.g., date).
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
+
+---
+
+**Q65. What is Sharding in SQL Databases?**
+
+**Answer:** Horizontal partitioning where data is distributed across multiple servers.
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
+
+---
+
+**Q66. What is Denormalization?**
+
+**Answer:** Adding redundancy to improve read performance at the cost of storage.
+<p align="right"><b><i>Context:</b> Asked at <b>Flipkart (2021)</b>.</i></p>
+
+---
+
+**Q67. What are Windowed Aggregate Functions?**
+
+**Answer:** Aggregates used with OVER() for partitioning.
+
+**Example:**
 
 ```sql
-SELECT product_name
-FROM orders
-WHERE order_date = (SELECT MAX(order_date) FROM orders);
+SELECT DeptID, Name, 
+       SUM(Salary) OVER (PARTITION BY DeptID) AS DeptTotal
+FROM Employees;
 ```
 
-But better to use `ROW_NUMBER()` and deterministic ORDER for single result. 
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
-### 90. **Common Date Range reporting**
+**Q68. What are Recursive CTEs?**
 
-**Answer:**
-Use `BETWEEN`:
+**Answer:** CTEs that reference themselves to process hierarchical data.
+
+**Example:**
 
 ```sql
-WHERE order_date BETWEEN '2025-01-01' AND '2025-01-31';
+WITH EmpHierarchy AS (
+   SELECT EmpID, ManagerID, Name FROM Employees WHERE ManagerID IS NULL
+   UNION ALL
+   SELECT e.EmpID, e.ManagerID, e.Name 
+   FROM Employees e 
+   JOIN EmpHierarchy h ON e.ManagerID = h.EmpID
+)
+SELECT * FROM EmpHierarchy;
 ```
+
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
 
 ---
 
-### 91. **Use of INTERSECT**
+**Q69. What is the difference between Clustered and Non-Clustered Index with Example?**
 
 **Answer:**
-Return rows common to two queries:
+
+* Clustered → Orders table data physically (only one allowed).
+* Non-Clustered → Creates a separate structure (many allowed).
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
+
+---
+
+**Q70. What is a Covering Index?**
+
+**Answer:** An index that includes all columns required by a query, avoiding table lookup.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
+
+---
+
+**Q71. What is Query Hint in SQL?**
+
+**Answer:** Special instruction to influence query optimizer.
+
+**Example:**
 
 ```sql
-SELECT column FROM A
-INTERSECT
-SELECT column FROM B;
+SELECT * FROM Employees WITH (NOLOCK);
 ```
 
----
-
-### 92. **Set Operator Variations**
-
-**Answer:**
-`UNION`, `UNION ALL`, `INTERSECT`, `EXCEPT/MINUS`.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
-### 93. **Use of CASE in SQL**
+**Q72. What is a Pivot in SQL?**
+
+**Answer:** Technique to convert rows into columns.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
+
+---
+
+**Q73. What is the difference between PIVOT and UNPIVOT?**
 
 **Answer:**
+
+* PIVOT → Rows → Columns.
+* UNPIVOT → Columns → Rows.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
+
+---
+
+**Q74. What are Temporary Stored Procedures?**
+
+**Answer:** Procedures stored in tempdb, removed automatically when session ends.
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
+
+---
+
+**Q75. What is Dynamic SQL?**
+
+**Answer:** SQL code built and executed at runtime.
+
+**Example:**
 
 ```sql
-CASE
-  WHEN sales > 1000 THEN 'High'
-  WHEN sales > 500 THEN 'Medium'
-  ELSE 'Low'
-END AS sales_category;
+EXEC('SELECT * FROM Employees WHERE DeptID = 10');
 ```
 
-**Context:** Frequently tested in beginner-to-intermediate interviews. 
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
 
 ---
 
-### 94. **SQL comment types**
-
-**Answer:**
-Single-line: `-- comment`
-Multi-line: `/* comment */` 
-
----
-
-### 95. **SQL dialects—differences?**
-
-**Answer:** SQL is a language; MySQL, PostgreSQL, SQL Server are dialects/RDBMS. 
-
----
-
-### 96. **Schema vs database**
-
-**Answer:**
-A schema includes tables, views, procedures; depending on DBMS, schema is part of a database structure. 
-
----
-
-### 97. **SQL vs PL/SQL**
-
-**Answer:**
-SQL is declarative query language; PL/SQL (Oracle) adds procedural features like loops and variables. 
-
----
-
-### 98. **Execution order of clauses**
-
-**Answer:**
-Execution order: FROM → JOIN → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. 
-
----
-
-### 99. **Differences: DROP vs DELETE vs TRUNCATE**
+**Q76. What is the difference between CHAR and VARCHAR?**
 
 **Answer:**
 
-* `DELETE` removes rows individually (logged, supports WHERE).
-* `TRUNCATE` deletes all rows quickly, minimal logging.
-* `DROP` removes entire table. 
+* CHAR(n) → Fixed length.
+* VARCHAR(n) → Variable length, saves space.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
-### 100. **NULL vs empty or zero**
+**Q77. What are SQL Joins vs. UNION?**
 
 **Answer:**
-`NULL` means unknown/missing; it's not the same as 0 (numeric) or '' (empty string). 
+
+* JOIN → Combines columns.
+* UNION → Combines rows.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
+
+**Q78. What is a CROSS APPLY vs OUTER APPLY?**
+
+**Answer:**
+
+* CROSS APPLY → Works like INNER JOIN with table-valued function.
+* OUTER APPLY → Works like LEFT JOIN with function.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
+
+---
+
+**Q79. What is the difference between NVARCHAR and VARCHAR?**
+
+**Answer:**
+
+* NVARCHAR → Stores Unicode (multi-language).
+* VARCHAR → Non-Unicode.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
+
+---
+
+**Q80. What is a Surrogate Key?**
+
+**Answer:** A system-generated key (like identity column) used as primary key instead of natural keys.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
+
+---
+
+**Q81. What is Query Profiling in SQL?**
+
+**Answer:** Process of analyzing queries to detect performance bottlenecks using tools like `EXPLAIN` or `SET STATISTICS IO`.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
+
+---
+
+**Q82. What is Parameter Sniffing in SQL Server?**
+
+**Answer:** When SQL Server caches execution plan using initial parameter values, which may not work efficiently for later queries.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+
+---
+
+**Q83. What is a Bitmap Index?**
+
+**Answer:** Index storing bitmaps for column values, often used in data warehouses for categorical data.
+<p align="right"><b><i>Context:</b> Asked at <b>Oracle (2020)</b>.</i></p>
+
+---
+
+**Q84. What are Filtered Indexes?**
+**Answer:** Indexes created with a WHERE clause to cover a subset of rows.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021))</b>.</i></p>
+
+---
+
+**Q85. What is a Hash Join?**
+
+**Answer:** Join that uses hash tables to match rows efficiently for large datasets.
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
+
+---
+
+**Q86. What is Query Recompilation?**
+
+**Answer:** When SQL Server discards cached execution plan and compiles a new one.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
+
+---
+
+**Q87. What is Parallel Execution in SQL?**
+
+**Answer:** Splitting a query into multiple threads for faster execution on large datasets.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
+
+---
+
+**Q88. What are Indexed Views?**
+
+**Answer:** Views with a clustered index created to improve performance.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
+
+---
+
+**Q89. What is a Dead Tuple in PostgreSQL?**
+
+**Answer:** Rows marked as deleted/updated but still consuming space until VACUUM runs.
+<p align="right"><b><i>Context:</b> Asked at <b>Flipkart (2021)</b>.</i></p>
+
+---
+
+**Q90. What is the difference between ACID and BASE properties?**
+
+**Answer:**
+
+* **ACID** → Strong consistency (OLTP).
+* **BASE** → Basically Available, Soft state, Eventual consistency (NoSQL).
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2021)</b>.</i></p>
+
+---
+
+**Q91. What is a Foreign Data Wrapper (FDW) in PostgreSQL?**
+
+**Answer:** Allows PostgreSQL to query external data sources like MySQL, MongoDB.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
+
+---
+
+**Q92. What is SQL Injection? How to prevent it?**
+
+**Answer:** Malicious code injection in queries. Prevent using **parameterized queries** and **stored procedures**.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
+
+---
+
+**Q93. What is Database Sharding vs Partitioning?**
+
+**Answer:**
+
+* Partitioning → Within single DB server.
+* Sharding → Across multiple servers.
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
+
+---
+
+**Q94. What is PolyBase in SQL Server?**
+
+**Answer:** Feature to query external data (Hadoop, Azure Blob, Oracle) using T-SQL.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
+
+---
+
+**Q95. What is the difference between Snowflake Schema and Star Schema?**
+
+**Answer:**
+
+* Star → Denormalized, fewer joins, faster queries.
+* Snowflake → Normalized, more joins, less storage.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
+
+---
+
+**Q96. What are Columnstore Indexes?**
+
+**Answer:** Indexes storing data column-wise instead of row-wise, improving analytics queries.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
+
+---
+
+**Q97. What is a CDC (Change Data Capture)?**
+
+**Answer:** SQL Server feature to track data changes for ETL or auditing.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
+
+---
+
+**Q98. What is the difference between SQL on-premise vs SQL on Cloud (Azure SQL, AWS RDS)?**
+
+**Answer:**
+
+* On-premise → Full control, manual scaling.
+* Cloud → Managed services, auto-scaling, high availability.
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
+
+---
+
+**Q99. What is Query Store in SQL Server?**
+
+**Answer:** Feature that captures history of query execution plans and runtime stats for tuning.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
+
+---
+
+**Q100. What are the Latest Trends in SQL Databases?**
+
+**Answer:**
+
+* Integration with Big Data (Spark, Hadoop)
+* Cloud-native SQL (Snowflake, BigQuery)
+* AI-driven query optimization
+* HTAP (Hybrid Transactional/Analytical Processing)
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2022)</b>.</i></p>
+
+---
+
