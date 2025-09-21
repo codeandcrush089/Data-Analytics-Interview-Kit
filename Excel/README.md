@@ -7,9 +7,8 @@
 
 ---
 
-## **Excel Interview Questions (Q1–Q20)**
 
-**Q1.** What are the main differences between Excel and Google Sheets?
+**Q1. What are the main differences between Excel and Google Sheets?**
 
 **Answer:**
 
@@ -19,7 +18,7 @@
 
 ---
 
-**Q2.** How do you use VLOOKUP in Excel?
+**Q2. How do you use VLOOKUP in Excel?**
 
 **Answer:**
 Formula: `=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])`
@@ -30,7 +29,7 @@ Formula: `=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])`
 
 ---
 
-**Q3.** What is the difference between VLOOKUP and INDEX-MATCH?
+**Q3. What is the difference between VLOOKUP and INDEX-MATCH?**
 
 **Answer:**
 
@@ -41,7 +40,7 @@ Formula: `=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])`
 
 ---
 
-**Q4.** How do you use Pivot Tables in Excel?
+**Q4. How do you use Pivot Tables in Excel?**
 
 **Answer:**
 
@@ -54,7 +53,7 @@ Formula: `=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])`
 
 ---
 
-**Q5.** What are Named Ranges in Excel?
+**Q5. What are Named Ranges in Excel?**
 
 **Answer:**
 
@@ -66,7 +65,7 @@ Formula: `=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])`
 
 ---
 
-**Q6.** What is the difference between Relative, Absolute, and Mixed references?
+**Q6. What is the difference between Relative, Absolute, and Mixed references?**
 
 **Answer:**
 
@@ -78,7 +77,7 @@ Formula: `=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])`
 
 ---
 
-**Q7.** What is Conditional Formatting in Excel?
+**Q7. What is Conditional Formatting in Excel?**
 
 **Answer:**
 
@@ -89,7 +88,7 @@ Formula: `=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])`
 
 ---
 
-**Q8.** How do you use IF function in Excel?
+**Q8. How do you use IF function in Excel?**
 
 **Answer:**
 Formula: `=IF(condition, value_if_true, value_if_false)`
@@ -99,7 +98,7 @@ Formula: `=IF(condition, value_if_true, value_if_false)`
 
 ---
 
-**Q9.** What is the difference between COUNT, COUNTA, COUNTIF, COUNTIFS?
+**Q9. What is the difference between COUNT, COUNTA, COUNTIF, COUNTIFS?**
 
 **Answer:**
 
@@ -111,7 +110,7 @@ Formula: `=IF(condition, value_if_true, value_if_false)`
 
 ---
 
-**Q10.** How do you remove duplicates in Excel?
+**Q10. How do you remove duplicates in Excel?**
 
 **Answer:**
 
@@ -121,7 +120,7 @@ Formula: `=IF(condition, value_if_true, value_if_false)`
 
 ---
 
-**Q11.** What is Data Validation in Excel?
+**Q11. What is Data Validation in Excel?**
 
 **Answer:**
 
@@ -130,7 +129,7 @@ Formula: `=IF(condition, value_if_true, value_if_false)`
 
 ---
 
-**Q12.** How do you use CONCATENATE or TEXTJOIN?
+**Q12. How do you use CONCATENATE or TEXTJOIN?**
 
 **Answer:**
 
@@ -140,7 +139,7 @@ Formula: `=IF(condition, value_if_true, value_if_false)`
 
 ---
 
-**Q13.** How do you use LEFT, RIGHT, MID functions?
+**Q13. How do you use LEFT, RIGHT, MID functions?**
 
 **Answer:**
 
@@ -152,7 +151,7 @@ Formula: `=IF(condition, value_if_true, value_if_false)`
 
 ---
 
-**Q14.** What is the difference between TRIM, CLEAN, and SUBSTITUTE?
+**Q14. What is the difference between TRIM, CLEAN, and SUBSTITUTE?**
 
 **Answer:**
 
@@ -163,7 +162,7 @@ Formula: `=IF(condition, value_if_true, value_if_false)`
 
 ---
 
-**Q15.** How do you protect a sheet in Excel?
+**Q15. How do you protect a sheet in Excel?**
 
 **Answer:**
 
@@ -172,7 +171,7 @@ Formula: `=IF(condition, value_if_true, value_if_false)`
 
 ---
 
-**Q16.** How do you use MATCH function in Excel?
+**Q16. How do you use MATCH function in Excel?**
 
 **Answer:**
 Formula: `=MATCH(lookup_value, lookup_array, [match_type])`
@@ -182,7 +181,7 @@ Formula: `=MATCH(lookup_value, lookup_array, [match_type])`
 
 ---
 
-**Q17.** What is the difference between HLOOKUP and VLOOKUP?
+**Q17. What is the difference between HLOOKUP and VLOOKUP?**
 
 **Answer:**
 
@@ -192,7 +191,7 @@ Formula: `=MATCH(lookup_value, lookup_array, [match_type])`
 
 ---
 
-**Q18.** What is the difference between Charts and Sparklines?
+**Q18. What is the difference between Charts and Sparklines?**
 
 **Answer:**
 
@@ -202,7 +201,7 @@ Formula: `=MATCH(lookup_value, lookup_array, [match_type])`
 
 ---
 
-**Q19.** How do you transpose data in Excel?
+**Q19. How do you transpose data in Excel?**
 
 **Answer:**
 
@@ -212,7 +211,7 @@ Formula: `=MATCH(lookup_value, lookup_array, [match_type])`
 
 ---
 
-**Q20.** What are Dynamic Arrays in Excel (Excel 365)?
+**Q20. What are Dynamic Arrays in Excel (Excel 365)?**
 
 **Answer:**
 
@@ -221,7 +220,7 @@ Formula: `=MATCH(lookup_value, lookup_array, [match_type])`
 
 ---
 
-**Q21.** What is Power Query in Excel?
+**Q21. What is Power Query in Excel?**
 
 **Answer:**
 
@@ -231,15 +230,16 @@ Formula: `=MATCH(lookup_value, lookup_array, [match_type])`
 
 ---
 
-**Q22.** How do you use Power Pivot in Excel?
+**Q22. How do you use Power Pivot in Excel?**
+
 **Answer:**
 
 * Power Pivot helps build **data models, relationships, and DAX calculations**.
-  **Context:** Asked at **Deloitte (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
-**Q23.** What is the difference between a Table and a Range in Excel?
+**Q23. What is the difference between a Table and a Range in Excel?**
 
 **Answer:**
 
@@ -249,7 +249,7 @@ Formula: `=MATCH(lookup_value, lookup_array, [match_type])`
 
 ---
 
-**Q24.** What is the difference between FILTER and Advanced Filter?
+**Q24. What is the difference between FILTER and Advanced Filter?**
 
 **Answer:**
 
@@ -259,7 +259,7 @@ Formula: `=MATCH(lookup_value, lookup_array, [match_type])`
 
 ---
 
-**Q25.** What is the difference between FIND and SEARCH?
+**Q25. What is the difference between FIND and SEARCH?**
 
 **Answer:**
 
@@ -271,7 +271,7 @@ Formula: `=MATCH(lookup_value, lookup_array, [match_type])`
 
 ---
 
-**Q26.** How do you use What-If Analysis in Excel?
+**Q26. How do you use What-If Analysis in Excel?**
 
 **Answer:**
 Includes:
@@ -283,7 +283,7 @@ Includes:
 
 ---
 
-**Q27.** What is the difference between One-variable and Two-variable Data Tables?
+**Q27. What is the difference between One-variable and Two-variable Data Tables?**
 
 **Answer:**
 
@@ -293,7 +293,7 @@ Includes:
 
 ---
 
-**Q28.** What is the difference between Exact Match and Approximate Match in VLOOKUP?
+**Q28. What is the difference between Exact Match and Approximate Match in VLOOKUP?**
 
 **Answer:**
 
@@ -303,7 +303,7 @@ Includes:
 
 ---
 
-**Q29.** How do you use Array Formulas in Excel?
+**Q29. How do you use Array Formulas in Excel?**
 
 **Answer:**
 
@@ -314,7 +314,7 @@ Includes:
 
 ---
 
-**Q30.** What is the difference between LEN and LENB?
+**Q30. What is the difference between LEN and LENB?**
 
 **Answer:**
 
@@ -324,7 +324,7 @@ Includes:
 
 ---
 
-**Q31.** How do you highlight duplicate values using Conditional Formatting?
+**Q31. How do you highlight duplicate values using Conditional Formatting?**
 
 **Answer:**
 
@@ -333,7 +333,7 @@ Includes:
 
 ---
 
-**Q32.** How do you use TEXT function in Excel?
+**Q32. How do you use TEXT function in Excel?**
 
 **Answer:**
 
@@ -344,7 +344,7 @@ Includes:
 
 ---
 
-**Q33.** How do you calculate running totals in Excel?
+**Q33. How do you calculate running totals in Excel?**
 
 **Answer:**
 Formula: `=SUM($B$2:B2)` (copy down).
@@ -352,7 +352,7 @@ Formula: `=SUM($B$2:B2)` (copy down).
 
 ---
 
-**Q34.** What is the difference between RANK and RANK.EQ?
+**Q34. What is the difference between RANK and RANK.EQ?**
 
 **Answer:**
 
@@ -362,7 +362,7 @@ Formula: `=SUM($B$2:B2)` (copy down).
 
 ---
 
-**Q35.** How do you split text into multiple columns?
+**Q35. How do you split text into multiple columns?**
 
 **Answer:**
 
@@ -372,7 +372,7 @@ Formula: `=SUM($B$2:B2)` (copy down).
 
 ---
 
-**Q36.** How do you use the INDIRECT function?
+**Q36. How do you use the INDIRECT function?**
 
 **Answer:**
 
@@ -383,7 +383,7 @@ Formula: `=SUM($B$2:B2)` (copy down).
 
 ---
 
-**Q37.** How do you use OFFSET function in Excel?
+**Q37. How do you use OFFSET function in Excel?**
 
 **Answer:**
 
@@ -394,7 +394,7 @@ Formula: `=SUM($B$2:B2)` (copy down).
 
 ---
 
-**Q38.** How do you use Dynamic Dropdowns in Excel?
+**Q38. How do you use Dynamic Dropdowns in Excel?**
 
 **Answer:**
 
@@ -404,7 +404,7 @@ Formula: `=SUM($B$2:B2)` (copy down).
 
 ---
 
-**Q39.** What is the difference between SUBSTITUTE and REPLACE?
+**Q39. What is the difference between SUBSTITUTE and REPLACE?**
 
 **Answer:**
 
@@ -414,7 +414,7 @@ Formula: `=SUM($B$2:B2)` (copy down).
 
 ---
 
-**Q40.** How do you calculate percentage change in Excel?
+**Q40. How do you calculate percentage change in Excel?**
 
 **Answer:**
 Formula: `=(New Value - Old Value)/Old Value`
@@ -424,160 +424,178 @@ Format as Percentage.
 ---
 
 
-**Q41.** What is the difference between Workbook and Worksheet?
+**Q41. What is the difference between Workbook and Worksheet?**
+
 **Answer:**
 
 * Workbook = Entire Excel file.
 * Worksheet = Individual tab inside a workbook.
-  **Context:** Asked at **Capgemini (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
-**Q42.** What is the difference between Cell, Range, and Named Range?
+**Q42. What is the difference between Cell, Range, and Named Range?**
+
 **Answer:**
 
 * Cell = One value (A1).
 * Range = Group of cells (A1\:C5).
 * Named Range = User-defined name for a range.
-  **Context:** Asked at **TCS (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
-**Q43.** What is Power BI vs Power Pivot in Excel?
+**Q43. What is Power BI vs Power Pivot in Excel?**
+
 **Answer:**
 
 * Power Pivot = In-Excel data modeling.
 * Power BI = Separate visualization tool, more advanced.
-  **Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022))</b>.</i></p>
 
 ---
 
-**Q44.** What is Solver in Excel?
+**Q44. What is Solver in Excel?**
+
 **Answer:**
 
 * Optimization tool → finds best solution under constraints.
-  **Example:** Maximize profit with limited resources.
-  **Context:** Asked at **Deloitte (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+
+**Example:** Maximize profit with limited resources.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
-**Q45.** What is the difference between SUBSTITUTE and TRANSLATE (Excel 365)?
+**Q45. What is the difference between SUBSTITUTE and TRANSLATE (Excel 365)?**
+
 **Answer:**
 
 * SUBSTITUTE: Replace text.
 * TRANSLATE: Automatically converts language (newer Excel 365 AI).
-  **Context:** Asked at **Microsoft (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
 
 ---
 
-**Q46.** How do you track changes in Excel?
+**Q46. How do you track changes in Excel?**
+
 **Answer:**
 
 * Review → Track Changes.
 * Or Version History in Excel Online.
-  **Context:** Asked at **Accenture (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
-**Q47.** What is the difference between Manual vs Automatic Calculation mode?
+**Q47. What is the difference between Manual vs Automatic Calculation mode?**
+
 **Answer:**
 
 * Automatic: Excel recalculates on every change.
 * Manual: You need to press F9.
-  **Context:** Asked at **Infosys (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
-**Q48.** What are Array Constants in Excel?
+**Q48. What are Array Constants in Excel?**
+
 **Answer:**
 
 * Hard-coded values inside `{}` braces.
-  **Example:** `=SUM({1,2,3}*{10,20,30})`
-  **Context:** Asked at **EY (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+
+**Example:** `=SUM({1,2,3}*{10,20,30})`
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
 
 ---
 
-**Q49.** What is the difference between VALUE() and NUMBERVALUE()?
+**Q49. What is the difference between VALUE() and NUMBERVALUE()?**
+
 **Answer:**
 
 * VALUE: Converts text to number.
 * NUMBERVALUE: Lets you define decimal & thousands separators.
-  **Context:** Asked at **Capgemini (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
-**Q50.** What is Flash Fill in Excel?
+**Q50. What is Flash Fill in Excel?**
+
 **Answer:**
 
 * Predictive autofill based on pattern recognition (Ctrl+E).
-  **Context:** Asked at **Deloitte (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
-**Q51.** How do you use OFFSET with COUNTA for Dynamic Ranges?
+**Q51. How do you use OFFSET with COUNTA for Dynamic Ranges?**
+
 **Answer:**
 Formula:
 `=OFFSET($A$1,0,0,COUNTA($A:$A),1)` → Expands automatically as data grows.
-**Context:** Asked at **EY (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
 
 ---
 
-**Q52.** What is the difference between SUMPRODUCT and SUMIFS?
+**Q52. What is the difference between SUMPRODUCT and SUMIFS?**
+
 **Answer:**
 
 * SUMPRODUCT: More flexible, can multiply arrays.
 * SUMIFS: Works only with conditions.
-  **Context:** Asked at **Infosys (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2022)</b>.</i></p>
 
 ---
 
-**Q53.** How do you handle large datasets in Excel?
+**Q53. How do you handle large datasets in Excel?**
+
 **Answer:**
 
 * Convert to Table.
 * Use Power Query & Power Pivot.
 * Avoid volatile formulas.
-  **Context:** Asked at **Microsoft (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
-**Q54.** How do you create a Dashboard in Excel?
+**Q54. How do you create a Dashboard in Excel?**
+
 **Answer:**
 
 * Use Pivot Tables, Charts, Slicers, KPIs.
 * Link with Named Ranges.
-  **Context:** Asked at **Capgemini (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
 
 ---
 
-**Q55.** What is the difference between Active Cell and Active Sheet?
+**Q55. What is the difference between Active Cell and Active Sheet?**
+
 **Answer:**
 
 * Active Cell: The cell currently selected.
 * Active Sheet: The worksheet currently displayed.
-  **Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
-**Q56.** What is the difference between RAND() and RANDBETWEEN()?
+**Q56. What is the difference between RAND() and RANDBETWEEN()?**
+
 **Answer:**
 
 * RAND(): Random number between 0–1.
 * RANDBETWEEN(a,b): Random integer between a and b.
-  **Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022))</b>.</i></p>
 
 ---
 
-**Q57.** What is VBA in Excel?
+**Q57. What is VBA in Excel?**
 
 **Answer:**
 
 * Visual Basic for Applications → used for automation (Macros).
-  **Context:** Asked at **Deloitte (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
-**Q58.** How do you record and run a Macro?
+**Q58. How do you record and run a Macro?**
 
 **Answer:**
 
@@ -587,7 +605,7 @@ Formula:
 
 ---
 
-**Q59.** What is the difference between .XLS, .XLSX, and .XLSM?
+**Q59. What is the difference between .XLS, .XLSX, and .XLSM?**
 
 **Answer:**
 
@@ -598,7 +616,7 @@ Formula:
 
 ---
 
-**Q60.** How do you import data from external sources into Excel?
+**Q60. How do you import data from external sources into Excel?**
 
 **Answer:**
 
@@ -607,4 +625,397 @@ Formula:
 <p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
 
 ---
+
+
+**Q61. What is the difference between CONCAT and TEXTJOIN?**
+
+**Answer:**
+
+* CONCAT: Joins multiple text strings.
+* TEXTJOIN: Joins text with a delimiter and can ignore blanks.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
+
+---
+
+**Q62. What is the difference between ISERROR, ISERR, and IFERROR?**
+
+**Answer:**
+
+* ISERROR: Catches all errors.
+* ISERR: Catches all errors except `#N/A`.
+* IFERROR: Returns custom value when error occurs.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
+
+---
+
+**Q63. How do you remove duplicates in Excel?**
+
+**Answer:**
+
+* Data → Remove Duplicates.
+* Or use `=UNIQUE()` in Excel 365.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
+
+---
+
+**Q64. How do you use SWITCH function in Excel?**
+
+**Answer:**
+
+* Simplifies multiple IF conditions.
+* Example: `=SWITCH(A1,1,"One",2,"Two","Other")`.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2022)</b>.</i></p>
+
+---
+
+**Q65. What is the difference between FILTER and UNIQUE?**
+
+**Answer:**
+
+* FILTER: Extracts rows meeting conditions.
+* UNIQUE: Returns distinct values only.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
+
+---
+
+**Q66. How do you enable iterative calculations in Excel?**
+
+**Answer:**
+
+* File → Options → Formulas → Enable Iterative Calculations.
+* Used in circular references (e.g., IRR).
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
+
+---
+
+**Q67. What is XLOOKUP in Excel?**
+**Answer:**
+
+* Replaces VLOOKUP/HLOOKUP.
+* Supports left lookup, approximate match, errors handling.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
+
+---
+
+**Q68. What are Dynamic Arrays in Excel?**
+
+**Answer:**
+
+* Functions that spill results automatically.
+* Examples: `SEQUENCE`, `SORT`, `UNIQUE`.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
+
+---
+
+**Q69. What is LET function in Excel?**
+
+**Answer:**
+
+* Assigns names to calculations → improves readability & performance.
+
+**Example:**
+
+```excel
+=LET(x, SUM(A1:A5), x*2)
+```
+
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
+
+---
+
+**Q70. What is LAMBDA function in Excel 365?**
+
+**Answer:**
+
+* Create custom reusable functions without VBA.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
+
+---
+
+**Q71. How do you protect a worksheet in Excel?**
+
+**Answer:**
+
+* Review → Protect Sheet → Set password.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
+
+---
+
+**Q72. How do you protect workbook structure?**
+
+**Answer:**
+
+* Review → Protect Workbook → Prevent adding/removing sheets.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
+
+---
+
+**Q73. What is the difference between Workbook Sharing and Co-Authoring?**
+
+**Answer:**
+
+* Sharing: Old feature, limited.
+* Co-Authoring: Modern, allows real-time collaboration.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2020)</b>.</i></p>
+
+---
+
+**Q74. How do you restrict specific users from editing certain cells?**
+
+**Answer:**
+
+* Unlock all cells → Lock selected cells → Protect Sheet.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+
+---
+
+**Q75. What is the difference between Volatile and Non-Volatile Functions?**
+
+**Answer:**
+
+* Volatile: Recalculate every time (NOW, RAND).
+* Non-Volatile: Recalculate only if input changes.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2022)</b>.</i></p>
+
+---
+
+**Q76. What is Power Query M language?**
+
+**Answer:**
+
+* Functional language used in Power Query transformations.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
+
+---
+
+**Q77. What is DAX in Power Pivot?**
+
+**Answer:**
+
+* Data Analysis Expressions → advanced formulas for modeling.
+
+**Example:** `CALCULATE(SUM(Sales),Region="East")`.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
+
+---
+
+**Q78. What is the difference between Calculated Columns and Measures in DAX?**
+
+**Answer:**
+
+* Column: Row by row.
+* Measure: Aggregated at query time.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
+
+---
+
+**Q79. How do you handle missing values in Excel datasets?**
+
+**Answer:**
+
+* Options: Filter, Replace, Use IF/ISNA, Power Query cleaning.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
+
+---
+
+**Q80. How do you use Pivot Table Calculated Fields?**
+
+**Answer:**
+
+* Insert → Pivot Table → Fields → Calculated Field.
+
+**Example:** Profit = Sales – Cost.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)EY (2021)</b>.</i></p>
+
+---
+
+**Q81. How do you automate Excel reports?**
+
+**Answer:**
+
+* Use VBA macros or Power Query scheduled refresh.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
+
+---
+
+**Q82. What is the difference between .CSV and .XLSX?**
+
+**Answer:**
+
+* CSV = Plain text, single sheet.
+* XLSX = Rich features, multiple sheets.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
+
+---
+
+**Q83. How do you create interactive dashboards in Excel?**
+
+**Answer:**
+
+* Use Pivot Charts, Slicers, Conditional Formatting, and Dynamic Ranges.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
+
+---
+
+**Q84. What are Sparklines in Excel?**
+
+**Answer:**
+
+* Tiny in-cell charts showing trends.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
+
+---
+
+**Q85. How do you use Power Map (3D Maps) in Excel?**
+
+**Answer:**
+
+* Insert → 3D Map → Plot geographic data.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
+
+---
+
+**Q86. How do you debug formulas in Excel?**
+
+**Answer:**
+
+* Formulas → Evaluate Formula.
+* Use F9 to check parts.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+
+---
+
+**Q87. How do you use Watch Window in Excel?**
+
+**Answer:**
+
+* Formulas → Watch Window → Track cell values across sheets.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+
+---
+
+**Q88. What is the difference between Relative, Absolute, and Mixed references?**
+
+**Answer:**
+
+* Relative: A1 changes when copied.
+* Absolute: \$A\$1 fixed.
+* Mixed: \$A1 or A\$1 partially fixed.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+---
+
+**Q89. How do you calculate CAGR in Excel?**
+
+**Answer:**
+Formula: `=(End/Start)^(1/Years)-1`
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
+
+---
+
+**Q90. How do you calculate NPV and IRR in Excel?**
+
+**Answer:**
+
+* `=NPV(rate, values)`
+* `=IRR(values)`
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2022))</b>.</i></p>
+
+---
+
+**Q91. How do you create Waterfall Charts in Excel?**
+
+**Answer:**
+
+* Insert → Waterfall Chart (useful for financials).
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
+
+---
+
+**Q92. What is the difference between TREND and FORECAST functions?**
+
+**Answer:**
+
+* TREND: Returns array of future values.
+* FORECAST: Single predicted value.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2022)</b>.</i></p>
+
+---
+
+**Q93. How do you use Scenario Manager in Excel?**
+
+**Answer:**
+
+* Data → What-If Analysis → Scenario Manager.
+* Store and compare multiple assumptions.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
+
+---
+
+**Q94. What is the difference between INDEX and MATCH vs XLOOKUP?**
+
+**Answer:**
+
+* INDEX + MATCH: Older flexible method.
+* XLOOKUP: Modern, simpler alternative.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
+
+---
+
+**Q95. What is Excel Power Automate?**
+
+**Answer:**
+
+* Microsoft tool to automate repetitive Excel + workflow tasks.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
+
+---
+
+**Q96. How do you consolidate data from multiple sheets?**
+
+**Answer:**
+
+* Data → Consolidate.
+* Or Power Query append queries.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+
+---
+
+**Q97. How do you perform Monte Carlo Simulation in Excel?**
+
+**Answer:**
+
+* Use RAND() with formulas + Data Tables to simulate scenarios.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+
+---
+
+**Q98. How do you create a Gantt Chart in Excel?**
+
+**Answer:**
+
+* Use Stacked Bar Chart with task duration.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
+
+---
+
+**Q99. How do you connect Excel with SQL Database?**
+
+**Answer:**
+
+* Data → Get Data → From SQL Server.
+* Or use Power Query ODBC connection.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
+
+---
+
+**Q100. What are the limitations of Excel?**
+
+**Answer:**
+
+* Row limit (1,048,576).
+* Slower with large data.
+* Not a full database system.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+
 
