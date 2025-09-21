@@ -8,8 +8,6 @@
 </div>
 
 
-
-
 ---
 
 **Q1. What are Python’s main data types used in data science?**
@@ -24,7 +22,7 @@ y = (1, 2, 3)   # tuple
 z = {"a":1, "b":2} # dict
 ```
 
-**Context:** Asked in **TCS (2022)** data analyst interview.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
 
 ---
 
@@ -41,7 +39,7 @@ tup = (1, 2, 3)
 # tup[0] = 10 -> Error
 ```
 
-**Context:** **Infosys (2021)** Python developer interview.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -58,7 +56,7 @@ print(a == b) # True
 print(a is b) # False
 ```
 
-**Context:** **Microsoft (2019)** data science role.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2019)</b>.</i></p>
 
 ---
 
@@ -74,7 +72,7 @@ def func():
 print(func()) # None
 ```
 
-**Context:** **Amazon (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2020)</b>.</i></p>
 
 ---
 
@@ -82,7 +80,7 @@ print(func()) # None
 
 **Answer:** Python uses reference counting and garbage collection to free unused memory.
 
-**Context:** **Google (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2022))</b>.</i></p>
 
 ---
 
@@ -90,7 +88,7 @@ print(func()) # None
 
 **Answer:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn.
 
-**Context:** **Capgemini (2023)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2023)</b>.</i></p>
 
 ---
 
@@ -106,7 +104,7 @@ s = pd.Series([1,2,3])
 df = pd.DataFrame({"A":[1,2], "B":[3,4]})
 ```
 
-**Context:** **Accenture (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
 
 ---
 
@@ -120,7 +118,7 @@ df = pd.DataFrame({"A":[1,2], "B":[3,4]})
 df['col'].fillna(df['col'].mean(), inplace=True)
 ```
 
-**Context:** **Deloitte (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2022)</b>.</i></p>
 
 ---
 
@@ -136,7 +134,7 @@ lst.append([3,4])  # [1,2,[3,4]]
 lst.extend([3,4])  # [1,2,3,4]
 ```
 
-**Context:** **Wipro (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2021)</b>.</i></p>
 
 ---
 
@@ -144,7 +142,7 @@ lst.extend([3,4])  # [1,2,3,4]
 
 **Answer:** GIL ensures only one thread executes Python bytecode at a time, limiting true multithreading for CPU-bound tasks.
 
-**Context:** **Adobe (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Adobe (2020)</b>.</i></p>
 
 ---
 
@@ -159,7 +157,7 @@ df.loc[0, 'A']
 df.iloc[0, 0]
 ```
 
-**Context:** **EY (2023)**.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2023)</b>.</i></p>
 
 ---
 
@@ -173,7 +171,7 @@ df.iloc[0, 0]
 pd.merge(df1, df2, on="id")
 ```
 
-**Context:** **KPMG (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>KPMG (2022))</b>.</i></p>
 
 ---
 
@@ -190,7 +188,7 @@ b = copy.copy(a)     # shallow
 c = copy.deepcopy(a) # deep
 ```
 
-**Context:** **Paytm (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Paytm (2021)</b>.</i></p>
 
 ---
 
@@ -205,7 +203,7 @@ with open("file.txt","r") as f:
     data = f.read()
 ```
 
-**Context:** **Oracle (2019)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Oracle (2019)</b>.</i></p>
 
 ---
 
@@ -213,7 +211,7 @@ with open("file.txt","r") as f:
 
 **Answer:** Using `df.dtypes` or `df.info()`.
 
-**Context:** **TCS (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
@@ -228,7 +226,7 @@ square = lambda x: x*x
 print(square(5)) # 25
 ```
 
-**Context:** **Cognizant (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Cognizant (2022)</b>.</i></p>
 
 ---
 
@@ -236,7 +234,7 @@ print(square(5)) # 25
 
 **Answer:** `iterrows()` returns index + row as Series, `itertuples()` is faster, returns namedtuples.
 
-**Context:** **HCL (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>HCL (2021)</b>.</i></p>
 
 ---
 
@@ -250,7 +248,7 @@ print(square(5)) # 25
 df.drop_duplicates(subset=["col"], inplace=True)
 ```
 
-**Context:** **Accenture (2023)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2023)</b>.</i></p>
 
 ---
 
@@ -258,7 +256,7 @@ df.drop_duplicates(subset=["col"], inplace=True)
 
 **Answer:** `staticmethod()` doesn’t access class/instance, `classmethod()` takes `cls` as first arg and modifies class state.
 
-**Context:** **IBM (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>IBM (2022))</b>.</i></p>
 
 ---
 
@@ -266,7 +264,7 @@ df.drop_duplicates(subset=["col"], inplace=True)
 
 **Answer:** Use vectorization, `categorical` dtype, chunking, parallelization.
 
-**Context:** **Uber (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Uber (2020))</b>.</i></p>
 
 ---
 
@@ -293,7 +291,7 @@ def hello():
 hello()
 ```
 
-**Context:** **Amazon (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2021)</b>.</i></p>
 
 ---
 
@@ -309,7 +307,7 @@ arr = np.array([1,2,3])
 print(arr*2)  # [2 4 6]
 ```
 
-**Context:** **Microsoft (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2020)</b>.</i></p>
 
 ---
 
@@ -317,7 +315,7 @@ print(arr*2)  # [2 4 6]
 
 **Answer:** Use One-hot encoding (`pd.get_dummies`), Label Encoding, or libraries like Scikit-learn.
 
-**Context:** **Uber (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Uber (2022)</b>.</i></p>
 
 ---
 
@@ -333,7 +331,7 @@ b = ['a','b','c']
 print(list(zip(a,b))) # [(1,'a'), (2,'b'), (3,'c')]
 ```
 
-**Context:** **TCS (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -349,7 +347,7 @@ def func(*args, **kwargs):
 func(1,2, a=10, b=20)
 ```
 
-**Context:** **Accenture (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2022)</b>.</i></p>
 
 ---
 
@@ -363,7 +361,7 @@ func(1,2, a=10, b=20)
 df[df['col'] > 10]
 ```
 
-**Context:** **EY (2023)**.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2023)</b>.</i></p>
 
 ---
 
@@ -379,7 +377,7 @@ def gen():
         yield i
 ```
 
-**Context:** **Infosys (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -387,7 +385,7 @@ def gen():
 
 **Answer:** Process of serializing Python objects into byte streams using `pickle` module.
 
-**Context:** **Capgemini (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
@@ -399,7 +397,7 @@ def gen():
 * `apply()` → applies function along axis of DataFrame.
 * `applymap()` → element-wise for DataFrame.
   
-**Context:** **Deloitte (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2022)</b>.</i></p>
 
 ---
 
@@ -413,7 +411,7 @@ def gen():
 squares = [x*x for x in range(5)]
 ```
 
-**Context:** **Wipro (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2021)</b>.</i></p>
 
 ---
 
@@ -421,7 +419,7 @@ squares = [x*x for x in range(5)]
 
 **Answer:** Using `df['col'].unique()` or `df['col'].nunique()`.
 
-**Context:** **TCS (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
@@ -436,7 +434,7 @@ for i,v in enumerate(['a','b']):
     print(i,v)
 ```
 
-**Context:** **Oracle (2019)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Oracle (2019)</b>.</i></p>
 
 ---
 
@@ -453,7 +451,7 @@ sum(range(100000))
 print(time.time()-start)
 ```
 
-**Context:** **Google (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2021)</b>.</i></p>
 
 ---
 
@@ -470,7 +468,7 @@ b = 2
 print(a+b) # [3 4 5]
 ```
 
-**Context:** **NVIDIA (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>NVIDIA (2022))</b>.</i></p>
 
 ---
 
@@ -478,7 +476,7 @@ print(a+b) # [3 4 5]
 
 **Answer:** `.ix` is deprecated; use `.loc` for labels, `.iloc` for integer positions.
 
-**Context:** **PwC (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>PwC (2020)**</b>.</i></p>
 
 ---
 
@@ -492,7 +490,7 @@ print(a+b) # [3 4 5]
 "".join(["Data","Science"])
 ```
 
-**Context:** **IBM (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>IBM (2021)</b>.</i></p>
 
 ---
 
@@ -507,7 +505,7 @@ from collections import Counter
 print(Counter("analytics"))
 ```
 
-**Context:** **Flipkart (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Flipkart (2022)</b>.</i></p>
 
 ---
 
@@ -521,7 +519,7 @@ print(Counter("analytics"))
 df.groupby("col")["value"].mean()
 ```
 
-**Context:** **Deloitte (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
@@ -536,7 +534,7 @@ name="Data"
 print(f"Hello {name}")
 ```
 
-**Context:** **TCS (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
@@ -549,20 +547,16 @@ import sys
 print(sys.version)
 ```
 
-**Context:** **HCL (2019)**.
+<p align="right"><b><i>Context:</b> Asked at <b>HCL (2019)</b>.</i></p>
 
 ---
 
-
-# 🐍 Python Interview Q\&A – Part 3 (Q41–Q60)
-
----
 
 **Q41. What are Python’s built-in data structures?**
 
 **Answer:** List, Tuple, Set, Dictionary.
 
-**Context:** **TCS (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -577,7 +571,7 @@ import numpy as np
 arr = np.array([1,2,3])
 ```
 
-**Context:** **Infosys (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -585,7 +579,7 @@ arr = np.array([1,2,3])
 
 **Answer:** Assignment makes both variables point to the same object; shallow copy makes a new object but references nested objects.
 
-**Context:** **Capgemini (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
 
 ---
 
@@ -597,7 +591,7 @@ arr = np.array([1,2,3])
 df.drop("col", axis=1, inplace=True)
 ```
 
-**Context:** **EY (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
 
 ---
 
@@ -605,7 +599,7 @@ df.drop("col", axis=1, inplace=True)
 
 **Answer:** Constructor method used to initialize objects in classes.
 
-**Context:** **Accenture (2019)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2019)</b>.</i></p>
 
 ---
 
@@ -619,7 +613,7 @@ df.drop("col", axis=1, inplace=True)
 pd.pivot_table(df, values='sales', index='region', aggfunc='sum')
 ```
 
-**Context:** **Deloitte (2023)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2023)</b>.</i></p>
 
 ---
 
@@ -627,7 +621,7 @@ pd.pivot_table(df, values='sales', index='region', aggfunc='sum')
 
 **Answer:** `head()` shows first n rows, `tail()` shows last n rows.
 
-**Context:** **Wipro (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
 
 ---
 
@@ -635,7 +629,7 @@ pd.pivot_table(df, values='sales', index='region', aggfunc='sum')
 
 **Answer:** Methods: IQR, Z-score, capping, transformation.
 
-**Context:** **KPMG (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>KPMG (2022))</b>.</i></p>
 
 ---
 
@@ -643,7 +637,7 @@ pd.pivot_table(df, values='sales', index='region', aggfunc='sum')
 
 **Answer:** `nan` is numeric missing value, `None` is Python object type missing value.
 
-**Context:** **Amazon (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2021)</b>.</i></p>
 
 ---
 
@@ -657,7 +651,7 @@ pd.pivot_table(df, values='sales', index='region', aggfunc='sum')
 pd.merge(df1, df2, left_on="id1", right_on="id2")
 ```
 
-**Context:** **PwC (2023)**.
+<p align="right"><b><i>Context:</b> Asked at <b>PwC (2023)</b>.</i></p>
 
 ---
 
@@ -672,7 +666,7 @@ x = 5
 assert x > 0
 ```
 
-**Context:** **Google (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2020)</b>.</i></p>
 
 ---
 
@@ -684,7 +678,7 @@ assert x > 0
 df.reset_index(drop=True, inplace=True)
 ```
 
-**Context:** **TCS (2019)**.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2019)</b>.</i></p>
 
 ---
 
@@ -695,7 +689,7 @@ df.reset_index(drop=True, inplace=True)
 * `any()` → True if at least one element is True.
 * `all()` → True if all elements are True.
 
-**Context:** **Microsoft (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
@@ -710,7 +704,7 @@ import numpy as np
 print(np.arange(0,1,0.2))  # [0. 0.2 0.4 0.6 0.8]
 ```
 
-**Context:** **NVIDIA (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>NVIDIA (2022)</b>.</i></p>
 
 ---
 
@@ -718,7 +712,7 @@ print(np.arange(0,1,0.2))  # [0. 0.2 0.4 0.6 0.8]
 
 **Answer:** Use `df.isnull().sum()`.
 
-**Context:** **EY (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
 
 ---
 
@@ -726,7 +720,7 @@ print(np.arange(0,1,0.2))  # [0. 0.2 0.4 0.6 0.8]
 
 **Answer:** `.to_numpy()` is recommended; `.values` may return inconsistent types.
 
-**Context:** **Oracle (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Oracle (2021)</b>.</i></p>
 
 ---
 
@@ -740,7 +734,7 @@ print(np.arange(0,1,0.2))  # [0. 0.2 0.4 0.6 0.8]
 df.sort_values("col", ascending=False)
 ```
 
-**Context:** **Infosys (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2022)</b>.</i></p>
 
 ---
 
@@ -748,7 +742,7 @@ df.sort_values("col", ascending=False)
 
 **Answer:** Returns unique identifier (memory address) of an object.
 
-**Context:** **Accenture (2019)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2019)</b>.</i></p>
 
 ---
 
@@ -756,7 +750,7 @@ df.sort_values("col", ascending=False)
 
 **Answer:** Use `df.corr()`.
 
-**Context:** **Deloitte (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2022)</b>.</i></p>
 
 ---
 
@@ -767,7 +761,7 @@ df.sort_values("col", ascending=False)
 * `pop(index)` removes element at index (default last) and returns it.
 * `remove(value)` removes first matching value.
   
-**Context:** **Wipro (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2021)</b>.</i></p>
 
 ---
 
@@ -777,7 +771,7 @@ df.sort_values("col", ascending=False)
 
 **Answer:** `.ix` is deprecated; `.loc` is label-based; `.iloc` is integer-location-based.
 
-**Context:** **Capgemini (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
 
 ---
 
@@ -789,7 +783,7 @@ df.sort_values("col", ascending=False)
 df.dropna(subset=["col1", "col2"], inplace=True)
 ```
 
-**Context:** **EY (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
 
 ---
 
@@ -797,7 +791,7 @@ df.dropna(subset=["col1", "col2"], inplace=True)
 
 **Answer:** `copy()` = shallow, `deepcopy()` = independent full copy.
 
-**Context:** **Infosys (2019)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2019)</b>.</i></p>
 
 ---
 
@@ -809,7 +803,7 @@ df.dropna(subset=["col1", "col2"], inplace=True)
 df.duplicated().sum()
 ```
 
-**Context:** **TCS (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -817,7 +811,7 @@ df.duplicated().sum()
 
 **Answer:** Both are matrix multiplication; `np.matmul()` works with stacks of matrices too.
 
-**Context:** **NVIDIA (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>NVIDIA (2022)</b>.</i></p>
 
 ---
 
@@ -831,7 +825,7 @@ df.duplicated().sum()
 " data ".strip()
 ```
 
-**Context:** **Accenture (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -847,7 +841,7 @@ Point = namedtuple("Point","x y")
 p = Point(1,2)
 ```
 
-**Context:** **IBM (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>IBM (2021)</b>.</i></p>
 
 ---
 
@@ -855,7 +849,7 @@ p = Point(1,2)
 
 **Answer:** Using `arr.dtype`.
 
-**Context:** **Microsoft (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2020)</b>.</i></p>
 
 ---
 
@@ -863,7 +857,7 @@ p = Point(1,2)
 
 **Answer:** JSON = human-readable, cross-language; Pickle = Python-specific, binary.
 
-**Context:** **Amazon (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
@@ -875,7 +869,7 @@ p = Point(1,2)
 pd.get_dummies(df["category"])
 ```
 
-**Context:** **Deloitte (2023)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2023)</b>.</i></p>
 
 ---
 
@@ -886,7 +880,7 @@ pd.get_dummies(df["category"])
 * `global` → modifies variable outside current scope.
 * `nonlocal` → modifies variable in nearest enclosing scope (not global).
 
-**Context:** **Oracle (2019)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Oracle (2019)</b>.</i></p>
 
 ---
 
@@ -894,7 +888,7 @@ pd.get_dummies(df["category"])
 
 **Answer:** `df.shape`.
 
-**Context:** **Wipro (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2021)</b>.</i></p>
 
 ---
 
@@ -902,7 +896,7 @@ pd.get_dummies(df["category"])
 
 **Answer:** Method bound to class, not instance; doesn’t access `self` or `cls`.
 
-**Context:** **Accenture (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -910,7 +904,7 @@ pd.get_dummies(df["category"])
 
 **Answer:** Using `df.sample(n=5)` or with `frac`.
 
-**Context:** **EY (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>EV (2021)</b>.</i></p>
 
 ---
 
@@ -918,7 +912,7 @@ pd.get_dummies(df["category"])
 
 **Answer:** `isnull()` detects missing values, `notnull()` detects non-missing.
 
-**Context:** **TCS (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
 
 ---
 
@@ -934,7 +928,7 @@ files = glob.glob("*.csv")
 df = pd.concat([pd.read_csv(f) for f in files])
 ```
 
-**Context:** **Capgemini (2023)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2023)</b>.</i></p>
 
 ---
 
@@ -942,7 +936,7 @@ df = pd.concat([pd.read_csv(f) for f in files])
 
 **Answer:** `int()` converts to integer (truncates decimals), `float()` converts to floating-point.
 
-**Context:** **Cognizant (2019)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Cognizant (2019)</b>.</i></p>
 
 ---
 
@@ -956,7 +950,7 @@ z = np.abs(stats.zscore(df["col"]))
 df[z < 3]
 ```
 
-**Context:** **KPMG (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>KPMG (2021)</b>.</i></p>
 
 ---
 
@@ -964,7 +958,7 @@ df[z < 3]
 
 **Answer:** Instance methods take `self`, classmethods take `cls`.
 
-**Context:** **Amazon (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2020)</b>.</i></p>
 
 ---
 
@@ -972,7 +966,7 @@ df[z < 3]
 
 **Answer:** `df.to_numpy()`.
 
-**Context:** **Microsoft (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
@@ -986,7 +980,7 @@ df[z < 3]
 df.rename(columns={"old":"new"}, inplace=True)
 ```
 
-**Context:** **TCS (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -994,7 +988,7 @@ df.rename(columns={"old":"new"}, inplace=True)
 
 **Answer:** They manage resources (like files, DB connections) using `with` statement.
 
-**Context:** **Google (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2020)</b>.</i></p>
 
 ---
 
@@ -1008,7 +1002,7 @@ df.rename(columns={"old":"new"}, inplace=True)
 df.set_index(["col1","col2"], inplace=True)
 ```
 
-**Context:** **EY (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
 
 ---
 
@@ -1016,7 +1010,7 @@ df.set_index(["col1","col2"], inplace=True)
 
 **Answer:** `linspace()` generates evenly spaced values with fixed number of points; `arange()` uses step size.
 
-**Context:** **NVIDIA (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>NVIDIA (2021)</b>.</i></p>
 
 ---
 
@@ -1024,7 +1018,7 @@ df.set_index(["col1","col2"], inplace=True)
 
 **Answer:** `df.memory_usage(deep=True).sum()`.
 
-**Context:** **Amazon (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
@@ -1035,7 +1029,7 @@ df.set_index(["col1","col2"], inplace=True)
 * `sort()` → in-place, for lists only.
 * `sorted()` → returns new list, works with any iterable.
 
-**Context:** **Accenture (2019)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2019)</b>.</i></p>
 
 ---
 
@@ -1047,7 +1041,7 @@ df.set_index(["col1","col2"], inplace=True)
 df.groupby("group").head(3)
 ```
 
-**Context:** **Deloitte (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
@@ -1065,7 +1059,7 @@ class Item:
     price: float
 ```
 
-**Context:** **Microsoft (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2020)</b>.</i></p>
 
 ---
 
@@ -1077,7 +1071,7 @@ class Item:
 df.to_excel("output.xlsx", index=False)
 ```
 
-**Context:** **Capgemini (2023)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2023)</b>.</i></p>
 
 ---
 
@@ -1090,7 +1084,7 @@ df.to_excel("output.xlsx", index=False)
 * right = all from right + matches from left
 * outer = union
 
-**Context:** **EY (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
 
 ---
 
@@ -1102,7 +1096,7 @@ df.to_excel("output.xlsx", index=False)
 df["col"].is_unique
 ```
 
-**Context:** **Infosys (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2022)</b>.</i></p>
 
 ---
 
@@ -1118,7 +1112,7 @@ d = defaultdict(int)
 d["x"] += 1
 ```
 
-**Context:** **Flipkart (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Flipkart (2021)</b>.</i></p>
 
 ---
 
@@ -1126,7 +1120,7 @@ d["x"] += 1
 
 **Answer:** `df.dtypes`, `df.astype()`.
 
-**Context:** **IBM (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>IBM (2020)</b>.</i></p>
 
 ---
 
@@ -1134,7 +1128,7 @@ d["x"] += 1
 
 **Answer:** `.ix` is deprecated; `.at` is label-based fast scalar accessor.
 
-**Context:** **PwC (2019)**.
+<p align="right"><b><i>Context:</b> Asked at <b>PwC (2019)</b>.</i></p>
 
 ---
 
@@ -1147,7 +1141,7 @@ import seaborn as sns
 sns.heatmap(df.corr(), annot=True)
 ```
 
-**Context:** **Deloitte (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2022))</b>.</i></p>
 
 ---
 
@@ -1162,7 +1156,7 @@ a = np.array([1,2,3])
 b = a*2
 ```
 
-**Context:** **Google (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2021))</b>.</i></p>
 
 ---
 
@@ -1177,7 +1171,7 @@ for chunk in pd.read_csv("file.csv", chunksize=10000):
     process(chunk)
 ```
 
-**Context:** **Uber (2023)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Uber (2023))</b>.</i></p>
 
 ---
 
@@ -1191,7 +1185,7 @@ for chunk in pd.read_csv("file.csv", chunksize=10000):
 fs = frozenset([1,2,3])
 ```
 
-**Context:** **Accenture (2021)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
 
 ---
 
@@ -1199,7 +1193,7 @@ fs = frozenset([1,2,3])
 
 **Answer:** Using `df["col"].rank()`.
 
-**Context:** **EY (2020)**.
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
 
 ---
 
@@ -1214,6 +1208,5 @@ df.query("age > 30")
 df[df["age"] > 30]
 ```
 
-**Context:** **Microsoft (2022)**.
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
 
----
