@@ -15,43 +15,49 @@
 # **SQL Interview Questions (Q1–Q20 – Basics)**
 
 **Q1. What is SQL?**
+
 **Answer:** SQL (Structured Query Language) is used to interact with relational databases.
+
 **Example:**
 
 ```sql
 SELECT * FROM Employees;
 ```
 
-**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q2. What are the different types of SQL statements?**
+
 **Answer:**
 
 * DDL (Data Definition Language) → CREATE, ALTER, DROP
 * DML (Data Manipulation Language) → INSERT, UPDATE, DELETE
 * DQL (Data Query Language) → SELECT
 * TCL (Transaction Control) → COMMIT, ROLLBACK
-  **Context:** Asked at **Infosys (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
 **Q3. What is the difference between SQL and MySQL?**
+
 **Answer:**
 
 * SQL → Language for querying databases.
 * MySQL → A database management system that uses SQL.
-  **Context:** Asked at **Capgemini (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021))</b>.</i></p>
 
 ---
 
 **Q4. What are Primary Key and Foreign Key?**
+
 **Answer:**
 
 * Primary Key: Uniquely identifies a record.
 * Foreign Key: Refers to primary key in another table.
-  **Example:**
+
+**Example:**
 
 ```sql
 CREATE TABLE Orders (
@@ -60,24 +66,28 @@ CREATE TABLE Orders (
 );
 ```
 
-**Context:** Asked at **Wipro (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
 
 ---
 
 **Q5. What is the difference between CHAR and VARCHAR?**
+
+
 **Answer:**
 
 * CHAR: Fixed-length storage.
 * VARCHAR: Variable-length storage.
-  **Context:** Asked at **Deloitte (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
 **Q6. What are the different types of JOINs?**
+
 **Answer:**
 
 * INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN.
-  **Example:**
+
+**Example:**
 
 ```sql
 SELECT e.Name, d.DeptName
@@ -85,7 +95,7 @@ FROM Employees e
 INNER JOIN Departments d ON e.DeptID = d.DeptID;
 ```
 
-**Context:** Asked at **Microsoft (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
 
 ---
 
@@ -94,7 +104,8 @@ INNER JOIN Departments d ON e.DeptID = d.DeptID;
 
 * WHERE: Filters rows before grouping.
 * HAVING: Filters groups after aggregation.
-  **Example:**
+
+**Example:**
 
 ```sql
 SELECT DeptID, COUNT(*) 
@@ -103,16 +114,18 @@ GROUP BY DeptID
 HAVING COUNT(*) > 5;
 ```
 
-**Context:** Asked at **EY (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EV (2021)</b>.</i></p>
 
 ---
 
 **Q8. What is the difference between UNION and UNION ALL?**
+
 **Answer:**
 
 * UNION: Removes duplicates.
 * UNION ALL: Keeps duplicates.
-  **Context:** Asked at **Accenture (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+**Context:** Asked at **Accenture (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
