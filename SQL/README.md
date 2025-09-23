@@ -125,12 +125,14 @@ HAVING COUNT(*) > 5;
 * UNION: Removes duplicates.
 * UNION ALL: Keeps duplicates.
 
-**Context:** Asked at **Accenture (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
 **Q9. What is a View in SQL?**
+
 **Answer:** A virtual table based on the result of a query.
+
 **Example:**
 
 ```sql
@@ -138,22 +140,26 @@ CREATE VIEW ActiveEmployees AS
 SELECT Name, DeptID FROM Employees WHERE Status = 'Active';
 ```
 
-**Context:** Asked at **Capgemini (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
 **Q10. What is the difference between DELETE, TRUNCATE, and DROP?**
+
 **Answer:**
 
 * DELETE: Removes rows (can be rolled back).
 * TRUNCATE: Removes all rows (cannot roll back in some DBs).
 * DROP: Deletes the entire table.
-  **Context:** Asked at **Infosys (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
+
 **Q11. What is a Subquery?**
+
 **Answer:** Query inside another query.
+
 **Example:**
 
 ```sql
@@ -161,39 +167,44 @@ SELECT Name FROM Employees
 WHERE Salary > (SELECT AVG(Salary) FROM Employees);
 ```
 
-**Context:** Asked at **Deloitte (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
 **Q12. What is the difference between Clustered and Non-Clustered Index?**
+
 **Answer:**
 
 * Clustered Index: Sorts and stores rows physically.
 * Non-Clustered Index: Stores pointer to data.
-  **Context:** Asked at **Microsoft (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021))</b>.</i></p>
 
 ---
 
 **Q13. What is the difference between NULL and 0?**
+
 **Answer:**
 
 * NULL = Unknown / Missing value.
 * 0 = Numeric value.
-  **Context:** Asked at **Wipro (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
 
 ---
 
 **Q14. What is the difference between DROP and TRUNCATE?**
+
 **Answer:**
 
 * DROP: Deletes entire table structure.
 * TRUNCATE: Deletes all rows but keeps structure.
-  **Context:** Asked at **TCS (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
 **Q15. What is a Stored Procedure?**
+
 **Answer:** A precompiled collection of SQL statements.
+
 **Example:**
 
 ```sql
@@ -201,27 +212,30 @@ CREATE PROCEDURE GetEmployees AS
 SELECT * FROM Employees;
 ```
 
-**Context:** Asked at **Infosys (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
 **Q16. What is the difference between COUNT(\*), COUNT(1), and COUNT(column)?**
+
 **Answer:**
 
 * COUNT(\*) → Counts all rows.
 * COUNT(1) → Same as COUNT(\*).
 * COUNT(column) → Counts only non-NULL values.
-  **Context:** Asked at **EY (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
 
 ---
 
 **Q17. What are Constraints in SQL?**
+
 **Answer:** Rules applied to columns (NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK, DEFAULT).
-**Context:** Asked at **Capgemini (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
 **Q18. What is Normalization?**
+
 **Answer:** Process of structuring data to reduce redundancy.
 
 * 1NF → Atomic values.
@@ -232,53 +246,62 @@ SELECT * FROM Employees;
 ---
 
 **Q19. What is Denormalization?**
+
 **Answer:** Adding redundancy for faster queries (opposite of normalization).
-**Context:** Asked at **Accenture (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
 
 ---
 
 **Q20. What are Transactions in SQL?**
+
 **Answer:** A set of SQL operations executed as a single unit.
+
 **Properties:** ACID (Atomicity, Consistency, Isolation, Durability).
-**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q21. What are Aggregate Functions in SQL?**
+
 **Answer:** Functions that perform calculations on a set of values and return a single value (SUM, AVG, MIN, MAX, COUNT).
+
 **Example:**
 
 ```sql
 SELECT AVG(Salary) FROM Employees;
 ```
 
-**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
 **Q22. What is the difference between IN and EXISTS?**
+
 **Answer:**
 
 * IN → Compares a value to a list of values.
 * EXISTS → Checks if subquery returns any row.
-  **Example:**
+
+**Example:**
 
 ```sql
 SELECT Name FROM Employees 
 WHERE DeptID IN (SELECT DeptID FROM Departments);
 ```
 
-**Context:** TCS (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
 **Q23. What is the difference between RANK(), DENSE\_RANK(), and ROW\_NUMBER()?**
+
 **Answer:**
 
 * ROW\_NUMBER(): Sequential without duplicates.
 * RANK(): Leaves gaps if duplicates exist.
 * DENSE\_RANK(): No gaps for duplicates.
-  **Example:**
+
+**Example:**
 
 ```sql
 SELECT Name, Salary,
@@ -286,18 +309,21 @@ RANK() OVER (ORDER BY Salary DESC) AS Rnk
 FROM Employees;
 ```
 
-**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
 **Q24. What are Scalar Functions?**
+
 **Answer:** Functions that return a single value (LEN, UPPER, LOWER, GETDATE).
-**Context:** Capgemini (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
 
 ---
 
 **Q25. What is a Self-Join?**
+
 **Answer:** A join where a table is joined with itself.
+
 **Example:**
 
 ```sql
@@ -306,12 +332,14 @@ FROM Employees A, Employees B
 WHERE A.ManagerID = B.EmployeeID;
 ```
 
-**Context:** Wipro (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2021)</b>.</i></p>
 
 ---
 
 **Q26. What are Correlated Subqueries?**
+
 **Answer:** Subquery that refers to the outer query.
+
 **Example:**
 
 ```sql
@@ -321,30 +349,34 @@ WHERE Salary > (SELECT AVG(Salary)
                 WHERE DeptID = e.DeptID);
 ```
 
-**Context:** EY (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
 
 ---
 
 **Q27. What is the difference between COALESCE and ISNULL?**
+
 **Answer:**
 
 * ISNULL → Works with two arguments.
 * COALESCE → Works with multiple arguments, returns first non-NULL.
-  **Context:** Microsoft (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
 **Q28. What is the difference between Primary Key and Unique Key?**
+
 **Answer:**
 
 * Primary Key → One per table, doesn’t allow NULLs.
 * Unique Key → Multiple allowed, allows one NULL.
-  **Context:** Accenture (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
 **Q29. What is a Trigger in SQL?**
+
 **Answer:** A stored procedure that executes automatically on events (INSERT, UPDATE, DELETE).
+
 **Example:**
 
 ```sql
@@ -355,22 +387,24 @@ AS
 PRINT 'New Employee Added!';
 ```
 
-**Context:** TCS (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q30. What is the difference between a View and a Table?**
+
 **Answer:**
 
 * Table → Stores data physically.
 * View → Logical representation (virtual table).
-  **Context:** Infosys (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
 **Q31. What is an Index? Why is it used?**
+
 **Answer:** An index speeds up searches by creating a pointer to data.
-**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
