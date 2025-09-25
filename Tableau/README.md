@@ -14,7 +14,7 @@
 
 **Answer:** Tableau is a data visualization tool that helps create interactive dashboards and reports from different data sources. It’s widely used in **BI and Analytics**.
 
-**Context:** Asked at **Deloitte (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2022)</b>.</i></p>
 
 ---
 
@@ -25,7 +25,7 @@
 * **Dimensions:** Qualitative fields (e.g., Category, Country).
 * **Measures:** Quantitative fields (e.g., Sales, Profit).
 
-**Context:** Asked at **Accenture (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
 
 ---
 
@@ -33,7 +33,7 @@
 
 **Answer:** A collection of multiple views (worksheets, charts, maps) combined in one interface.
 
-**Context:** Asked at **EY (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
 
 ---
 
@@ -45,7 +45,7 @@
 * 
 * **Extract:** Data snapshot stored locally for better performance.
  
-**Context:** Asked at **PwC (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>PwC (2022)</b>.</i></p>
 
 ---
 
@@ -56,7 +56,7 @@
 * **.twb:** XML file containing instructions (no data).
 * **.twbx:** Packaged workbook with data + visuals.
 
-**Context:** Asked at **Infosys (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -64,7 +64,7 @@
 
 **Answer:** A sequence of dashboards/worksheets combined to present insights step by step.
 
-**Context:** Asked at **KPMG (2023)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>KPMG (2023)</b>.</i></p>
 
 ---
 
@@ -74,7 +74,7 @@
 
 **Example:** `Profit Ratio = SUM([Profit]) / SUM([Sales])`.
 
-**Context:** Asked at **Flipkart (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Flipkart (2022)</b>.</i></p>
 
 ---
 
@@ -84,7 +84,7 @@
 
 **Example:** Sales filter by “Top N Products” using parameter.
 
-**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -95,7 +95,7 @@
 * **Filter:** Pre-defined data restriction.
 * **Quick Filter:** Interactive UI filter for end-users.
 
-**Context:** Asked at **Capgemini (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
 
 ---
 
@@ -105,7 +105,7 @@
 
 **Example:** “Top 10 Customers by Sales”.
 
-**Context:** Asked at **Amazon (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
@@ -116,7 +116,7 @@
 * **Group:** Combines categories for simplification.
 * **Set:** Dynamic collection based on conditions.
 
-**Context:** Asked at **Microsoft (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
@@ -127,7 +127,7 @@
 * **Discrete (Blue):** Separate categories (e.g., Country).
 * **Continuous (Green):** Range of values (e.g., Sales).
 
-**Context:** Asked at **IBM (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>IBM (2020)</b>.</i></p>
 
 ---
 
@@ -135,7 +135,7 @@
 
 **Answer:** Filters applied during extract creation to reduce data size.
 
-**Context:** Asked at **Deloitte (2023)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2023)</b>.</i></p>
 
 ---
 
@@ -145,7 +145,7 @@
 
 **Example:** Apply Region filter before Sales filter.
 
-**Context:** Asked at **Cognizant (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Cognizant (2022)</b>.</i></p>
 
 ---
 
@@ -155,7 +155,7 @@
 
 **Example:** Sales vs. Profit trend.
 
-**Context:** Asked at **Adobe (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Adobe (2021)</b>.</i></p>
 
 ---
 
@@ -163,7 +163,7 @@
 
 **Answer:** Joining data from multiple sources (primary and secondary) inside Tableau.
 
-**Context:** Asked at **Accenture (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -173,7 +173,7 @@
 
 **Example:** Filling missing dates in a time series.
 
-**Context:** Asked at **EY (2023)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2023)</b>.</i></p>
 
 ---
 
@@ -181,7 +181,7 @@
 
 **Answer:** Automated refresh schedules for extracts to keep data updated.
 
-**Context:** Asked at **TCS (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
 
 ---
 
@@ -193,7 +193,7 @@
 * **Server:** Share dashboards on-premises.
 * **Online:** Cloud version of Server.
 
-**Context:** Asked at **KPMG (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>KPMG (2021)</b>.</i></p>
 
 ---
 
@@ -203,7 +203,7 @@
 
 **Example:** `{FIXED [Region]: SUM([Sales])}`.
 
-**Context:** Asked at **Amazon (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2021)</b>.</i></p>
 
 ---
 
@@ -213,7 +213,7 @@
 
 **Example:** Adding an average sales line.
 
-**Context:** Asked at **Infosys (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -223,7 +223,7 @@
 
 **Example:** Profit margin range between 10–20%.
 
-**Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
 
 ---
 
@@ -234,7 +234,7 @@
 * **Heat Map:** Color intensity represents values.
 * **Tree Map:** Size and color represent hierarchical data.
 
-**Context:** Asked at **Accenture (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -244,7 +244,7 @@
 
 **Example:** Sales by Region & Category with color intensity.
 
-**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -254,7 +254,7 @@
 
 **Example:** Distribution of customer ages.
 
-**Context:** Asked at **Capgemini (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
 
 ---
 
@@ -265,7 +265,7 @@
 * **Extract Filter:** Applied when extract is created.
 * **Data Source Filter:** Applied before data is loaded into Tableau.
 
-**Context:** Asked at **Cognizant (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Cognizant (2021)</b>.</i></p>
 
 ---
 
@@ -276,7 +276,7 @@
 * **Filter Shelf:** Limits data shown.
 * **Parameter:** Provides user-driven dynamic input.
 
-**Context:** Asked at **Deloitte (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
@@ -287,7 +287,7 @@
 * **Join:** Happens at database level.
 * **Blending:** Happens inside Tableau between different sources.
 
-**Context:** Asked at **Flipkart (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
@@ -295,7 +295,7 @@
 
 **Answer:** Interactive controls (Filter Actions, Highlight Actions, URL Actions) to navigate dashboards.
 
-**Context:** Asked at **Amazon (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2021)</b>.</i></p>
 
 ---
 
@@ -306,7 +306,7 @@
 * **Sets:** Dynamic groups of data.
 * **Parameters:** Single-value controls for filters/calculations.
 
-**Context:** Asked at **KPMG (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>KPMG (2020)</b>.</i></p>
 
 ---
 
@@ -314,7 +314,7 @@
 
 **Answer:** Inner, Left, Right, and Full Outer Join.
 
-**Context:** Asked at **Wipro (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2022)</b>.</i></p>
 
 ---
 
@@ -325,7 +325,7 @@
 * **Table Calculation:** Computed based on visualized data.
 * **Calculated Field:** Computed at data source level.
 
-**Context:** Asked at **Microsoft (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
@@ -333,7 +333,7 @@
 
 **Answer:** Running Total, Percent of Total, Rank, Moving Average, etc.
 
-**Context:** Asked at **Deloitte (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2022)</b>.</i></p>
 
 ---
 
@@ -341,7 +341,7 @@
 
 **Answer:** Full refresh and incremental refresh.
 
-**Context:** Asked at **PwC (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>PwC (2021)</b>.</i></p>
 
 ---
 
@@ -352,7 +352,7 @@
 * **Join:** Faster, handled at database level.
 * **Blending:** Slower, happens inside Tableau.
 
-**Context:** Asked at **Accenture (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -363,7 +363,7 @@
 * **Live:** Uses source-level security.
 * **Extract:** Must implement Tableau-level security.
 
-**Context:** Asked at **Infosys (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2022)</b>.</i></p>
 
 ---
 
@@ -373,7 +373,7 @@
 
 **Example:** Income ranges like 0–10k, 10k–20k.
 
-**Context:** Asked at **EY (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
 
 ---
 
@@ -384,7 +384,7 @@
 * **Measure Names:** Field that contains all measure names.
 * **Measure Values:** Field that contains all measure values.
 
-**Context:** Asked at **Capgemini (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
 
 ---
 
@@ -395,7 +395,7 @@
 * **Extract Filter:** Reduces data during extract creation.
 * **Context Filter:** Creates a dependent filtering layer.
 
-**Context:** Asked at **Deloitte (2023)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2023)</b>.</i></p>
 
 ---
 
@@ -406,7 +406,7 @@
 * **Public:** Free, saves workbooks to Tableau Public server.
 * **Desktop:** Paid, saves locally and supports more features.
 
-**Context:** Asked at **Adobe (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Adobe (2020)</b>.</i></p>
 
 ---
 
@@ -417,7 +417,7 @@
 * **Server:** On-premises deployment, managed by organization.
 * **Online:** Cloud-hosted by Tableau.
 
-**Context:** Asked at **Deloitte (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2022)</b>.</i></p>
 
 ---
 
@@ -428,7 +428,7 @@
 * **Extract Refresh:** Reloads entire dataset.
 * **Incremental Refresh:** Adds only new/changed rows.
 
-**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -438,7 +438,7 @@
 
 **Example:** Sales and Profit on the same axis.
 
-**Context:** Asked at **EY (2023)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2023)</b>.</i></p>
 
 ---
 
@@ -449,7 +449,7 @@
 * **Normal Filter:** Faster, applies directly on data.
 * **Quick Filter:** Slower, gives interactivity for end users.
 
-**Context:** Asked at **Infosys (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
