@@ -457,7 +457,7 @@
 
 **Answer:** Optimized, compressed files created by Tableau for faster query performance.
 
-**Context:** Asked at **Capgemini (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
 
 ---
 
@@ -468,7 +468,7 @@
 * **Data Source Filter:** Applied before visualization, works on all connections.
 * **Extract Filter:** Applied during extract creation only.
 
-**Context:** Asked at **Wipro (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2021)</b>.</i></p>
 
 ---
 
@@ -478,7 +478,7 @@
 
 **Example:** Sales growth over years with animation.
 
-**Context:** Asked at **Amazon (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2020)</b>.</i></p>
 
 ---
 
@@ -489,7 +489,7 @@
 * **Continuous:** Creates timeline axis.
 * **Discrete:** Creates separate date categories.
 
-**Context:** Asked at **Accenture (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
 
 ---
 
@@ -499,7 +499,7 @@
 
 **Example:** `{FIXED [Region]: SUM([Sales])}`.
 
-**Context:** Asked at **Microsoft (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
 
 ---
 
@@ -511,7 +511,7 @@
 * **INCLUDE:** Adds detail to existing aggregation.
 * **EXCLUDE:** Removes detail from aggregation.
 
-**Context:** Asked at **Adobe (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Adobe (2021)</b>.</i></p>
 
 ---
 
@@ -522,7 +522,7 @@
 * **Blending:** Combines results at visualization level.
 * **Cross-DB Joins:** Joins happen in Tableau engine.
 
-**Context:** Asked at **Deloitte (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
@@ -532,7 +532,7 @@
 
 **Example:** Profit analysis by region.
 
-**Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
 
 ---
 
@@ -542,7 +542,7 @@
 
 **Example:** Sales vs. Target.
 
-**Context:** Asked at **PwC (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+**Context:** Asked at **PwC (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>PwC (2021)</b>.</i></p>
 
 ---
 
@@ -552,7 +552,7 @@
 
 **Example:** Customers with sales > \$5000.
 
-**Context:** Asked at **KPMG (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>KPMG (2022)</b>.</i></p>
 
 ---
 
@@ -563,7 +563,7 @@
 * **Extracts:** Faster, optimized for analysis.
 * **Live:** Slower, depends on database speed.
 
-**Context:** Asked at **Accenture (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -573,7 +573,7 @@
 
 **Example:** Switch between “Profit %” and “Sales %” using parameter.
 
-**Context:** Asked at **TCS (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (20212)</b>.</i></p>
 
 ---
 
@@ -584,7 +584,7 @@
 * **Treemap:** Rectangular representation of hierarchical data.
 * **Packed Bubbles:** Circle representation of proportions.
 
-**Context:** Asked at **Infosys (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -592,7 +592,7 @@
 
 **Answer:** Tableau doesn’t use “slicers” like Power BI; filters serve the same purpose.
 
-**Context:** Asked at **Amazon (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
@@ -602,7 +602,7 @@
 * **Aggregate:** Summarized at group level (e.g., SUM, AVG).
 * **Non-Aggregate:** Row-level calculations.
 
-**Context:** Asked at **Capgemini (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
 
 ---
 
@@ -613,14 +613,14 @@
 * **Joins:** Combine tables at row level.
 * **Relationships:** Maintain logical connections without merging data physically.
 
-**Context:** Asked at **Microsoft (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 **Q61.** What is Tableau Prep?
 
 **Answer:** A tool for data cleaning, shaping, and combining before analysis in Tableau.
 
-**Context:** Asked at **Deloitte (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2022)</b>.</i></p>
 
 ---
 
@@ -631,7 +631,7 @@
 * **Professional:** Connects to all data sources, allows publishing to Tableau Server.
 * **Personal:** Limited connections, saves only locally.
 
-**Context:** Asked at **Accenture (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -639,7 +639,7 @@
 
 **Answer:** Extracts can be divided into smaller partitions for better performance and refresh efficiency.
 
-**Context:** Asked at **EY (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
 
 ---
 
@@ -650,7 +650,7 @@
 * **Tableau:** Best for data visualization and complex dashboards.
 * **Power BI:** Strong integration with Microsoft ecosystem and affordable.
 
-**Context:** Asked at **Amazon (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
@@ -658,7 +658,7 @@
 
 **Answer:** The in-memory data engine (.hyper) that optimizes extract queries for speed.
 
-**Context:** Asked at **Microsoft (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2020)</b>.</i></p>
 
 ---
 
@@ -666,7 +666,7 @@
 
 **Answer:** Predefined formats like geographic roles (country, city) that Tableau recognizes.
 
-**Context:** Asked at **PwC (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>PwC (2021)</b>.</i></p>
 
 ---
 
@@ -677,7 +677,7 @@
 * **Joins:** Combine data tables physically.
 * **Relationships:** Logical connection, preserves data at multiple levels of detail.
 
-**Context:** Asked at **KPMG (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>KPMG (2022)</b>.</i></p>
 
 ---
 
@@ -688,7 +688,7 @@
 * **Blending:** Combines aggregated data from different sources.
 * **Relationships:** Maintains row-level connections without aggregation.
 
-**Context:** Asked at **Capgemini (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
@@ -696,7 +696,7 @@
 
 **Answer:** Visualization Query Language – converts drag-and-drop actions into SQL and visual queries.
 
-**Context:** Asked at **Infosys (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -707,7 +707,7 @@
 * **Reader:** Desktop app to view Tableau workbooks locally.
 * **Public:** Free, hosted online with limited privacy.
 
-**Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
 
 ---
 
@@ -717,7 +717,7 @@
 
 **Example:** Sales by Region and Category.
 
-**Context:** Asked at **Deloitte (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
@@ -725,7 +725,7 @@
 
 **Answer:** A chart used to represent stages in a process (e.g., sales pipeline).
 
-**Context:** Asked at **Flipkart (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Flipkart (2021)</b>.</i></p>
 
 ---
 
@@ -733,7 +733,7 @@
 
 **Answer:** Interactions that highlight related data when a user hovers/clicks.
 
-**Context:** Asked at **KPMG (2023)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>KPMG (2023)</b>.</i></p>
 
 ---
 
@@ -741,7 +741,7 @@
 
 **Answer:** A chart showing data changes over time with animation (like Gapminder).
 
-**Context:** Asked at **Amazon (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2020)</b>.</i></p>
 
 ---
 
@@ -753,7 +753,7 @@
 * Handles large data efficiently.
 * Advanced visuals.
 
-**Context:** Asked at **Capgemini (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
 
 ---
 
@@ -761,7 +761,7 @@
 
 **Answer:** API used to programmatically create .hyper extract files.
 
-**Context:** Asked at **Microsoft (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
@@ -769,7 +769,7 @@
 
 **Answer:** Software Development Kit that allows developers to automate Tableau tasks (like extract creation).
 
-**Context:** Asked at **Infosys (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2022)</b>.</i></p>
 
 ---
 
@@ -777,7 +777,7 @@
 
 **Answer:** PostgreSQL database that stores metadata, users, and permissions for Tableau Server.
 
-**Context:** Asked at **Deloitte (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020))</b>.</i></p>
 
 ---
 
@@ -785,7 +785,7 @@
 
 **Answer:** A command-line tool used to automate Tableau Server/Online tasks (e.g., publishing, refreshing).
 
-**Context:** Asked at **EY (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2021)</b>.</i></p>
 
 ---
 
@@ -793,7 +793,7 @@
 
 **Answer:** Legacy command-line utility (replaced by TSM) used for server administration.
 
-**Context:** Asked at **TCS (2019)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2019)</b>.</i></p>
 
 ---
 
@@ -801,7 +801,7 @@
 
 **Answer:** Tableau Services Manager – a web-based and CLI tool for managing Tableau Server (replaced TabAdmin).
 
-**Context:** Asked at **Capgemini (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
@@ -812,7 +812,7 @@
 * **Live:** Real-time data from source.
 * **Extract:** Snapshot stored in .hyper file for better performance.
 
-**Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
 
 ---
 
@@ -820,7 +820,7 @@
 
 **Answer:** Data fields assigned roles (geographic, numeric, string) that influence visualization.
 
-**Context:** Asked at **Infosys (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -831,7 +831,7 @@
 * **Data Interpreter:** Cleans messy Excel/CSV files.
 * **Pivot:** Converts columns into rows or vice versa.
 
-**Context:** Asked at **Deloitte (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2022)</b>.</i></p>
 
 ---
 
@@ -842,7 +842,7 @@
 * **Full Refresh:** Replaces all extract data.
 * **Incremental Refresh:** Adds only new rows.
 
-**Context:** Asked at **PwC (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>PwC (2021))</b>.</i></p>
 
 ---
 
@@ -853,7 +853,7 @@
 * **.twb:** XML file storing instructions.
 * **.twbx:** Zipped file containing .twb + data + images.
 
-**Context:** Asked at **KPMG (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>KPMG (2020)</b>.</i></p>
 
 ---
 
@@ -861,7 +861,7 @@
 
 **Answer:** Sequence in which Tableau applies filters/calculations: Extract → Data Source → Context Filter → Top N → Dimension → Measure → Table Calc.
 
-**Context:** Asked at **Amazon (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2021)</b>.</i></p>
 
 ---
 
@@ -873,7 +873,7 @@
 * **Include:** Adds dimensions.
 * **Exclude:** Removes dimensions.
 
-**Context:** Asked at **Deloitte (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
@@ -884,7 +884,7 @@
 * **Context Filter:** Creates a subset of data, improves performance.
 * **Dimension Filter:** Applies on top of context or independently.
 
-**Context:** Asked at **TCS (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -894,7 +894,7 @@
 
 **Example:** Customer journey analysis.
 
-**Context:** Asked at **Accenture (2019)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2019)</b>.</i></p>
 
 ---
 
@@ -902,7 +902,7 @@
 
 **Answer:** Free online repository of visualizations created by the community.
 
-**Context:** Asked at **Infosys (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -910,7 +910,7 @@
 
 **Answer:** Filter applied at the data source level, restricting rows before visualization.
 
-**Context:** Asked at **EY (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2022)</b>.</i></p>
 
 ---
 
@@ -918,7 +918,7 @@
 
 **Answer:** Natural Language Processing (NLP) feature to ask questions in plain English.
 
-**Context:** Asked at **Capgemini (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
 
 ---
 
@@ -926,15 +926,14 @@
 
 **Answer:** AI-powered feature that automatically explains why a data point is high/low.
 
-**Context:** Asked at **Deloitte (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
 **Q95.** What is Performance Recording in Tableau?
 
 **Answer:** A feature to analyze workbook performance (queries, rendering, extracts).
-
-**Context:** Asked at **Amazon (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2020)</b>.</i></p>
 
 ---
 
@@ -945,7 +944,7 @@
 * **Embedded:** Stored inside workbook.
 * **Published:** Shared on Tableau Server/Online.
 
-**Context:** Asked at **KPMG (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>KPMG (2021)</b>.</i></p>
 
 ---
 
@@ -955,7 +954,7 @@
 
 **Example:** Write-back to databases.
 
-**Context:** Asked at **Microsoft (2021)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
@@ -963,7 +962,7 @@
 
 **Answer:** Restricting data visibility at user/group level using filters.
 
-**Context:** Asked at **Deloitte (2020)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
@@ -971,7 +970,7 @@
 
 **Answer:** Flattening data into a single table (instead of multiple joins) to improve visualization performance.
 
-**Context:** Asked at **PwC (2022)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>PwC (2022))</b>.</i></p>
 
 ---
 
@@ -983,7 +982,7 @@
 * Integration with Snowflake, BigQuery, and ML platforms.
 * Stronger cloud and embedded analytics adoption.
 
-**Context:** Discussed at **Salesforce (2023)**.<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Salesforce (2023)</b>.</i></p>
 
 
 
