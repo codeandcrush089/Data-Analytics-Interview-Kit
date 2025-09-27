@@ -1,9 +1,14 @@
-Perfect 🚀 Let’s start building **Math & Statistics Interview Questions (Q1–Q20 – Basics)** in the same structured format (Q, Answer, Example/Formula, Company Context).
+
+<div align="center">
+
+
+
+# 📐 Top 100 Math & Statistics Interview Q&A  
+💡 With Real-World Examples + Company Context (FAANG & Startups)
+
+</div>
 
 ---
-
-# **Math & Statistics Interview Questions (Q1–Q20 – Basics)**
-
 **Q1. What is Mean, Median, and Mode?**
 **Answer:**
 
@@ -186,11 +191,6 @@ $$
 
 ---
 
-Great! 🚀 Let’s continue with **Math & Statistics Interview Questions Q21–Q40 (Intermediate Level)**.
-
----
-
-# **Math & Statistics Interview Questions (Q21–Q40 – Intermediate)**
 
 **Q21. What is the Law of Large Numbers?**
 **Answer:** As sample size increases, the sample mean converges to the population mean.
@@ -340,12 +340,6 @@ $$
 **Context:** Deloitte (2021) ➡️
 
 ---
-
-Perfect 🔥 Let’s move on with **Math & Statistics Interview Questions Q41–Q60 (Advanced Level)**.
-
----
-
-# **Math & Statistics Interview Questions (Q41–Q60 – Advanced)**
 
 **Q41. What is Multiple Linear Regression?**
 **Answer:** Regression with more than one independent variable.
@@ -518,11 +512,6 @@ Steps → E-step (expectation), M-step (maximize).
 
 ---
 
-Awesome 🚀 Let’s continue with **Math & Statistics Interview Questions Q61–Q80 (Expert Level)**.
-
----
-
-# **Math & Statistics Interview Questions (Q61–Q80 – Expert)**
 
 **Q61. What is a Markov Chain?**
 **Answer:** A stochastic process where the next state depends only on the current state, not the history.
@@ -702,11 +691,6 @@ Types: one-sample, two-sample, paired.
 
 ---
 
-Perfect ⚡ Let’s wrap this series with **Math & Statistics Interview Questions Q81–Q100 (Expert+)**.
-
----
-
-# **Math & Statistics Interview Questions (Q81–Q100 – Expert+)**
 
 **Q81. What is Convex Optimization?**
 **Answer:** Optimization where cost function is convex → any local minimum = global minimum.
