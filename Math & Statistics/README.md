@@ -10,24 +10,27 @@
 
 ---
 **Q1. What is Mean, Median, and Mode?**
+
 **Answer:**
 
 * **Mean** → Average of values.
 * **Median** → Middle value when sorted.
 * **Mode** → Most frequent value.
-  **Example:** Data = [2, 4, 4, 6] → Mean=4, Median=4, Mode=4.
-  **Context:** Deloitte (2021) ➡️
+
+**Example:** Data = [2, 4, 4, 6] → Mean=4, Median=4, Mode=4.
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
 **Q2. What is Variance and Standard Deviation?**
+
 **Answer:** Variance = measure of spread, Std Dev = square root of variance.
 
 $$
 Var(X) = \frac{\sum (x_i - \mu)^2}{n}
 $$
 
-**Context:** TCS (2020) ➡️
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
@@ -39,27 +42,29 @@ P(E) = \frac{\text{Favorable outcomes}}{\text{Total outcomes}}
 $$
 
 **Example:** Rolling a 6 on a dice → 1/6.
-**Context:** Accenture (2019) ➡️
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2019)</b>.</i></p>
 
 ---
 
 **Q4. Difference between Permutations and Combinations?**
+
 **Answer:**
 
 * **Permutation** = Order matters.
 * **Combination** = Order doesn’t matter.
-  **Context:** Infosys (2020) ➡️
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
 **Q5. What is Conditional Probability?**
+
 **Answer:** Probability of event A given event B.
 
 $$
 P(A|B) = \frac{P(A \cap B)}{P(B)}
 $$
 
-**Context:** Capgemini (2021) ➡️
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
@@ -70,7 +75,7 @@ $$
 P(A|B) = \frac{P(B|A) P(A)}{P(B)}
 $$
 
-**Context:** Amazon (2022) ➡️
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
@@ -81,7 +86,7 @@ $$
 E[X] = \sum x_i \cdot P(x_i)
 $$
 
-**Context:** Deloitte (2021) ➡️
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
@@ -90,24 +95,25 @@ $$
 
 * **Correlation** → Relationship between two variables.
 * **Causation** → One variable directly affects another.
-  **Context:** Microsoft (2021) ➡️
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
-**Q9. What is Covariance?**
+**Q9. What is Covariance?**<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 **Answer:** Measure of how two variables change together.
 
 $$
 Cov(X,Y) = \frac{\sum (x_i-\mu_x)(y_i-\mu_y)}{n}
 $$
 
-**Context:** Flipkart (2020) ➡️
+<p align="right"><b><i>Context:</b> Asked at <b>Flipkart (2020)</b>.</i></p>
 
 ---
 
 **Q10. What is Normal Distribution?**
+
 **Answer:** Bell-shaped, symmetric distribution with mean = median = mode.
-**Context:** Infosys (2021) ➡️
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -118,34 +124,37 @@ $$
 Z = \frac{x - \mu}{\sigma}
 $$
 
-**Context:** Deloitte (2020) ➡️
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
 **Q12. What is Central Limit Theorem (CLT)?**
+
 **Answer:** Sampling distribution of sample mean approaches normal as sample size increases.
-**Context:** Amazon (2022) ➡️
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
 **Q13. What is a P-value in Hypothesis Testing?**
+
 **Answer:** Probability of observing results at least as extreme as current, assuming null hypothesis is true.
-**Context:** Microsoft (2021) ➡️
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
 **Q14. Difference between Type I and Type II Errors?**
+
 **Answer:**
 
 * **Type I** → False positive (rejecting true null).
 * **Type II** → False negative (failing to reject false null).
-  **Context:** EY (2020) ➡️
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
 
 ---
 
 **Q15. What is a Confidence Interval (CI)?**
 **Answer:** Range of values likely to contain population parameter with given confidence level (e.g., 95%).
-**Context:** Infosys (2021) ➡️
+**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -154,7 +163,7 @@ $$
 
 * Positive skew → right tail longer.
 * Negative skew → left tail longer.
-  **Context:** Capgemini (2020) ➡️
+  **Context:** Capgemini (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -163,13 +172,13 @@ $$
 
 * High kurtosis → more outliers.
 * Low kurtosis → flat.
-  **Context:** TCS (2019) ➡️
+  **Context:** TCS (2019) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q18. What is a T-test?**
 **Answer:** Statistical test to compare means between groups.
-**Context:** Deloitte (2020) ➡️
+**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -181,20 +190,20 @@ $$
 \chi^2 = \sum \frac{(O-E)^2}{E}
 $$
 
-**Context:** Accenture (2021) ➡️
+**Context:** Accenture (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q20. What is ANOVA (Analysis of Variance)?**
 **Answer:** Test to compare means of 3+ groups.
-**Context:** Infosys (2020) ➡️
+**Context:** Infosys (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 
 **Q21. What is the Law of Large Numbers?**
 **Answer:** As sample size increases, the sample mean converges to the population mean.
-**Context:** Microsoft (2020) ➡️
+**Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -203,20 +212,20 @@ $$
 
 * **Population** → Entire group of data.
 * **Sample** → Subset of population used for analysis.
-  **Context:** TCS (2019) ➡️
+  **Context:** TCS (2019) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q23. What are Outliers and how to detect them?**
 **Answer:** Data points far from others.
 Detection → Z-score > 3 or IQR rule (1.5×IQR).
-**Context:** Deloitte (2021) ➡️
+**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q24. What is a Probability Distribution?**
 **Answer:** Function that describes likelihood of outcomes. Examples: Normal, Binomial, Poisson.
-**Context:** Infosys (2020) ➡️
+**Context:** Infosys (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -227,7 +236,7 @@ $$
 P(X=k) = {n \choose k} p^k (1-p)^{n-k}
 $$
 
-**Context:** Capgemini (2021) ➡️
+**Context:** Capgemini (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -238,33 +247,33 @@ $$
 P(X=k) = \frac{e^{-\lambda} \lambda^k}{k!}
 $$
 
-**Context:** Amazon (2022) ➡️
+**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q27. What is Uniform Distribution?**
 **Answer:** All outcomes equally likely in given range.
 Example: Rolling a fair dice.
-**Context:** Accenture (2020) ➡️
+**Context:** Accenture (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q28. What is Hypothesis Testing?**
 **Answer:** Procedure to test assumption about population using sample data.
 Steps → Define H₀ & H₁ → Select test → Compute statistic → Compare with p-value.
-**Context:** Deloitte (2021) ➡️
+**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q29. What is a Null Hypothesis (H₀)?**
 **Answer:** Assumes no effect or difference. Example: “New drug = old drug.”
-**Context:** Infosys (2021) ➡️
+**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q30. What is an Alternative Hypothesis (H₁)?**
 **Answer:** Opposes null, assumes effect exists.
-**Context:** TCS (2020) ➡️
+**Context:** TCS (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -273,7 +282,7 @@ Steps → Define H₀ & H₁ → Select test → Compute statistic → Compare w
 
 * **One-tailed** → Directional (greater/less).
 * **Two-tailed** → Non-directional (different).
-  **Context:** EY (2020) ➡️
+  **Context:** EY (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -282,50 +291,50 @@ Steps → Define H₀ & H₁ → Select test → Compute statistic → Compare w
 
 * **Parametric** → Assume underlying distribution (t-test, ANOVA).
 * **Non-parametric** → No assumption (Mann-Whitney, Kruskal-Wallis).
-  **Context:** Amazon (2021) ➡️
+  **Context:** Amazon (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q33. What is Sampling Bias?**
 **Answer:** When sample isn’t representative of population.
 Example: Only surveying urban areas for national opinion.
-**Context:** Deloitte (2020) ➡️
+**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q34. What is Simple Random Sampling?**
 **Answer:** Each member of population has equal chance of selection.
-**Context:** Capgemini (2021) ➡️
+**Context:** Capgemini (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q35. What is Stratified Sampling?**
 **Answer:** Population divided into subgroups (strata) → random samples taken from each.
-**Context:** Infosys (2020) ➡️
+**Context:** Infosys (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q36. What is Central Tendency?**
 **Answer:** Statistical measure of center → mean, median, mode.
-**Context:** TCS (2019) ➡️
+**Context:** TCS (2019) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q37. What is Dispersion?**
 **Answer:** Measure of spread → variance, std deviation, range, IQR.
-**Context:** Deloitte (2021) ➡️
+**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q38. What is Multicollinearity?**
 **Answer:** When independent variables in regression are highly correlated → reduces model reliability.
-**Context:** Amazon (2022) ➡️
+**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q39. What is Multivariate Analysis?**
 **Answer:** Analysis involving multiple variables at the same time (e.g., MANOVA).
-**Context:** Microsoft (2021) ➡️
+**Context:** Microsoft (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -337,7 +346,7 @@ $$
 Y = \beta_0 + \beta_1X + \epsilon
 $$
 
-**Context:** Deloitte (2021) ➡️
+**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -348,7 +357,7 @@ $$
 Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \dots + \epsilon
 $$
 
-**Context:** Amazon (2022) ➡️
+**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -359,26 +368,26 @@ $$
 P(Y=1) = \frac{1}{1+e^{-(\beta_0+\beta_1X)}}
 $$
 
-**Context:** Deloitte (2021) ➡️
+**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q43. What is R² (Coefficient of Determination)?**
 **Answer:** Proportion of variance in dependent variable explained by independent variable(s).
 Range: 0 → 1.
-**Context:** Microsoft (2020) ➡️
+**Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q44. What is Adjusted R²?**
 **Answer:** Modified R² that accounts for number of predictors. Penalizes for adding irrelevant variables.
-**Context:** Infosys (2021) ➡️
+**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q45. What is Multinomial Logistic Regression?**
 **Answer:** Logistic regression for multi-class classification problems.
-**Context:** Flipkart (2021) ➡️
+**Context:** Flipkart (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -390,19 +399,19 @@ $$
 Y = \beta_0 + \beta_1X + \beta_2X^2 + \epsilon
 $$
 
-**Context:** Accenture (2020) ➡️
+**Context:** Accenture (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q47. What is Overfitting in Statistics?**
 **Answer:** When model performs well on training data but poorly on test data.
-**Context:** Deloitte (2020) ➡️
+**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q48. What is Underfitting?**
 **Answer:** Model is too simple to capture underlying data pattern.
-**Context:** Amazon (2022) ➡️
+**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -411,7 +420,7 @@ $$
 
 * **L1 (Lasso):** Shrinks coefficients to 0 (feature selection).
 * **L2 (Ridge):** Shrinks coefficients but not exactly to 0.
-  **Context:** Microsoft (2021) ➡️
+  **Context:** Microsoft (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -422,7 +431,7 @@ $$
 \theta = \theta - \alpha \frac{\partial J}{\partial \theta}
 $$
 
-**Context:** Google (2022) ➡️
+**Context:** Google (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -437,7 +446,7 @@ $$
 Av = \lambda v
 $$
 
-**Context:** Microsoft (2020) ➡️
+**Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -448,13 +457,13 @@ $$
 A \cdot A^{-1} = I
 $$
 
-**Context:** TCS (2019) ➡️
+**Context:** TCS (2019) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q53. What is Determinant of a Matrix?**
 **Answer:** Scalar value used in solving linear equations, finding inverses.
-**Context:** Deloitte (2020) ➡️
+**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -465,20 +474,20 @@ $$
 \Sigma = E[(X-\mu)(X-\mu)^T]
 $$
 
-**Context:** Amazon (2022) ➡️
+**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q55. What is PCA (Principal Component Analysis)?**
 **Answer:** Dimensionality reduction technique that transforms variables into uncorrelated principal components.
-**Context:** Infosys (2021) ➡️
+**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q56. What is Multivariate Normal Distribution?**
 **Answer:** Generalization of normal distribution for multiple variables.
 Defined by mean vector μ and covariance matrix Σ.
-**Context:** Deloitte (2021) ➡️
+**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -489,26 +498,26 @@ $$
 \hat{\theta} = \arg\max_\theta L(\theta|X)
 $$
 
-**Context:** Amazon (2022) ➡️
+**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q58. What is Expectation-Maximization (EM) Algorithm?**
 **Answer:** Iterative method to find MLE when data is incomplete/hidden variables.
 Steps → E-step (expectation), M-step (maximize).
-**Context:** Google (2021) ➡️
+**Context:** Google (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q59. What is Multivariate Regression?**
 **Answer:** Regression with multiple dependent variables predicted simultaneously.
-**Context:** Microsoft (2021) ➡️
+**Context:** Microsoft (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q60. What is Heteroscedasticity?**
 **Answer:** Non-constant variance of residuals in regression → violates assumptions.
-**Context:** Deloitte (2020) ➡️
+**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -520,7 +529,7 @@ $$
 P(X_{n+1}|X_n, X_{n-1}, …) = P(X_{n+1}|X_n)
 $$
 
-**Context:** Google (2021) ➡️
+**Context:** Google (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -531,13 +540,13 @@ $$
 \pi P = \pi
 $$
 
-**Context:** Microsoft (2020) ➡️
+**Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q63. What is a Random Walk?**
 **Answer:** A process where the next step is determined by a random decision, often used in finance and physics.
-**Context:** Amazon (2021) ➡️
+**Context:** Amazon (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -548,7 +557,7 @@ $$
 P(A|B) = \frac{P(B|A)P(A)}{P(B)}
 $$
 
-**Context:** Deloitte (2020) ➡️
+**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -559,7 +568,7 @@ $$
 P(A,B|C) = P(A|C)P(B|C)
 $$
 
-**Context:** Flipkart (2021) ➡️
+**Context:** Flipkart (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -570,7 +579,7 @@ $$
 D_{KL}(P||Q) = \sum P(x)\log \frac{P(x)}{Q(x)}
 $$
 
-**Context:** Google (2022) ➡️
+**Context:** Google (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -581,13 +590,13 @@ $$
 H(X) = -\sum p(x)\log p(x)
 $$
 
-**Context:** Microsoft (2021) ➡️
+**Context:** Microsoft (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q68. What is Cross-Entropy Loss?**
 **Answer:** Loss function used in classification comparing predicted vs. true probabilities.
-**Context:** Amazon (2022) ➡️
+**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -598,19 +607,19 @@ $$
 \Lambda = \frac{L(\theta_0)}{L(\hat{\theta})}
 $$
 
-**Context:** Deloitte (2020) ➡️
+**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q70. What is Multinomial Distribution?**
 **Answer:** Generalization of binomial for outcomes with more than two categories.
-**Context:** TCS (2020) ➡️
+**Context:** TCS (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q71. What is Central Limit Theorem (CLT)?**
 **Answer:** Distribution of sample means approaches normal as sample size increases, regardless of population distribution.
-**Context:** Infosys (2021) ➡️
+**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -622,7 +631,7 @@ E[E[X|Y]] = E[X]
 $$
 
 **Answer:** Taking expectation in steps yields the same as full expectation.
-**Context:** Accenture (2020) ➡️
+**Context:** Accenture (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -633,7 +642,7 @@ $$
 f(E[X]) \leq E[f(X)]
 $$
 
-**Context:** Google (2021) ➡️
+**Context:** Google (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -642,7 +651,7 @@ $$
 
 * **Covariance:** Measures joint variability.
 * **Correlation:** Standardized covariance (range -1 to 1).
-  **Context:** Microsoft (2020) ➡️
+  **Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -653,26 +662,26 @@ $$
 \chi^2 = \sum \frac{(O-E)^2}{E}
 $$
 
-**Context:** Deloitte (2021) ➡️
+**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q76. What is an F-test?**
 **Answer:** Test to compare variances or models in regression.
-**Context:** Infosys (2020) ➡️
+**Context:** Infosys (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q77. What is a t-test?**
 **Answer:** Test to compare means between two groups.
 Types: one-sample, two-sample, paired.
-**Context:** Capgemini (2021) ➡️
+**Context:** Capgemini (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q78. What is a p-value?**
 **Answer:** Probability of observing results at least as extreme as the sample, assuming null hypothesis is true.
-**Context:** Deloitte (2020) ➡️
+**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -681,20 +690,20 @@ Types: one-sample, two-sample, paired.
 
 * **Type I (α):** Rejecting H₀ when true (false positive).
 * **Type II (β):** Failing to reject H₀ when false (false negative).
-  **Context:** Amazon (2021) ➡️
+  **Context:** Amazon (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q80. What is Power of a Test?**
 **Answer:** Probability of correctly rejecting H₀ (1-β). Higher power → more reliable test.
-**Context:** EY (2020) ➡️
+**Context:** EY (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 
 **Q81. What is Convex Optimization?**
 **Answer:** Optimization where cost function is convex → any local minimum = global minimum.
-**Context:** Google (2022) ➡️
+**Context:** Google (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -702,7 +711,7 @@ Types: one-sample, two-sample, paired.
 
 * **Gradient:** First derivative vector (slope).
 * **Hessian:** Second derivative matrix (curvature).
-  **Context:** Microsoft (2021) ➡️
+  **Context:** Microsoft (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -713,44 +722,44 @@ $$
 L(x, \lambda) = f(x) + \lambda(g(x)-c)
 $$
 
-**Context:** Deloitte (2020) ➡️
+**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q84. What is KKT Condition (Karush-Kuhn-Tucker)?**
 **Answer:** Necessary condition for solving constrained optimization problems.
-**Context:** Amazon (2021) ➡️
+**Context:** Amazon (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q85. What is Game Theory?**
 **Answer:** Study of strategic interactions where payoff depends on actions of all players.
-**Context:** Flipkart (2020) ➡️
+**Context:** Flipkart (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q86. What is Nash Equilibrium?**
 **Answer:** State where no player can improve payoff by changing strategy unilaterally.
-**Context:** Infosys (2021) ➡️
+**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q87. What is Zero-Sum Game?**
 **Answer:** A game where one player’s gain is exactly equal to another’s loss.
-**Context:** Microsoft (2020) ➡️
+**Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q88. What is Monte Carlo Simulation?**
 **Answer:** Technique using random sampling to approximate probability of outcomes.
-**Context:** Amazon (2022) ➡️
+**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q89. What is Markov Decision Process (MDP)?**
 **Answer:** Framework for decision making with states, actions, rewards, transitions.
 Used in reinforcement learning.
-**Context:** Google (2021) ➡️
+**Context:** Google (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -761,37 +770,37 @@ $$
 V(s) = \max_a \big[ R(s,a) + \gamma \sum P(s'|s,a)V(s') \big]
 $$
 
-**Context:** Microsoft (2022) ➡️
+**Context:** Microsoft (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q91. What is Linear Programming (LP)?**
 **Answer:** Optimization of linear objective function subject to linear constraints.
-**Context:** Deloitte (2020) ➡️
+**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q92. What is Integer Programming?**
 **Answer:** Linear programming with integer constraints on decision variables.
-**Context:** Accenture (2021) ➡️
+**Context:** Accenture (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q93. What is Dynamic Programming (DP)?**
 **Answer:** Method to solve problems by breaking them into overlapping subproblems.
-**Context:** Amazon (2022) ➡️
+**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q94. What is Time Complexity in Algorithms?**
 **Answer:** Measure of computational efficiency based on input size (O(n), O(n²), etc.).
-**Context:** Google (2021) ➡️
+**Context:** Google (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q95. What is Curse of Dimensionality?**
 **Answer:** Phenomenon where high-dimensional data leads to sparse points → harder modeling.
-**Context:** Microsoft (2020) ➡️
+**Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -803,13 +812,13 @@ A = U \Sigma V^T
 $$
 
 Used in recommendation systems, PCA.
-**Context:** Netflix (2021) ➡️
+**Context:** Netflix (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q97. What is Moore-Penrose Pseudoinverse?**
 **Answer:** Generalized inverse of non-square matrix used in least squares regression.
-**Context:** TCS (2020) ➡️
+**Context:** TCS (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -820,13 +829,13 @@ $$
 A = V \Lambda V^{-1}
 $$
 
-**Context:** Infosys (2021) ➡️
+**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
 **Q99. What is Gini Coefficient?**
 **Answer:** Measure of inequality (0 = perfect equality, 1 = maximum inequality).
-**Context:** Deloitte (2020) ➡️
+**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -834,7 +843,7 @@ $$
 
 * **KL Divergence:** Asymmetric measure of distribution difference.
 * **Jensen-Shannon Divergence:** Symmetric, bounded version of KL.
-  **Context:** Google DeepMind (2022) ➡️
+  **Context:** Google DeepMind (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
