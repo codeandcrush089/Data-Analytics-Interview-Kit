@@ -153,36 +153,40 @@ $$
 ---
 
 **Q15. What is a Confidence Interval (CI)?**
+
 **Answer:** Range of values likely to contain population parameter with given confidence level (e.g., 95%).
-**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
 **Q16. What is Skewness?**
+
 **Answer:** Measure of asymmetry of distribution.
 
 * Positive skew → right tail longer.
 * Negative skew → left tail longer.
-  **Context:** Capgemini (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
 
 ---
 
 **Q17. What is Kurtosis?**
+
 **Answer:** Measure of "peakedness" of distribution.
 
 * High kurtosis → more outliers.
 * Low kurtosis → flat.
-  **Context:** TCS (2019) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2019)</b>.</i></p>
 
 ---
 
 **Q18. What is a T-test?**
 **Answer:** Statistical test to compare means between groups.
-**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
 **Q19. What is Chi-Square Test?**
+
 **Answer:** Test for independence or goodness of fit.
 Formula:
 
@@ -190,103 +194,116 @@ $$
 \chi^2 = \sum \frac{(O-E)^2}{E}
 $$
 
-**Context:** Accenture (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
 
 ---
 
 **Q20. What is ANOVA (Analysis of Variance)?**
+
 **Answer:** Test to compare means of 3+ groups.
-**Context:** Infosys (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
 
 **Q21. What is the Law of Large Numbers?**
+
 **Answer:** As sample size increases, the sample mean converges to the population mean.
-**Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2020)</b>.</i></p>
 
 ---
 
 **Q22. What is the Difference between Population and Sample?**
+
 **Answer:**
 
 * **Population** → Entire group of data.
 * **Sample** → Subset of population used for analysis.
-  **Context:** TCS (2019) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2019)</b>.</i></p>
 
 ---
 
 **Q23. What are Outliers and how to detect them?**
+
 **Answer:** Data points far from others.
 Detection → Z-score > 3 or IQR rule (1.5×IQR).
-**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
 **Q24. What is a Probability Distribution?**
+
 **Answer:** Function that describes likelihood of outcomes. Examples: Normal, Binomial, Poisson.
-**Context:** Infosys (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
 **Q25. What is a Binomial Distribution?**
+
 **Answer:** Discrete distribution for number of successes in fixed trials.
 
 $$
 P(X=k) = {n \choose k} p^k (1-p)^{n-k}
 $$
 
-**Context:** Capgemini (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
 **Q26. What is a Poisson Distribution?**
+
 **Answer:** Models number of events in fixed interval (time/space).
 
 $$
 P(X=k) = \frac{e^{-\lambda} \lambda^k}{k!}
 $$
 
-**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
 **Q27. What is Uniform Distribution?**
+
 **Answer:** All outcomes equally likely in given range.
 Example: Rolling a fair dice.
-**Context:** Accenture (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
 **Q28. What is Hypothesis Testing?**
+
 **Answer:** Procedure to test assumption about population using sample data.
 Steps → Define H₀ & H₁ → Select test → Compute statistic → Compare with p-value.
-**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
 **Q29. What is a Null Hypothesis (H₀)?**
+
 **Answer:** Assumes no effect or difference. Example: “New drug = old drug.”
-**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
 **Q30. What is an Alternative Hypothesis (H₁)?**
+
 **Answer:** Opposes null, assumes effect exists.
-**Context:** TCS (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
 **Q31. What is a One-tailed vs. Two-tailed Test?**
+
 **Answer:**
 
 * **One-tailed** → Directional (greater/less).
 * **Two-tailed** → Non-directional (different).
-  **Context:** EY (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
 
 ---
 
 **Q32. What is the Difference between Parametric and Non-Parametric Tests?**
+
 **Answer:**
 
 * **Parametric** → Assume underlying distribution (t-test, ANOVA).
@@ -297,7 +314,7 @@ Steps → Define H₀ & H₁ → Select test → Compute statistic → Compare w
 
 **Q33. What is Sampling Bias?**
 **Answer:** When sample isn’t representative of population.
-Example: Only surveying urban areas for national opinion.
+**Example:** Only surveying urban areas for national opinion.
 **Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
