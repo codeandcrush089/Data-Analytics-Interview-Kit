@@ -308,54 +308,63 @@ Steps → Define H₀ & H₁ → Select test → Compute statistic → Compare w
 
 * **Parametric** → Assume underlying distribution (t-test, ANOVA).
 * **Non-parametric** → No assumption (Mann-Whitney, Kruskal-Wallis).
-  **Context:** Amazon (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2021)</b>.</i></p>
 
 ---
 
 **Q33. What is Sampling Bias?**
+
 **Answer:** When sample isn’t representative of population.
+
 **Example:** Only surveying urban areas for national opinion.
-**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
 **Q34. What is Simple Random Sampling?**
+
 **Answer:** Each member of population has equal chance of selection.
-**Context:** Capgemini (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
 **Q35. What is Stratified Sampling?**
+
 **Answer:** Population divided into subgroups (strata) → random samples taken from each.
-**Context:** Infosys (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
 **Q36. What is Central Tendency?**
+
 **Answer:** Statistical measure of center → mean, median, mode.
-**Context:** TCS (2019) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2019)</b>.</i></p>
 
 ---
 
 **Q37. What is Dispersion?**
+
 **Answer:** Measure of spread → variance, std deviation, range, IQR.
-**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
 **Q38. What is Multicollinearity?**
+
 **Answer:** When independent variables in regression are highly correlated → reduces model reliability.
-**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
 **Q39. What is Multivariate Analysis?**
+
 **Answer:** Analysis involving multiple variables at the same time (e.g., MANOVA).
-**Context:** Microsoft (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
 **Q40. What is Linear Regression?**
+
 **Answer:** Statistical method to model relationship between dependent & independent variables.
 Equation:
 
@@ -363,52 +372,58 @@ $$
 Y = \beta_0 + \beta_1X + \epsilon
 $$
 
-**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
 **Q41. What is Multiple Linear Regression?**
+
 **Answer:** Regression with more than one independent variable.
 
 $$
 Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \dots + \epsilon
 $$
 
-**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
 **Q42. What is Logistic Regression?**
+
 **Answer:** Regression used when dependent variable is binary (0/1).
 
 $$
 P(Y=1) = \frac{1}{1+e^{-(\beta_0+\beta_1X)}}
 $$
 
-**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
 **Q43. What is R² (Coefficient of Determination)?**
+
 **Answer:** Proportion of variance in dependent variable explained by independent variable(s).
 Range: 0 → 1.
-**Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2020)</b>.</i></p>
 
 ---
 
 **Q44. What is Adjusted R²?**
+
 **Answer:** Modified R² that accounts for number of predictors. Penalizes for adding irrelevant variables.
-**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
 **Q45. What is Multinomial Logistic Regression?**
+
 **Answer:** Logistic regression for multi-class classification problems.
-**Context:** Flipkart (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Flipkart (2021)</b>.</i></p>
 
 ---
 
 **Q46. What is Polynomial Regression?**
+
 **Answer:** Regression where independent variable has polynomial terms (X², X³, etc.).
 Equation:
 
@@ -416,43 +431,48 @@ $$
 Y = \beta_0 + \beta_1X + \beta_2X^2 + \epsilon
 $$
 
-**Context:** Accenture (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
 **Q47. What is Overfitting in Statistics?**
+
 **Answer:** When model performs well on training data but poorly on test data.
-**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
 **Q48. What is Underfitting?**
+
 **Answer:** Model is too simple to capture underlying data pattern.
-**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
 **Q49. What is Regularization (L1 vs L2)?**
+
 **Answer:** Technique to prevent overfitting.
 
 * **L1 (Lasso):** Shrinks coefficients to 0 (feature selection).
 * **L2 (Ridge):** Shrinks coefficients but not exactly to 0.
-  **Context:** Microsoft (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
 **Q50. What is Gradient Descent?**
+
 **Answer:** Optimization algorithm to minimize cost function by iteratively adjusting parameters.
 
 $$
 \theta = \theta - \alpha \frac{\partial J}{\partial \theta}
 $$
 
-**Context:** Google (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2022)</b>.</i></p>
 
 ---
 
 **Q51. What is Eigenvalue and Eigenvector?**
+
 **Answer:**
 
 * **Eigenvalue (λ):** Scalar showing variance captured.
@@ -463,78 +483,86 @@ $$
 Av = \lambda v
 $$
 
-**Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2020)</b>.</i></p>
 
 ---
 
 **Q52. What is Matrix Inversion?**
+
 **Answer:** For a square matrix A, inverse is A⁻¹ such that:
 
 $$
 A \cdot A^{-1} = I
 $$
 
-**Context:** TCS (2019) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2019)</b>.</i></p>
 
 ---
 
 **Q53. What is Determinant of a Matrix?**
+
 **Answer:** Scalar value used in solving linear equations, finding inverses.
-**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
 **Q54. What is Covariance Matrix?**
+
 **Answer:** Square matrix showing covariance between variables.
 
 $$
 \Sigma = E[(X-\mu)(X-\mu)^T]
 $$
 
-**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
 **Q55. What is PCA (Principal Component Analysis)?**
-**Answer:** Dimensionality reduction technique that transforms variables into uncorrelated principal components.
-**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+Answer:** Dimensionality reduction technique that transforms variables into uncorrelated principal components.
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
 **Q56. What is Multivariate Normal Distribution?**
+
 **Answer:** Generalization of normal distribution for multiple variables.
 Defined by mean vector μ and covariance matrix Σ.
-**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
 **Q57. What is Maximum Likelihood Estimation (MLE)?**
+
 **Answer:** Method to estimate parameters by maximizing likelihood function.
 
 $$
 \hat{\theta} = \arg\max_\theta L(\theta|X)
 $$
 
-**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
 **Q58. What is Expectation-Maximization (EM) Algorithm?**
+
 **Answer:** Iterative method to find MLE when data is incomplete/hidden variables.
 Steps → E-step (expectation), M-step (maximize).
-**Context:** Google (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2021)</b>.</i></p>
 
 ---
 
 **Q59. What is Multivariate Regression?**
+
 **Answer:** Regression with multiple dependent variables predicted simultaneously.
-**Context:** Microsoft (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
 **Q60. What is Heteroscedasticity?**
 **Answer:** Non-constant variance of residuals in regression → violates assumptions.
-**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
@@ -546,61 +574,68 @@ $$
 P(X_{n+1}|X_n, X_{n-1}, …) = P(X_{n+1}|X_n)
 $$
 
-**Context:** Google (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2021)</b>.</i></p>
 
 ---
 
 **Q62. What is a Stationary Distribution in Markov Chains?**
+
 **Answer:** A probability distribution that remains unchanged as the chain evolves.
 
 $$
 \pi P = \pi
 $$
 
-**Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2020)</b>.</i></p>
 
 ---
 
 **Q63. What is a Random Walk?**
+
 **Answer:** A process where the next step is determined by a random decision, often used in finance and physics.
-**Context:** Amazon (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2021)</b>.</i></p>
 
 ---
 
 **Q64. What is Bayes’ Theorem used for?**
+
 **Answer:** To update probability estimates with new evidence.
 
 $$
 P(A|B) = \frac{P(B|A)P(A)}{P(B)}
 $$
 
-**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
 **Q65. What is Conditional Independence?**
+
 **Answer:** Two events A and B are independent given C if:
 
 $$
 P(A,B|C) = P(A|C)P(B|C)
 $$
 
-**Context:** Flipkart (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Flipkart (2021)</b>.</i></p>
 
 ---
 
 **Q66. What is KL Divergence?**
+
 **Answer:** A measure of how one probability distribution diverges from another.
 
 $$
 D_{KL}(P||Q) = \sum P(x)\log \frac{P(x)}{Q(x)}
 $$
 
-**Context:** Google (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2022)</b>.</i></p>
 
 ---
 
 **Q67. What is Entropy in Information Theory?**
+
 **Answer:** Measure of uncertainty in a random variable.
 
 $$
@@ -612,78 +647,88 @@ $$
 ---
 
 **Q68. What is Cross-Entropy Loss?**
+
 **Answer:** Loss function used in classification comparing predicted vs. true probabilities.
-**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
 **Q69. What is a Likelihood Ratio Test (LRT)?**
+
 **Answer:** Hypothesis test comparing goodness of fit between two models.
 
 $$
 \Lambda = \frac{L(\theta_0)}{L(\hat{\theta})}
 $$
 
-**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
 **Q70. What is Multinomial Distribution?**
+
 **Answer:** Generalization of binomial for outcomes with more than two categories.
-**Context:** TCS (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
 **Q71. What is Central Limit Theorem (CLT)?**
+
 **Answer:** Distribution of sample means approaches normal as sample size increases, regardless of population distribution.
-**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
 **Q72. What is Law of Iterated Expectations?**
+
 **Answer:**
 
 $$
 E[E[X|Y]] = E[X]
 $$
 
-**Answer:** Taking expectation in steps yields the same as full expectation.
-**Context:** Accenture (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+* Taking expectation in steps yields the same as full expectation.
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
 **Q73. What is Jensen’s Inequality?**
+
 **Answer:** For convex functions:
 
 $$
 f(E[X]) \leq E[f(X)]
 $$
 
-**Context:** Google (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2021)</b>.</i></p>
 
 ---
 
 **Q74. What is Covariance vs. Correlation?**
+
 **Answer:**
 
 * **Covariance:** Measures joint variability.
 * **Correlation:** Standardized covariance (range -1 to 1).
-  **Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2020)</b>.</i></p>
 
 ---
 
 **Q75. What is a Chi-Square Test?**
+
 **Answer:** Test used for independence between categorical variables.
 
 $$
 \chi^2 = \sum \frac{(O-E)^2}{E}
 $$
 
-**Context:** Deloitte (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
 **Q76. What is an F-test?**
+
 **Answer:** Test to compare variances or models in regression.
 **Context:** Infosys (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
