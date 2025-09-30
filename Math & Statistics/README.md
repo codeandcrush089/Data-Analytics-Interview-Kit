@@ -69,6 +69,7 @@ $$
 ---
 
 **Q6. What is Bayes’ Theorem?**
+
 **Answer:** Relates conditional probabilities.
 
 $$
@@ -80,6 +81,7 @@ $$
 ---
 
 **Q7. What is Expected Value (EV)?**
+
 **Answer:** Average outcome if experiment repeated many times.
 
 $$
@@ -91,6 +93,7 @@ $$
 ---
 
 **Q8. What is Correlation vs. Causation?**
+
 **Answer:**
 
 * **Correlation** → Relationship between two variables.
@@ -99,7 +102,8 @@ $$
 
 ---
 
-**Q9. What is Covariance?**<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+**Q9. What is Covariance?**
+
 **Answer:** Measure of how two variables change together.
 
 $$
@@ -118,6 +122,7 @@ $$
 ---
 
 **Q11. What is Z-Score?**
+
 **Answer:** Number of standard deviations a value is from mean.
 
 $$
@@ -180,6 +185,7 @@ $$
 ---
 
 **Q18. What is a T-test?**
+
 **Answer:** Statistical test to compare means between groups.
 <p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
@@ -561,6 +567,7 @@ Steps → E-step (expectation), M-step (maximize).
 ---
 
 **Q60. What is Heteroscedasticity?**
+
 **Answer:** Non-constant variance of residuals in regression → violates assumptions.
 <p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
@@ -568,6 +575,7 @@ Steps → E-step (expectation), M-step (maximize).
 
 
 **Q61. What is a Markov Chain?**
+
 **Answer:** A stochastic process where the next state depends only on the current state, not the history.
 
 $$
@@ -642,7 +650,7 @@ $$
 H(X) = -\sum p(x)\log p(x)
 $$
 
-**Context:** Microsoft (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
@@ -730,143 +738,163 @@ $$
 **Q76. What is an F-test?**
 
 **Answer:** Test to compare variances or models in regression.
-**Context:** Infosys (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
 **Q77. What is a t-test?**
+
 **Answer:** Test to compare means between two groups.
 Types: one-sample, two-sample, paired.
-**Context:** Capgemini (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
 **Q78. What is a p-value?**
+
 **Answer:** Probability of observing results at least as extreme as the sample, assuming null hypothesis is true.
-**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
 **Q79. What is Type I and Type II Error?**
+
 **Answer:**
 
 * **Type I (α):** Rejecting H₀ when true (false positive).
 * **Type II (β):** Failing to reject H₀ when false (false negative).
-  **Context:** Amazon (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2021)</b>.</i></p>
 
 ---
 
 **Q80. What is Power of a Test?**
+
 **Answer:** Probability of correctly rejecting H₀ (1-β). Higher power → more reliable test.
-**Context:** EY (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>EY (2020)</b>.</i></p>
 
 ---
 
 
 **Q81. What is Convex Optimization?**
+
 **Answer:** Optimization where cost function is convex → any local minimum = global minimum.
-**Context:** Google (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2022)</b>.</i></p>
 
 ---
 
 **Q82. What is Gradient vs. Hessian?**
 
+**Answer:**
 * **Gradient:** First derivative vector (slope).
 * **Hessian:** Second derivative matrix (curvature).
-  **Context:** Microsoft (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2021)</b>.</i></p>
 
 ---
 
 **Q83. What is Lagrange Multiplier Method?**
+
 **Answer:** Technique for optimizing a function subject to constraints.
 
 $$
 L(x, \lambda) = f(x) + \lambda(g(x)-c)
 $$
 
-**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
 **Q84. What is KKT Condition (Karush-Kuhn-Tucker)?**
+
 **Answer:** Necessary condition for solving constrained optimization problems.
-**Context:** Amazon (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2021)</b>.</i></p>
 
 ---
 
 **Q85. What is Game Theory?**
+
 **Answer:** Study of strategic interactions where payoff depends on actions of all players.
-**Context:** Flipkart (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Flipkart (2020)</b>.</i></p>
 
 ---
 
 **Q86. What is Nash Equilibrium?**
+
 **Answer:** State where no player can improve payoff by changing strategy unilaterally.
-**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
 **Q87. What is Zero-Sum Game?**
+
 **Answer:** A game where one player’s gain is exactly equal to another’s loss.
-**Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2020)</b>.</i></p>
 
 ---
 
 **Q88. What is Monte Carlo Simulation?**
+
 **Answer:** Technique using random sampling to approximate probability of outcomes.
-**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
 **Q89. What is Markov Decision Process (MDP)?**
+
 **Answer:** Framework for decision making with states, actions, rewards, transitions.
 Used in reinforcement learning.
-**Context:** Google (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2021)</b>.</i></p>
 
 ---
 
 **Q90. What is Bellman Equation?**
+
 **Answer:** Recursive relation in dynamic programming for MDPs.
 
 $$
 V(s) = \max_a \big[ R(s,a) + \gamma \sum P(s'|s,a)V(s') \big]
 $$
 
-**Context:** Microsoft (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2022)</b>.</i></p>
 
 ---
 
 **Q91. What is Linear Programming (LP)?**
+
 **Answer:** Optimization of linear objective function subject to linear constraints.
-**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
 **Q92. What is Integer Programming?**
+
 **Answer:** Linear programming with integer constraints on decision variables.
-**Context:** Accenture (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
 
 ---
 
 **Q93. What is Dynamic Programming (DP)?**
+
 **Answer:** Method to solve problems by breaking them into overlapping subproblems.
-**Context:** Amazon (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Amazon (2022)</b>.</i></p>
 
 ---
 
 **Q94. What is Time Complexity in Algorithms?**
+
 **Answer:** Measure of computational efficiency based on input size (O(n), O(n²), etc.).
-**Context:** Google (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Google (2021)</b>.</i></p>
 
 ---
 
 **Q95. What is Curse of Dimensionality?**
+
 **Answer:** Phenomenon where high-dimensional data leads to sparse points → harder modeling.
-**Context:** Microsoft (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Microsoft (2020)</b>.</i></p>
 
 ---
 
 **Q96. What is Singular Value Decomposition (SVD)?**
+
 **Answer:** Matrix factorization:
 
 $$
@@ -874,38 +902,41 @@ A = U \Sigma V^T
 $$
 
 Used in recommendation systems, PCA.
-**Context:** Netflix (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Netflix (2021)</b>.</i></p>
 
 ---
 
 **Q97. What is Moore-Penrose Pseudoinverse?**
+
 **Answer:** Generalized inverse of non-square matrix used in least squares regression.
-**Context:** TCS (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
 **Q98. What is Eigen Decomposition?**
+
 **Answer:** Factorization of matrix into eigenvalues & eigenvectors.
 
 $$
 A = V \Lambda V^{-1}
 $$
 
-**Context:** Infosys (2021) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
 **Q99. What is Gini Coefficient?**
+
 **Answer:** Measure of inequality (0 = perfect equality, 1 = maximum inequality).
-**Context:** Deloitte (2020) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
 **Q100. What is KL vs. JS Divergence?**
-
+**Answer:**
 * **KL Divergence:** Asymmetric measure of distribution difference.
 * **Jensen-Shannon Divergence:** Symmetric, bounded version of KL.
-  **Context:** Google DeepMind (2022) ➡️<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Google DeepMind (2022)</b>.</i></p>
 
 ---
 
