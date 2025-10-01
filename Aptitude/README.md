@@ -390,7 +390,7 @@
 
 **Answer:**
 * Fluent, Expressive
-  📌 *TCS NQT 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+ <p align="right"><b><i>Context:</b> Asked at <b>TCS NQT (2021)</b>.</i></p>
 
 ---
 
@@ -398,7 +398,7 @@
 
 **Answer:**
 * Modern, New
-  📌 *Capgemini 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
@@ -406,7 +406,7 @@
 He is very good ___ Mathematics.
 
 **Answer:** at
-  📌 *Wipro 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
 
 ---
 
@@ -416,7 +416,7 @@ b) Environment
 c) Enviourment
 
 **Answer:** b) Environment 
-📌 *HCL 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>HCL (2022)</b>.</i></p>
 
 ---
 
@@ -425,7 +425,7 @@ c) Enviourment
 1. morning / 2. the / 3. in / 4. jogging / 5. goes / 6. he
 
 **Answer:** He goes jogging in the morning.
-  📌 *Accenture 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -433,7 +433,7 @@ c) Enviourment
 “A person who writes poems.” 
 
 **Answer:** Poet
-📌 *Deloitte 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
@@ -441,7 +441,7 @@ c) Enviourment
 “They are playing cricket.”
 
 **Answer:**  Passive: “Cricket is being played by them.”
-  📌 *TCS 2022* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
 
 ---
 
@@ -449,14 +449,14 @@ c) Enviourment
 By next year, she ___ her degree.
 
 **Answer:** will have completed
-  📌 *Wipro 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2021)</b>.</i></p>
 
 ---
 
 **Q50. Idiom meaning of “Beat around the bush.”**
 
 **Answer:**  Avoiding the main topic.
-  📌 *Infosys 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2029)</b>.</i></p>
 
 ---
 
@@ -464,21 +464,21 @@ By next year, she ___ her degree.
 Neither of the students ___ absent today.
 
 **Answer:** is
-  📌 *Capgemini 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
 
 ---
 
 **Q52. Synonym of *“Prudent”***
 
 **Answer:** Wise, Careful
-  📌 *HCL 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>HCL (2021)</b>.</i></p>
 
 ---
 
 **Q53. Antonym of *“Hostile”***
 
 **Answer:** Friendly, Amiable
-  📌 *TCS 2021*
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -486,7 +486,7 @@ Neither of the students ___ absent today.
 “The teacher explained me the lesson.”
 
 **Answer:** “The teacher explained the lesson **to me**.”
-  📌 *Infosys 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -496,7 +496,7 @@ b) He does not likes coffee.
 c) He does not like coffee.
 
 **Answer:** c) He does not like coffee.
-📌 *Wipro 2022* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2022)</b>.</i></p>
 
 ---
 
@@ -504,7 +504,7 @@ c) He does not like coffee.
 “A person who does not believe in God.” → 
 
 **Answer:** Atheist
-📌 *Capgemini 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
@@ -512,7 +512,7 @@ c) He does not like coffee.
 He said, “I am happy.”
 
 **Answer:** Indirect: He said that he was happy.
-  📌 *Deloitte 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2019)</b>.</i></p>
 
 ---
 
@@ -520,21 +520,21 @@ He said, “I am happy.”
 She has been working here ___ 2010.
 
 **Answer:** since
-  📌 *TCS NQT 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS NQT (2021)</b>.</i></p>
 
 ---
 
 **Q59. Synonym of *“Rapid”***
 
 **Answer:** Fast, Quick
-  📌 *Infosys 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
 **Q60. Antonym of *“Transparent”***
 
 **Answer:** Opaque
-  📌 *Accenture 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -554,7 +554,7 @@ She has been working here ___ 2010.
 * Total = 4 × 50 = 200
 * Sum of 3 = 155
 * 4th = 200 – 155 = **45**
-  📌 *Infosys 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -563,7 +563,7 @@ She has been working here ___ 2010.
 **Answer:**
 * CP = ₹180, SP = 20×12=₹240
 * Profit = 60 → Profit% = 60/180×100 = **33.3%**
-  📌 *TCS NQT 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS NQT (2021)</b>.</i></p>
 
 ---
 
@@ -572,7 +572,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Speed = 120/2=60 km/hr
 * Convert: (60×1000)/3600 = **16.67 m/s**
-  📌 *Capgemini 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2019)</b>.</i></p>
 
 ---
 
@@ -580,7 +580,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * Food = 30% of 40,000 = **₹12,000**
-  📌 *Wipro 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
 
 ---
 
@@ -590,7 +590,7 @@ She has been working here ___ 2010.
 * Old total = 30×20=600
 * New total = 31×21=651
 * Teacher = 651–600 = **51 yrs**
-  📌 *Accenture 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2021)</b>.</i></p>
 
 ---
 
@@ -598,7 +598,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * Total = 10, Blue=5 → 5/10= **0.5**
-  📌 *Deloitte 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)</b>.</i></p>
 
 ---
 
@@ -606,7 +606,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * Loss = 50 → Loss% = 50/500×100 = **10%**
-  📌 *Infosys 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2019)</b>.</i></p>
 
 ---
 
@@ -614,7 +614,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * SI = (P×R×T)/100 = 2000×5×3/100 = **₹300**
-  📌 *HCL 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>HCL (2021)</b>.</i></p>
 
 ---
 
@@ -622,7 +622,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * Total = 210, Average = 210/3 = **70**
-  📌 *TCS 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
@@ -630,7 +630,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * Increase=5,000 → (5000/25000)×100 = **20%**
-  📌 *Capgemini 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
 
 ---
 
@@ -638,7 +638,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * 180/3 = **60 km/hr**
-  📌 *Wipro 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2019)</b>.</i></p>
 
 ---
 
@@ -646,7 +646,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * Boys=30, Girls=20
-  📌 *Accenture 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -655,7 +655,7 @@ She has been working here ___ 2010.
 **Answer:**
 * 4x+5x=9x=81 → x=9
 * Numbers=36 & 45
-  📌 *Deloitte 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2019)</b>.</i></p>
 
 ---
 
@@ -664,7 +664,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Formula = [x/(100+x)]×100
 * = 20/120×100 = **16.67%**
-  📌 *TCS NQT 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS NQT (2021)</b>.</i></p>
 
 ---
 
@@ -672,7 +672,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * CP= SP×100/(100+Profit%) = 1200×100/120= **₹1000**
-  📌 *Infosys 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -680,7 +680,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * Food=1/4×20,000= **₹5000**
-  📌 *Capgemini 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
@@ -688,7 +688,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * Speed=120/6=20 m/s=20×18/5= **72 km/hr**
-  📌 *Wipro 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2019)</b>.</i></p>
 
 ---
 
@@ -696,7 +696,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * New avg=30+5= **35**
-  📌 *Accenture 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -705,7 +705,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Work=12×10=120 man-days
 * Time=120/15= **8 days**
-  📌 *Infosys 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2019)</b>.</i></p>
 
 ---
 
@@ -717,7 +717,7 @@ She has been working here ___ 2010.
 * 2SP=200+2x= CP+3x=100+3x
 * 200+2x=100+3x → x=100
 * Profit%=100%
-  📌 *Deloitte 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
@@ -735,7 +735,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Work = 15×12=180 man-days
 * Time = 180/20 = **9 days**
-  📌 *Infosys 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -743,7 +743,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * SI = 1000 → R = (1000×100)/(5000×2) = **10%**
-  📌 *Capgemini 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
@@ -752,7 +752,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Work/hr = 1/10+1/15=1/6
 * Time = **6 hrs**
-  📌 *Wipro 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
 
 ---
 
@@ -760,7 +760,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * CP = 1440×100/120 = **₹1200**
-  📌 *TCS 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -769,7 +769,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Downstream=8 km/hr, Upstream=4 km/hr
 * Boat speed=(8+4)/2= **6 km/hr**
-  📌 *Accenture 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2019)</b>.</i></p>
 
 ---
 
@@ -778,7 +778,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Possible=6 (1+6, 2+5, …)
 * Total=36 → 6/36= **1/6**
-  📌 *Deloitte 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
@@ -786,7 +786,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * CI = 2000(1.1²–1)=2000×0.21= **₹420**
-  📌 *HCL 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>HCL (2022)</b>.</i></p>
 
 ---
 
@@ -795,7 +795,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Assume 200 & 300 → New: 230 & 330
 * Ratio=230:330=23:33= **23:33**
-  📌 *Infosys 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2022)</b>.</i></p>
 
 ---
 
@@ -803,7 +803,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * Third=x → 1.2x & 1.5x → Ratio= **4:5**
-  📌 *TCS NQT 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS NQT (2020)</b>.</i></p>
 
 ---
 
@@ -813,7 +813,7 @@ She has been working here ___ 2010.
 * Wrong sum=80×40=3200
 * Correct sum=3200+20=3220
 * Avg=3220/80= **40.25**
-  📌 *Wipro 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2019)</b>.</i></p>
 
 ---
 
@@ -822,7 +822,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Let CP=x
 * 0.9x+60=1.05x → 0.15x=60 → x= **₹400**
-  📌 *Accenture 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -831,7 +831,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Work=48×30=1440
 * Time=1440/72= **20 days**
-  📌 *Infosys 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -840,7 +840,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Expenses=60% → Savings=40% = 4800 (but given 2400 → check)
 * Correct: Income must be **6000** for 2400 savings
-  📌 *TCS 2019*  <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2019)</b>.</i></p>
 
 ---
 
@@ -848,7 +848,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * SI=10000×12×9/100×12= **₹900**
-  📌 *Wipro 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
 
 ---
 
@@ -857,7 +857,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Distance=600 m
 * Speed=600/30=20 m/s=20×18/5= **72 km/hr**
-  📌 *Capgemini 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2019)</b>.</i></p>
 
 ---
 
@@ -866,7 +866,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Work=240 man-days
 * Men=240/15= **16**
-  📌 *Infosys 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -875,7 +875,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Sum=10²=100
 * Avg=100/10= **10**
-  📌 *TCS NQT 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS NQT (2021)</b>.</i></p>
 
 ---
 
@@ -883,7 +883,7 @@ She has been working here ___ 2010.
 
 **Answer:**
 * Expenditure=75% → Salary=6000×100/75= **₹8000**
-  📌 *Accenture 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -892,7 +892,7 @@ She has been working here ___ 2010.
 **Answer:**
 * Favourable=6, Total=36
 * P= **1/6**
-  📌 *Deloitte 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2021)</b>.</i></p>
 
 ---
 
@@ -902,5 +902,5 @@ She has been working here ___ 2010.
 * (1+r)¹²=4 → (1+r)²⁴=16
 * 8=2³ → need 36 yrs
 * Ans: **36 yrs**
-  📌 *Infosys 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
