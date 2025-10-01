@@ -100,7 +100,7 @@
 
 **Answer:**
 * Number = 120 ÷ 0.4 = **300**
-  📌 *Accenture 2022* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2022)</b>.</i></p>
 
 ---
 
@@ -108,7 +108,7 @@
 
 **Answer:**
 * Savings = 40% → Salary = 8000 ÷ 0.4 = **₹20,000**
-  📌 *Wipro 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2021)</b>.</i></p>
 
 ---
 
@@ -117,7 +117,7 @@
 **Answer:**
 * Total outcomes = 36, favorable = 6
 * P = 6/36 = **1/6**
-  📌 *TCS NQT 2022* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS NQT (2022)</b>.</i></p>
 
 ---
 
@@ -125,7 +125,7 @@
 
 **Answer:**
 * SI = (P×R×T)/100 = (10000×12×9/12)/100 = **₹900**
-  📌 *Infosys 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -133,7 +133,7 @@
 
 **Answer:**
 * CP = SP ÷ (1–Loss%) = 540 ÷ 0.9 = **₹600**
-  📌 *HCL 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>HCL (2019)</b>.</i></p>
 
 ---
 
@@ -141,7 +141,7 @@
 
 **Answer:**
 * A = 48000×1.25 = **₹60,000**
-  📌 *Wipro 2022* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2022)</b>.</i></p>
 
 ---
 
@@ -149,7 +149,7 @@
 
 **Answer:**
 * Prime factors: 96=2⁵×3, 404=2²×101 → HCF=2²= **4**
-  📌 *TCS 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -158,7 +158,7 @@
 **Answer:**
 * 3M=5W → 1M=5/3W
 * 6M+5W=6×5/3+5=15W → Work = 5W×12=60W → Time=60/15= **4 days**
-  📌 *Capgemini 2022* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2022)</b>.</i></p>
 
 ---
 
@@ -166,7 +166,7 @@
 
 **Answer:**
 * Total = 52, favorable = 2 (♥, ♦) → P = **2/52 = 1/26**
-  📌 *Infosys 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -174,7 +174,7 @@
 
 **Answer:**
 * A = 5000(1.1)² = 6050 → CI = 1050
-  📌 *HCL 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>HCL (2020)</b>.</i></p>
 
 ---
 
@@ -183,7 +183,7 @@
 **Answer:**
 * Downstream = 10 km/h, Upstream = 5 km/h
 * Speed = (10+5)/2 = **7.5 km/h**
-  📌 *TCS 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -191,7 +191,7 @@
 
 **Answer:**
 * SI = P → P = (P×R×5)/100 → R=20%
-  📌 *Accenture 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2019)</b>.</i></p>
 
 
 ---
@@ -210,7 +210,7 @@
 **Answer:**
 * Pattern: ( n^2 + n ) → 1²+1=2, 2²+2=6, 3²+3=12...
 * Next = 6²+6=42
-  📌 *Infosys 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -219,7 +219,7 @@
 **Answer:**
 * Logic: Assign letters → M=5, O=1, N=4, D=2, A=3, Y=7
 * So S=6, U=8 → SUNDAY=684237
-  📌 *TCS NQT 2022* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS NQT (2022)</b>.</i></p>
 
 ---
 
@@ -227,14 +227,14 @@
 
 **Answer:**
 * “My mother’s only daughter = my sister.” → Lady is man’s niece.
-  📌 *Capgemini 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
 
 ---
 
 **Q24. Find odd one out: Apple, Mango, Banana, Potato.**
 
 * Potato is vegetable, others are fruits → Answer = Potato.
-  📌 *Wipro 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2021)</b>.</i></p>
 
 ---
 
@@ -242,7 +242,7 @@
 
 **Answer:**
 * C=3, A=1, T=20 → DOG = 4157
-  📌 *HCL 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>HCL (2019)</b>.</i></p>
 
 ---
 
@@ -250,7 +250,7 @@
 
 **Answer:**
 * D=4, A=1, T=20, A=1 → 4+1+20+1=26
-  📌 *Infosys 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
@@ -258,7 +258,7 @@
 
 **Answer:**
 * Pattern: squares → 11², 12², 13², 14²=196, 15²
-  📌 *Deloitte 2022* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2022)</b>.</i></p>
 
 ---
 
@@ -266,7 +266,7 @@
 
 **Answer:**
 * T is mother → Answer = T.
-  📌 *Capgemini 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2021)</b>.</i></p>
 
 ---
 
@@ -274,7 +274,7 @@
 
 **Answer:**
 * Order: Infant → Child → Teenager → Adult → Old.
-  📌 *Accenture 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Accenture (2020)</b>.</i></p>
 
 ---
 
@@ -282,7 +282,7 @@
 
 **Answer:**
 * 2020 was leap → 365 days back → Friday.
-  📌 *TCS 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2021)</b>.</i></p>
 
 ---
 
@@ -290,7 +290,7 @@
 
 **Answer:**
 * Circle (no sides).
-  📌 *Wipro 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2020)</b>.</i></p>
 
 ---
 
@@ -298,7 +298,7 @@
 
 **Answer:**
 * A is brother-in-law of D.
-  📌 *Infosys 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2019)</b>.</i></p>
 
 ---
 
@@ -306,7 +306,7 @@
 
 **Answer:**
 * Pattern: +3, +5, +7, +9 → Next = 37.
-  📌 *HCL 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>HCL (2021)</b>.</i></p>
 
 ---
 
@@ -315,7 +315,7 @@
 **Answer:**
 * Assign A=1, B=2... Sum of positions × 2
 * P=16, E=5, N=14 → Sum=35 ×2=70
-  📌 *Deloitte 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2019)</b>.</i></p>
 
 ---
 
@@ -323,7 +323,7 @@
 
 **Answer:**
 * Order: C–A–B–D–E → Middle = B.
-  📌 *TCS NQT 2022* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS NQT (2022)</b>.</i></p>
 
 ---
 
@@ -331,7 +331,7 @@
 
 **Answer:**
 * Positions → B=2, I=9, R=18, D=4 → 2, 9, 18, 4.
-  📌 *Capgemini 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Capgemini (2020)</b>.</i></p>
 
 ---
 
@@ -339,7 +339,7 @@
 
 **Answer:**
 * Multiplying by 3 → Next = 243.
-  📌 *Infosys 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2021)</b>.</i></p>
 
 ---
 
@@ -347,7 +347,7 @@
 
 **Answer:**
 * Mohan > Ram > Shyam > Raju → Tallest = Mohan.
-  📌 *HCL 2019* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>HCL (2019)</b>.</i></p>
 
 ---
 
@@ -355,7 +355,7 @@
 
 **Answer:**
 * All are perfect cubes except 420.
-  📌 *TCS 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>TCS (2020)</b>.</i></p>
 
 ---
 
@@ -364,7 +364,7 @@
 **Answer:**
 * D=7, E=3, L=5, H=4, I=1, C=2, A=6, T=8
 * CALCUTTA = 26528668
-  📌 *Wipro 2021* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Wipro (2021)</b>.</i></p>
 
 ---
 
@@ -382,7 +382,7 @@
 “She is senior than me.”
 
 **Answer:** “She is senior **to** me.”
-  📌 *Infosys 2020* <p align="right"><b><i>Context:</b> Asked at <b>TCS (2022)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Infosys (2020)</b>.</i></p>
 
 ---
 
