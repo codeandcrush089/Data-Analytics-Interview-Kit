@@ -825,7 +825,7 @@ Formula:
 * Insert → Pivot Table → Fields → Calculated Field.
 
 **Example:** Profit = Sales – Cost.
-<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020)EY (2021)</b>.</i></p>
+<p align="right"><b><i>Context:</b> Asked at <b>Deloitte (2020),EY (2021)</b>.</i></p>
 
 ---
 
